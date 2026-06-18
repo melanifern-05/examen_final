@@ -1,111 +1,185 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
+{% block title %}Panel Ejecutivo — Análisis de Ventas{% endblock %}
+{% block page_title %}Panel Ejecutivo{% endblock %}
+{% block page_subtitle %}Resumen de ventas del supermercado · 2025{% endblock %}
+
+{% block extra_head %}
+<script>
+  // Datos de gráficos inyectados desde Flask
+  const CHARTS_DATA = {{ charts | tojson }};
+</script>
+{% endblock %}
 
 {% block content %}
-<div class="row mb-4">
-    <div class="col">
-        <h2 class="text-rojo border-bottom pb-2 fw-bold"><i class="fa-solid fa-gauge me-2"></i>Panel Analítico de Ventas</h2>
+
+<!-- ── FILTROS ─────────────────────────────────────────── -->
+<div class="filter-bar">
+  <div class="filter-title"><i class="fa-solid fa-filter me-1"></i>Filtros</div>
+  <form method="GET" action="{{ url_for('dashboard.ejecutivo') }}">
+    <div class="row g-2 align-items-end">
+
+      <div class="col-6 col-md-2">
+        <select name="anio" class="form-select form-select-sm">
+          <option value="">Año</option>
+          {% for a in options.anios %}
+          <option value="{{ a }}" {% if args.get('anio') == a|string %}selected{% endif %}>{{ a }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <select name="mes" class="form-select form-select-sm">
+          <option value="">Mes</option>
+          {% set meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'] %}
+          {% for i in range(1,13) %}
+          <option value="{{ i }}" {% if args.get('mes') == i|string %}selected{% endif %}>{{ meses[i-1] }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <select name="sucursal" class="form-select form-select-sm">
+          <option value="">Sucursal</option>
+          {% for s in options.sucursales %}
+          <option value="{{ s }}" {% if args.get('sucursal') == s %}selected{% endif %}>{{ s }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <select name="ciudad" class="form-select form-select-sm">
+          <option value="">Ciudad</option>
+          {% for c in options.ciudades %}
+          <option value="{{ c }}" {% if args.get('ciudad') == c %}selected{% endif %}>{{ c }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <select name="categoria" class="form-select form-select-sm">
+          <option value="">Categoría</option>
+          {% for cat in options.categorias %}
+          <option value="{{ cat }}" {% if args.get('categoria') == cat %}selected{% endif %}>{{ cat }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <select name="metodo_pago" class="form-select form-select-sm">
+          <option value="">Método de Pago</option>
+          {% for m in options.metodos %}
+          <option value="{{ m }}" {% if args.get('metodo_pago') == m %}selected{% endif %}>{{ m }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="col-12 d-flex gap-2 pt-1">
+        <button type="submit" class="btn-filter btn btn-sm">
+          <i class="fa-solid fa-magnifying-glass me-1"></i>Aplicar
+        </button>
+        <a href="{{ url_for('dashboard.ejecutivo') }}" class="btn-clear">
+          <i class="fa-solid fa-xmark me-1"></i>Limpiar
+        </a>
+      </div>
+
     </div>
+  </form>
 </div>
 
-<div class="row g-3 mb-5">
-    <div class="col-md-3">
-        <div class="card card-kpi-roja p-3">
-            <h6 class="text-muted text-uppercase small">Total Ventas</h6>
-            <h3 class="fw-bold text-dark">${{ total_ventas }}</h3>
-        </div>
+<!-- ── KPIs ────────────────────────────────────────────── -->
+<div class="section-title">Indicadores Clave</div>
+<div class="row g-3 mb-4">
+  {% for kpi in kpis %}
+  <div class="col-12 col-sm-6 col-xl-3">
+    <div class="kpi-card">
+      <div class="kpi-icon {{ kpi.tone }}">
+        <i class="fa-solid {{ kpi.icon }}"></i>
+      </div>
+      <div class="kpi-text">
+        <label>{{ kpi.label }}</label>
+        <h3>{{ kpi.value }}</h3>
+      </div>
     </div>
-    <div class="col-md-3">
-        <div class="card card-kpi-roja p-3">
-            <h6 class="text-muted text-uppercase small">Productos Vendidos</h6>
-            <h3 class="fw-bold text-dark">{{ total_productos }}</h3>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card card-kpi-roja p-3">
-            <h6 class="text-muted text-uppercase small">Promedio de Venta</h6>
-            <h3 class="fw-bold text-dark">${{ promedio_venta }}</h3>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card card-kpi-roja p-3">
-            <h6 class="text-muted text-uppercase small">Top Categoría</h6>
-            <h3 class="fw-bold text-rojo text-truncate fs-5">{{ top_categoria }}</h3>
-        </div>
-    </div>
+  </div>
+  {% endfor %}
 </div>
 
-<div class="row g-4 mb-4">
-    <div class="col-md-6">
-        <div class="card shadow-sm p-3 bg-white">
-            <h5 class="card-title text-rojo mb-3 fw-bold"><i class="fa-solid fa-chart-pie me-2"></i>Ventas por Categoría</h5>
-            <canvas id="chartCat" height="200"></canvas>
-        </div>
+<!-- ── GRÁFICOS ────────────────────────────────────────── -->
+<div class="section-title">Visualizaciones</div>
+<div class="row g-3 mb-2">
+
+  <!-- Gráfico 0: Ventas por Categoría (bar) -->
+  <div class="col-12 col-lg-6">
+    <div class="chart-card">
+      <div class="chart-card-title">
+        <i class="fa-solid fa-chart-bar me-1"></i>{{ charts[0].label }}
+      </div>
+      <div class="chart-wrap"><canvas id="chart0"></canvas></div>
     </div>
-    <div class="col-md-6">
-        <div class="card shadow-sm p-3 bg-white">
-            <h5 class="card-title text-rojo mb-3 fw-bold"><i class="fa-solid fa-chart-line me-2"></i>Tendencia de Ventas</h5>
-            <canvas id="chartTiempo" height="200"></canvas>
-        </div>
+  </div>
+
+  <!-- Gráfico 1: Ventas por Mes (line) -->
+  <div class="col-12 col-lg-6">
+    <div class="chart-card">
+      <div class="chart-card-title">
+        <i class="fa-solid fa-chart-line me-1"></i>{{ charts[1].label }}
+      </div>
+      <div class="chart-wrap"><canvas id="chart1"></canvas></div>
     </div>
-    <div class="col-md-6">
-        <div class="card shadow-sm p-3 bg-white">
-            <h5 class="card-title text-rojo mb-3 fw-bold"><i class="fa-solid fa-shop me-2"></i>Ventas por Sucursal</h5>
-            <canvas id="chartSuc" height="200"></canvas>
-        </div>
+  </div>
+
+  <!-- Gráfico 2: Ventas por Método de Pago (doughnut) -->
+  <div class="col-12 col-md-5">
+    <div class="chart-card">
+      <div class="chart-card-title">
+        <i class="fa-solid fa-credit-card me-1"></i>{{ charts[2].label }}
+      </div>
+      <div class="chart-wrap"><canvas id="chart2"></canvas></div>
     </div>
-    <div class="col-md-6">
-        <div class="card shadow-sm p-3 bg-white">
-            <h5 class="card-title text-rojo mb-3 fw-bold"><i class="fa-solid fa-credit-card me-2"></i>Métodos de Pago</h5>
-            <canvas id="chartPago" height="200"></canvas>
-        </div>
+  </div>
+
+  <!-- Gráfico 3: Ventas por Sucursal (bar) -->
+  <div class="col-12 col-md-7">
+    <div class="chart-card">
+      <div class="chart-card-title">
+        <i class="fa-solid fa-store me-1"></i>{{ charts[3].label }}
+      </div>
+      <div class="chart-wrap"><canvas id="chart3"></canvas></div>
     </div>
+  </div>
+
 </div>
 
-<script>
-    // Configuración de colores rojos institucionales para los gráficos
-    const temaRojos = ['#6B0F1A', '#8B0000', '#A30000', '#C2185B', '#E63946'];
+<!-- ── TABLA RESUMEN ───────────────────────────────────── -->
+<div class="table-card">
+  <div class="table-card-title">
+    <i class="fa-solid fa-table me-1"></i>Tabla Resumen por Sucursal / Ciudad / Categoría
+  </div>
+  <div class="table-responsive">
+    <table id="tablaResumen" class="table table-hover table-bordered w-100">
+      <thead>
+        <tr>
+          {% for h in table.headers %}
+          <th>{{ h }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in table.rows %}
+        <tr>
+          {% for cell in row %}
+          <td>{{ cell }}</td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
 
-    // 1. Doughnut Chart (Categorías)
-    new Chart(document.getElementById('chartCat'), {
-        type: 'doughnut',
-        data: {
-            labels: {{ labels_cat | tojson }},
-            datasets: [{ data: {{ values_cat | tojson }}, backgroundColor: temaRojos }]
-        }
-    });
+{% endblock %}
 
-    // 2. Line Chart (Tendencia Temporal)
-    new Chart(document.getElementById('chartTiempo'), {
-        type: 'line',
-        data: {
-            labels: {{ labels_tiempo | tojson }},
-            datasets: [{
-                label: 'Ingresos ($)',
-                data: {{ values_tiempo | tojson }},
-                borderColor: '#8B0000',
-                backgroundColor: 'rgba(139, 0, 0, 0.1)',
-                fill: true,
-                tension: 0.2
-            }]
-        }
-    });
-
-    // 3. Bar Chart (Sucursales)
-    new Chart(document.getElementById('chartSuc'), {
-        type: 'bar',
-        data: {
-            labels: {{ labels_suc | tojson }},
-            datasets: [{ label: 'Ventas por Sucursal', data: {{ values_suc | tojson }}, backgroundColor: '#C2185B' }]
-        }
-    });
-
-    // 4. Pie Chart (Métodos de Pago)
-    new Chart(document.getElementById('chartPago'), {
-        type: 'pie',
-        data: {
-            labels: {{ labels_pago | tojson }},
-            datasets: [{ data: {{ values_pago | tojson }}, backgroundColor: ['#6B0F1A', '#A30000', '#E63946', '#FF999B'] }]
-        }
-    });
-</script>
+{% block extra_scripts %}
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+<script src="{{ url_for('static', filename='js/datatables.js') }}"></script>
 {% endblock %}

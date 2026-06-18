@@ -1,34 +1,20 @@
 {% extends "base.html" %}
+{% block title %}Importar CSV{% endblock %}
+{% block page_title %}Importar Datos{% endblock %}
+{% block page_subtitle %}Carga el dataset ventas_supermercado.csv{% endblock %}
 
 {% block content %}
-<div class="page-heading">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item">Administracion</li>
-            <li class="breadcrumb-item active" aria-current="page">Importar CSV</li>
-        </ol>
-    </nav>
-    <div>
-        <h1>Importar ventas</h1>
-        <p>Carga ventas hacia PostgreSQL con validacion y deduplicacion.</p>
-    </div>
-</div>
+<div class="import-card">
+  <h5 class="fw-bold mb-1"><i class="fa-solid fa-file-import me-2 text-warning"></i>Importar CSV</h5>
+  <p class="text-muted small mb-4">Importa el archivo <code>ventas_supermercado.csv</code> ubicado en la raíz del proyecto. Los registros duplicados serán ignorados automáticamente.</p>
 
-<section class="import-card">
-    <div class="section-title">
-        <h2>Archivo de ventas</h2>
-        <span>Formato esperado: dataset Cafe Andino</span>
+  <form method="POST" action="{{ url_for('data.importar') }}">
+    {{ form.hidden_tag() }}
+    <div class="d-grid">
+      <button type="submit" class="btn btn-warning fw-bold py-2">
+        <i class="fa-solid fa-upload me-2"></i>Ejecutar Importación
+      </button>
     </div>
-    <form method="post" enctype="multipart/form-data" class="upload-form">
-        {{ form.hidden_tag() }}
-        <div>
-            {{ form.csv_file.label(class="form-label") }}
-            {{ form.csv_file(class="form-control form-control-lg") }}
-            {% for error in form.csv_file.errors %}
-            <div class="text-danger small mt-2">{{ error }}</div>
-            {% endfor %}
-        </div>
-        {{ form.submit(class="btn btn-primary-material") }}
-    </form>
-</section>
+  </form>
+</div>
 {% endblock %}
