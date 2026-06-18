@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col">
+        <h2 class="text-rojo border-bottom pb-2 fw-bold"><i class="fa-solid fa-gauge me-2"></i>Panel Analítico de Ventas</h2>
+    </div>
+</div>
+
+<div class="row g-3 mb-5">
+    <div class="col-md-3">
+        <div class="card card-kpi-roja p-3">
+            <h6 class="text-muted text-uppercase small">Total Ventas</h6>
+            <h3 class="fw-bold text-dark">${{ total_ventas }}</h3>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card card-kpi-roja p-3">
+            <h6 class="text-muted text-uppercase small">Productos Vendidos</h6>
+            <h3 class="fw-bold text-dark">{{ total_productos }}</h3>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card card-kpi-roja p-3">
+            <h6 class="text-muted text-uppercase small">Promedio de Venta</h6>
+            <h3 class="fw-bold text-dark">${{ promedio_venta }}</h3>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card card-kpi-roja p-3">
+            <h6 class="text-muted text-uppercase small">Top Categoría</h6>
+            <h3 class="fw-bold text-rojo text-truncate fs-5">{{ top_categoria }}</h3>
+        </div>
+    </div>
+</div>
+
+<div class="row g-4 mb-4">
+    <div class="col-md-6">
+        <div class="card shadow-sm p-3 bg-white">
+            <h5 class="card-title text-rojo mb-3 fw-bold"><i class="fa-solid fa-chart-pie me-2"></i>Ventas por Categoría</h5>
+            <canvas id="chartCat" height="200"></canvas>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card shadow-sm p-3 bg-white">
+            <h5 class="card-title text-rojo mb-3 fw-bold"><i class="fa-solid fa-chart-line me-2"></i>Tendencia de Ventas</h5>
+            <canvas id="chartTiempo" height="200"></canvas>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card shadow-sm p-3 bg-white">
+            <h5 class="card-title text-rojo mb-3 fw-bold"><i class="fa-solid fa-shop me-2"></i>Ventas por Sucursal</h5>
+            <canvas id="chartSuc" height="200"></canvas>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card shadow-sm p-3 bg-white">
+            <h5 class="card-title text-rojo mb-3 fw-bold"><i class="fa-solid fa-credit-card me-2"></i>Métodos de Pago</h5>
+            <canvas id="chartPago" height="200"></canvas>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Configuración de colores rojos institucionales para los gráficos
+    const temaRojos = ['#6B0F1A', '#8B0000', '#A30000', '#C2185B', '#E63946'];
+
+    // 1. Doughnut Chart (Categorías)
+    new Chart(document.getElementById('chartCat'), {
+        type: 'doughnut',
+        data: {
+            labels: {{ labels_cat | tojson }},
+            datasets: [{ data: {{ values_cat | tojson }}, backgroundColor: temaRojos }]
+        }
+    });
+
+    // 2. Line Chart (Tendencia Temporal)
+    new Chart(document.getElementById('chartTiempo'), {
+        type: 'line',
+        data: {
+            labels: {{ labels_tiempo | tojson }},
+            datasets: [{
+                label: 'Ingresos ($)',
+                data: {{ values_tiempo | tojson }},
+                borderColor: '#8B0000',
+                backgroundColor: 'rgba(139, 0, 0, 0.1)',
+                fill: true,
+                tension: 0.2
+            }]
+        }
+    });
+
+    // 3. Bar Chart (Sucursales)
+    new Chart(document.getElementById('chartSuc'), {
+        type: 'bar',
+        data: {
+            labels: {{ labels_suc | tojson }},
+            datasets: [{ label: 'Ventas por Sucursal', data: {{ values_suc | tojson }}, backgroundColor: '#C2185B' }]
+        }
+    });
+
+    // 4. Pie Chart (Métodos de Pago)
+    new Chart(document.getElementById('chartPago'), {
+        type: 'pie',
+        data: {
+            labels: {{ labels_pago | tojson }},
+            datasets: [{ data: {{ values_pago | tojson }}, backgroundColor: ['#6B0F1A', '#A30000', '#E63946', '#FF999B'] }]
+        }
+    });
+</script>
+{% endblock %}

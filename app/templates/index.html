@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mercado Andino Analytics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.datatables.net/1.13.8/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+<link href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.bootstrap5.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+</head>
+<body data-dashboard="ejecutivo">
+<div class="app-shell">
+<aside class="sidebar" id="sidebar">
+    <div class="brand-block">
+        <div class="brand-mark"><i class="fa-solid fa-basket-shopping"></i></div>
+        <div class="brand-copy"><span>Mercado Andino</span><small>Executive BI</small></div>
+    </div>
+    <div class="sidebar-section-label">Analitica</div>
+    <nav class="sidebar-nav">
+        <a class="nav-link active" href="#"><i class="fa-solid fa-chart-line"></i><span>Panel Ejecutivo</span><b></b></a>
+        <a class="nav-link disabled" href="#" title="Pendiente: requiere datos de cliente"><i class="fa-solid fa-users"></i><span>Clientes</span><b></b></a>
+        <a class="nav-link disabled" href="#" title="Pendiente: replicar con datos de productos"><i class="fa-solid fa-cubes-stacked"></i><span>Productos</span><b></b></a>
+    </nav>
+    <div class="sidebar-status">
+        <span></span>
+        <div><strong>Datos cargados</strong><small>ventas_supermercado.csv</small></div>
+    </div>
+</aside>
+<main class="main-panel">
+    <header class="topbar">
+        <button class="icon-button" id="sidebarToggle" type="button" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+        <div class="system-title"><span>Mercado Andino Analytics</span><small>Commercial performance suite</small></div>
+        <div class="topbar-actions">
+            <div class="user-chip">
+                <div class="user-avatar">A</div>
+                <div><span>Admin Demo</span><small>admin</small></div>
+            </div>
+        </div>
+    </header>
+    <section class="content-area">
+        <div class="note-banner">
+            <i class="fa-solid fa-circle-info"></i>
+            <div><strong>Pagina de demostracion (solo lectura)</strong><span>Estructura calcada del panel "Cafe Andino", pero esta version procesa el CSV directamente en el navegador, sin login ni base de datos.</span></div>
+        </div>
+        <div class="page-heading dashboard-hero hero-executive">
+            <div class="hero-copy">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb"><li class="breadcrumb-item">Paneles</li><li class="breadcrumb-item active" aria-current="page">Ejecutivo</li></ol>
+                </nav>
+                <span class="hero-eyebrow">Executive summary</span>
+                <h1>Panel Ejecutivo</h1>
+                <p>Vision comercial consolidada de la cadena de supermercados para detectar rendimiento por sucursal, ciudad y categoria.</p>
+            </div>
+            <div class="hero-summary">
+                <div class="summary-chip"><i class="fa-solid fa-bolt"></i><span>Decision ready</span></div>
+                <div class="summary-grid">
+                    <div><strong>Ventas</strong><span>1500 transacciones</span></div>
+                    <div><strong>Sucursales</strong><span>5 puntos de venta</span></div>
+                    <div><strong>Ciudades</strong><span>Cobertura nacional</span></div>
+                </div>
+            </div>
+        </div>
+        <form class="filter-panel" id="filtersForm">
+            <div class="filter-grid">
+                <label>Anio<select class="form-select" name="anio" data-filter="anio"></select></label>
+                <label>Mes<select class="form-select" name="mes" data-filter="mes"></select></label>
+                <label>Sucursal<select class="form-select" name="sucursal" data-filter="sucursal"></select></label>
+                <label>Ciudad<select class="form-select" name="ciudad" data-filter="ciudad"></select></label>
+                <label>Categoria<select class="form-select" name="categoria" data-filter="categoria"></select></label>
+                <label>Metodo de pago<select class="form-select" name="metodo" data-filter="metodo"></select></label>
+            </div>
+            <div class="filter-grid" style="margin-top:12px; grid-template-columns: 1fr 1fr auto;">
+                <label>Vendedor<select class="form-select" name="vendedor" data-filter="vendedor"></select></label>
+                <div></div>
+                <button class="btn btn-primary-material" type="button" id="clearFilters" style="align-self:end;"><i class="fa-solid fa-rotate-left"></i> Limpiar filtros</button>
+            </div>
+        </form>
+        <section class="kpi-grid" id="kpiGrid"></section>
+        <section class="chart-grid">
+            <article class="chart-card"><h3>Ventas por mes</h3><div class="chart-frame"><canvas id="chart-0"></canvas></div></article>
+            <article class="chart-card"><h3>Ventas por sucursal</h3><div class="chart-frame"><canvas id="chart-1"></canvas></div></article>
+            <article class="chart-card"><h3>Ventas por categoria</h3><div class="chart-frame"><canvas id="chart-2"></canvas></div></article>
+            <article class="chart-card"><h3>Ventas por metodo de pago</h3><div class="chart-frame"><canvas id="chart-3"></canvas></div></article>
+        </section>
+        <section class="table-card">
+            <div class="section-title"><h2>Detalle ejecutivo</h2><span>Resumen agregado por sucursal, ciudad y categoria</span></div>
+            <table id="analyticsTable" class="table table-hover w-100"></table>
+        </section>
+    </section>
+</main>
+</div>
+<div class="loader-overlay" id="loaderOverlay"><div class="spinner-border" role="status" aria-label="Cargando"></div></div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.8/js/dataTables.bootstrap5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.bootstrap5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

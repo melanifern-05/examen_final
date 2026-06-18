@@ -1,0 +1,1501 @@
+﻿id_venta,fecha,producto,categoria,cantidad,precio_unitario,total_venta,metodo_pago,sucursal,ciudad,vendedor
+1,2025-05-06,Gaseosa,Bebidas,9,15.0,135.0,Tarjeta,Sucursal Sur,Cochabamba,María López
+2,2025-02-17,Manzana,Frutas,1,3.0,3.0,Tarjeta,Sucursal Sur,Tarija,Juan Pérez
+3,2025-08-18,Jabón,Limpieza,8,4.0,32.0,QR,Sucursal Norte,Santa Cruz,Paola Ruiz
+4,2025-04-21,Carne Res,Carnes,5,45.0,225.0,QR,Sucursal Norte,Cochabamba,Paola Ruiz
+5,2025-11-06,Agua,Bebidas,12,5.0,60.0,QR,Sucursal Norte,Sucre,María López
+6,2025-05-31,Manzana,Frutas,18,3.0,54.0,QR,Sucursal Oeste,Santa Cruz,María López
+7,2025-05-29,Queso,Lácteos,8,35.0,280.0,Efectivo,Sucursal Sur,Cochabamba,Paola Ruiz
+8,2025-03-25,Pan Francés,Panadería,12,1.5,18.0,QR,Sucursal Central,Santa Cruz,Luis Fernández
+9,2025-10-01,Jugo,Bebidas,6,10.0,60.0,Tarjeta,Sucursal Sur,Sucre,Paola Ruiz
+10,2025-01-29,Pan Integral,Panadería,11,9.0,99.0,Tarjeta,Sucursal Norte,La Paz,Paola Ruiz
+11,2025-10-18,Pan Integral,Panadería,7,9.0,63.0,QR,Sucursal Sur,Sucre,Paola Ruiz
+12,2025-03-13,Tomate,Verduras,9,4.0,36.0,Tarjeta,Sucursal Oeste,Tarija,Luis Fernández
+13,2025-04-23,Banano,Frutas,12,2.0,24.0,Tarjeta,Sucursal Oeste,Sucre,María López
+14,2025-11-18,Leche,Lácteos,5,12.0,60.0,Tarjeta,Sucursal Este,Tarija,María López
+15,2025-08-28,Banano,Frutas,20,2.0,40.0,QR,Sucursal Oeste,Cochabamba,María López
+16,2025-05-31,Pan Francés,Panadería,4,1.5,6.0,Transferencia,Sucursal Sur,Sucre,Juan Pérez
+17,2025-02-24,Pan Integral,Panadería,17,9.0,153.0,QR,Sucursal Oeste,Tarija,Ana Vargas
+18,2025-10-04,Galletas,Snacks,6,6.0,36.0,Efectivo,Sucursal Oeste,La Paz,Miguel Flores
+19,2025-06-07,Leche,Lácteos,12,12.0,144.0,Tarjeta,Sucursal Norte,Santa Cruz,María López
+20,2025-02-05,Jugo,Bebidas,16,10.0,160.0,Tarjeta,Sucursal Sur,Sucre,Carlos Rojas
+21,2025-10-04,Pan Francés,Panadería,7,1.5,10.5,Tarjeta,Sucursal Central,Sucre,José Gutiérrez
+22,2025-05-07,Papa,Verduras,4,3.5,14.0,Tarjeta,Sucursal Norte,La Paz,Juan Pérez
+23,2025-02-06,Detergente,Limpieza,1,25.0,25.0,Efectivo,Sucursal Sur,Cochabamba,Juan Pérez
+24,2025-05-02,Pollo,Carnes,17,28.0,476.0,QR,Sucursal Este,Santa Cruz,Carlos Rojas
+25,2025-07-28,Tomate,Verduras,16,4.0,64.0,Tarjeta,Sucursal Norte,Cochabamba,Paola Ruiz
+26,2025-08-28,Carne Res,Carnes,14,45.0,630.0,Efectivo,Sucursal Norte,Cochabamba,Paola Ruiz
+27,2025-04-09,Pollo,Carnes,8,28.0,224.0,Tarjeta,Sucursal Oeste,Sucre,Carlos Rojas
+28,2025-08-25,Manzana,Frutas,9,3.0,27.0,Tarjeta,Sucursal Norte,Sucre,María López
+29,2025-01-08,Queso,Lácteos,18,35.0,630.0,Efectivo,Sucursal Sur,Santa Cruz,Paola Ruiz
+30,2025-07-25,Papa,Verduras,7,3.5,24.5,Efectivo,Sucursal Sur,Sucre,Juan Pérez
+31,2025-05-27,Banano,Frutas,15,2.0,30.0,Transferencia,Sucursal Oeste,Sucre,Carlos Rojas
+32,2025-01-30,Jabón,Limpieza,7,4.0,28.0,Efectivo,Sucursal Central,Cochabamba,Juan Pérez
+33,2025-09-18,Tomate,Verduras,2,4.0,8.0,Efectivo,Sucursal Sur,Cochabamba,María López
+34,2025-10-19,Jabón,Limpieza,4,4.0,16.0,Tarjeta,Sucursal Oeste,Tarija,Juan Pérez
+35,2025-10-17,Agua,Bebidas,19,5.0,95.0,QR,Sucursal Central,Santa Cruz,José Gutiérrez
+36,2025-03-09,Jabón,Limpieza,13,4.0,52.0,QR,Sucursal Este,La Paz,María López
+37,2025-10-16,Yogurt,Lácteos,20,8.0,160.0,Efectivo,Sucursal Norte,Tarija,Ana Vargas
+38,2025-02-05,Pan Integral,Panadería,12,9.0,108.0,Tarjeta,Sucursal Central,La Paz,Carlos Rojas
+39,2025-12-01,Papa,Verduras,20,3.5,70.0,Efectivo,Sucursal Oeste,La Paz,María López
+40,2025-02-24,Galletas,Snacks,4,6.0,24.0,Tarjeta,Sucursal Central,La Paz,Ana Vargas
+41,2025-09-16,Pollo,Carnes,9,28.0,252.0,Transferencia,Sucursal Central,Cochabamba,María López
+42,2025-01-02,Banano,Frutas,2,2.0,4.0,QR,Sucursal Sur,La Paz,Carlos Rojas
+43,2025-01-05,Papa,Verduras,18,3.5,63.0,Efectivo,Sucursal Norte,Santa Cruz,Juan Pérez
+44,2025-03-07,Pollo,Carnes,14,28.0,392.0,Efectivo,Sucursal Central,La Paz,Juan Pérez
+45,2025-12-08,Pollo,Carnes,8,28.0,224.0,Efectivo,Sucursal Central,Tarija,Paola Ruiz
+46,2025-04-01,Papas Fritas,Snacks,6,7.0,42.0,Transferencia,Sucursal Norte,Santa Cruz,José Gutiérrez
+47,2025-03-23,Manzana,Frutas,9,3.0,27.0,Efectivo,Sucursal Este,Cochabamba,Miguel Flores
+48,2025-06-29,Detergente,Limpieza,15,25.0,375.0,QR,Sucursal Sur,Santa Cruz,Juan Pérez
+49,2025-05-23,Jabón,Limpieza,11,4.0,44.0,Efectivo,Sucursal Central,La Paz,Paola Ruiz
+50,2025-05-14,Pollo,Carnes,4,28.0,112.0,Tarjeta,Sucursal Oeste,La Paz,Juan Pérez
+51,2025-06-26,Jugo,Bebidas,14,10.0,140.0,QR,Sucursal Este,Tarija,María López
+52,2025-01-23,Manzana,Frutas,9,3.0,27.0,Transferencia,Sucursal Norte,Tarija,Ana Vargas
+53,2025-12-07,Carne Res,Carnes,3,45.0,135.0,QR,Sucursal Oeste,La Paz,María López
+54,2025-06-17,Pan Francés,Panadería,14,1.5,21.0,Transferencia,Sucursal Central,Tarija,Carlos Rojas
+55,2025-12-13,Jabón,Limpieza,13,4.0,52.0,Tarjeta,Sucursal Oeste,Tarija,Luis Fernández
+56,2025-05-27,Manzana,Frutas,10,3.0,30.0,Tarjeta,Sucursal Este,Tarija,José Gutiérrez
+57,2025-12-12,Papa,Verduras,15,3.5,52.5,Tarjeta,Sucursal Oeste,Sucre,Carlos Rojas
+58,2025-12-06,Agua,Bebidas,17,5.0,85.0,QR,Sucursal Norte,Santa Cruz,Luis Fernández
+59,2025-01-13,Detergente,Limpieza,5,25.0,125.0,Efectivo,Sucursal Sur,Sucre,María López
+60,2025-04-10,Papa,Verduras,19,3.5,66.5,Transferencia,Sucursal Este,Sucre,Ana Vargas
+61,2025-08-06,Papas Fritas,Snacks,4,7.0,28.0,Tarjeta,Sucursal Sur,Tarija,Miguel Flores
+62,2025-03-04,Queso,Lácteos,8,35.0,280.0,Transferencia,Sucursal Sur,Sucre,José Gutiérrez
+63,2025-08-17,Papa,Verduras,18,3.5,63.0,Tarjeta,Sucursal Este,Sucre,Luis Fernández
+64,2025-09-06,Jabón,Limpieza,17,4.0,68.0,Tarjeta,Sucursal Central,Sucre,María López
+65,2025-06-21,Pan Integral,Panadería,9,9.0,81.0,QR,Sucursal Oeste,Cochabamba,Carlos Rojas
+66,2025-12-22,Papas Fritas,Snacks,13,7.0,91.0,Tarjeta,Sucursal Sur,Cochabamba,Paola Ruiz
+67,2025-08-27,Banano,Frutas,18,2.0,36.0,Transferencia,Sucursal Norte,Santa Cruz,Paola Ruiz
+68,2025-07-14,Manzana,Frutas,19,3.0,57.0,Transferencia,Sucursal Norte,La Paz,Luis Fernández
+69,2025-10-07,Banano,Frutas,18,2.0,36.0,Tarjeta,Sucursal Este,Santa Cruz,Luis Fernández
+70,2025-07-19,Banano,Frutas,1,2.0,2.0,QR,Sucursal Este,Santa Cruz,Miguel Flores
+71,2025-10-31,Papas Fritas,Snacks,13,7.0,91.0,Efectivo,Sucursal Norte,Sucre,Carlos Rojas
+72,2025-05-14,Tomate,Verduras,2,4.0,8.0,Transferencia,Sucursal Central,Santa Cruz,Miguel Flores
+73,2025-05-23,Carne Res,Carnes,13,45.0,585.0,Transferencia,Sucursal Central,Cochabamba,Miguel Flores
+74,2025-01-27,Queso,Lácteos,18,35.0,630.0,QR,Sucursal Sur,Cochabamba,Juan Pérez
+75,2025-01-11,Leche,Lácteos,7,12.0,84.0,Tarjeta,Sucursal Sur,Santa Cruz,Miguel Flores
+76,2025-08-27,Jugo,Bebidas,7,10.0,70.0,QR,Sucursal Central,Santa Cruz,María López
+77,2025-10-24,Galletas,Snacks,4,6.0,24.0,Efectivo,Sucursal Central,Tarija,Paola Ruiz
+78,2025-10-31,Manzana,Frutas,3,3.0,9.0,Tarjeta,Sucursal Norte,La Paz,María López
+79,2025-08-08,Yogurt,Lácteos,18,8.0,144.0,QR,Sucursal Norte,Tarija,José Gutiérrez
+80,2025-02-24,Yogurt,Lácteos,16,8.0,128.0,Transferencia,Sucursal Central,Sucre,Carlos Rojas
+81,2025-11-30,Manzana,Frutas,17,3.0,51.0,QR,Sucursal Oeste,Tarija,Miguel Flores
+82,2025-05-18,Papa,Verduras,19,3.5,66.5,QR,Sucursal Sur,Cochabamba,Luis Fernández
+83,2025-10-19,Tomate,Verduras,15,4.0,60.0,Transferencia,Sucursal Central,Cochabamba,Miguel Flores
+84,2025-04-19,Pollo,Carnes,16,28.0,448.0,QR,Sucursal Central,La Paz,Luis Fernández
+85,2025-04-08,Pan Integral,Panadería,17,9.0,153.0,Efectivo,Sucursal Sur,Sucre,Miguel Flores
+86,2025-08-18,Jabón,Limpieza,16,4.0,64.0,Efectivo,Sucursal Norte,La Paz,Ana Vargas
+87,2025-12-06,Manzana,Frutas,10,3.0,30.0,QR,Sucursal Este,Tarija,José Gutiérrez
+88,2025-12-26,Banano,Frutas,12,2.0,24.0,Transferencia,Sucursal Central,La Paz,Luis Fernández
+89,2025-06-11,Detergente,Limpieza,7,25.0,175.0,Efectivo,Sucursal Oeste,Santa Cruz,Ana Vargas
+90,2025-10-29,Jabón,Limpieza,9,4.0,36.0,QR,Sucursal Norte,Santa Cruz,Luis Fernández
+91,2025-06-04,Jabón,Limpieza,6,4.0,24.0,Efectivo,Sucursal Oeste,Santa Cruz,Luis Fernández
+92,2025-05-30,Leche,Lácteos,18,12.0,216.0,Tarjeta,Sucursal Este,Cochabamba,Juan Pérez
+93,2025-08-14,Pan Francés,Panadería,16,1.5,24.0,QR,Sucursal Sur,Cochabamba,Luis Fernández
+94,2025-07-25,Tomate,Verduras,3,4.0,12.0,Transferencia,Sucursal Norte,Tarija,Juan Pérez
+95,2025-06-05,Papas Fritas,Snacks,19,7.0,133.0,Efectivo,Sucursal Sur,Cochabamba,Paola Ruiz
+96,2025-08-15,Jabón,Limpieza,15,4.0,60.0,QR,Sucursal Oeste,Sucre,Luis Fernández
+97,2025-04-17,Queso,Lácteos,4,35.0,140.0,Tarjeta,Sucursal Central,Cochabamba,Carlos Rojas
+98,2025-02-08,Detergente,Limpieza,18,25.0,450.0,Tarjeta,Sucursal Norte,Sucre,Miguel Flores
+99,2025-04-29,Papa,Verduras,2,3.5,7.0,QR,Sucursal Central,Sucre,María López
+100,2025-12-05,Jabón,Limpieza,19,4.0,76.0,Tarjeta,Sucursal Este,Cochabamba,Ana Vargas
+101,2025-02-06,Galletas,Snacks,5,6.0,30.0,Efectivo,Sucursal Sur,La Paz,Luis Fernández
+102,2025-12-19,Tomate,Verduras,15,4.0,60.0,QR,Sucursal Este,La Paz,Miguel Flores
+103,2025-01-21,Tomate,Verduras,20,4.0,80.0,Transferencia,Sucursal Central,Tarija,Luis Fernández
+104,2025-12-12,Leche,Lácteos,8,12.0,96.0,Efectivo,Sucursal Central,Tarija,Juan Pérez
+105,2025-11-30,Galletas,Snacks,17,6.0,102.0,Transferencia,Sucursal Central,Santa Cruz,Paola Ruiz
+106,2025-06-28,Tomate,Verduras,16,4.0,64.0,Transferencia,Sucursal Central,La Paz,María López
+107,2025-12-22,Galletas,Snacks,14,6.0,84.0,Transferencia,Sucursal Central,Sucre,Juan Pérez
+108,2025-05-10,Tomate,Verduras,11,4.0,44.0,QR,Sucursal Norte,Sucre,Juan Pérez
+109,2025-04-07,Papa,Verduras,2,3.5,7.0,QR,Sucursal Oeste,Sucre,Miguel Flores
+110,2025-10-09,Leche,Lácteos,9,12.0,108.0,Tarjeta,Sucursal Central,Sucre,Miguel Flores
+111,2025-05-03,Gaseosa,Bebidas,20,15.0,300.0,Tarjeta,Sucursal Central,Tarija,Juan Pérez
+112,2025-02-28,Manzana,Frutas,8,3.0,24.0,Transferencia,Sucursal Norte,Santa Cruz,Miguel Flores
+113,2025-09-05,Pan Francés,Panadería,14,1.5,21.0,Transferencia,Sucursal Sur,Sucre,Carlos Rojas
+114,2025-09-18,Manzana,Frutas,20,3.0,60.0,Tarjeta,Sucursal Norte,La Paz,Paola Ruiz
+115,2025-05-25,Carne Res,Carnes,1,45.0,45.0,QR,Sucursal Oeste,Tarija,Miguel Flores
+116,2025-09-05,Galletas,Snacks,18,6.0,108.0,QR,Sucursal Central,Tarija,Paola Ruiz
+117,2025-12-24,Papa,Verduras,7,3.5,24.5,Tarjeta,Sucursal Oeste,Sucre,Ana Vargas
+118,2025-08-31,Manzana,Frutas,11,3.0,33.0,Transferencia,Sucursal Este,Santa Cruz,Miguel Flores
+119,2025-10-30,Leche,Lácteos,17,12.0,204.0,QR,Sucursal Norte,Sucre,María López
+120,2025-07-29,Tomate,Verduras,5,4.0,20.0,Tarjeta,Sucursal Norte,Sucre,Luis Fernández
+121,2025-06-18,Carne Res,Carnes,3,45.0,135.0,Transferencia,Sucursal Central,Sucre,Juan Pérez
+122,2025-04-27,Gaseosa,Bebidas,10,15.0,150.0,Efectivo,Sucursal Este,Cochabamba,María López
+123,2025-01-15,Tomate,Verduras,10,4.0,40.0,Efectivo,Sucursal Central,Cochabamba,Luis Fernández
+124,2025-03-16,Carne Res,Carnes,14,45.0,630.0,Tarjeta,Sucursal Oeste,Sucre,Carlos Rojas
+125,2025-11-09,Papas Fritas,Snacks,3,7.0,21.0,Transferencia,Sucursal Oeste,Santa Cruz,Miguel Flores
+126,2025-11-23,Papas Fritas,Snacks,15,7.0,105.0,QR,Sucursal Este,La Paz,Juan Pérez
+127,2025-03-22,Papa,Verduras,18,3.5,63.0,Efectivo,Sucursal Este,La Paz,Luis Fernández
+128,2025-06-04,Banano,Frutas,15,2.0,30.0,Tarjeta,Sucursal Este,Sucre,María López
+129,2025-07-03,Jabón,Limpieza,19,4.0,76.0,QR,Sucursal Central,Cochabamba,Paola Ruiz
+130,2025-12-18,Pan Integral,Panadería,19,9.0,171.0,Efectivo,Sucursal Oeste,Sucre,Luis Fernández
+131,2025-11-22,Jabón,Limpieza,8,4.0,32.0,Tarjeta,Sucursal Oeste,La Paz,Carlos Rojas
+132,2025-06-08,Jugo,Bebidas,2,10.0,20.0,Transferencia,Sucursal Norte,Tarija,José Gutiérrez
+133,2025-06-17,Papas Fritas,Snacks,10,7.0,70.0,Transferencia,Sucursal Sur,Santa Cruz,Carlos Rojas
+134,2025-05-12,Carne Res,Carnes,6,45.0,270.0,Transferencia,Sucursal Central,La Paz,María López
+135,2025-04-26,Tomate,Verduras,5,4.0,20.0,Transferencia,Sucursal Oeste,La Paz,María López
+136,2025-10-02,Manzana,Frutas,9,3.0,27.0,Efectivo,Sucursal Este,La Paz,Luis Fernández
+137,2025-12-12,Banano,Frutas,4,2.0,8.0,Tarjeta,Sucursal Este,Cochabamba,José Gutiérrez
+138,2025-12-25,Detergente,Limpieza,15,25.0,375.0,QR,Sucursal Este,Cochabamba,Carlos Rojas
+139,2025-09-10,Leche,Lácteos,10,12.0,120.0,Efectivo,Sucursal Norte,Santa Cruz,Carlos Rojas
+140,2025-12-10,Banano,Frutas,12,2.0,24.0,Transferencia,Sucursal Oeste,Santa Cruz,Paola Ruiz
+141,2025-07-28,Agua,Bebidas,20,5.0,100.0,QR,Sucursal Norte,La Paz,Ana Vargas
+142,2025-07-05,Papa,Verduras,8,3.5,28.0,Efectivo,Sucursal Central,Tarija,José Gutiérrez
+143,2025-04-08,Yogurt,Lácteos,9,8.0,72.0,Efectivo,Sucursal Este,Cochabamba,Ana Vargas
+144,2025-05-05,Leche,Lácteos,11,12.0,132.0,Tarjeta,Sucursal Oeste,Santa Cruz,María López
+145,2025-06-18,Detergente,Limpieza,8,25.0,200.0,Tarjeta,Sucursal Oeste,Cochabamba,Luis Fernández
+146,2025-05-09,Papas Fritas,Snacks,18,7.0,126.0,Tarjeta,Sucursal Norte,Cochabamba,Carlos Rojas
+147,2025-10-29,Yogurt,Lácteos,8,8.0,64.0,QR,Sucursal Norte,Santa Cruz,Luis Fernández
+148,2025-09-27,Leche,Lácteos,14,12.0,168.0,Efectivo,Sucursal Norte,Sucre,Miguel Flores
+149,2025-09-15,Pollo,Carnes,15,28.0,420.0,Tarjeta,Sucursal Oeste,Cochabamba,Luis Fernández
+150,2025-09-03,Tomate,Verduras,2,4.0,8.0,Transferencia,Sucursal Este,Cochabamba,Miguel Flores
+151,2025-06-14,Tomate,Verduras,3,4.0,12.0,Tarjeta,Sucursal Norte,Santa Cruz,Luis Fernández
+152,2025-09-29,Carne Res,Carnes,20,45.0,900.0,QR,Sucursal Este,Tarija,Paola Ruiz
+153,2025-12-02,Jugo,Bebidas,4,10.0,40.0,Tarjeta,Sucursal Este,Sucre,Ana Vargas
+154,2025-07-24,Banano,Frutas,15,2.0,30.0,Transferencia,Sucursal Norte,La Paz,Paola Ruiz
+155,2025-03-20,Carne Res,Carnes,12,45.0,540.0,Transferencia,Sucursal Norte,Cochabamba,María López
+156,2025-07-10,Agua,Bebidas,4,5.0,20.0,Tarjeta,Sucursal Oeste,Cochabamba,José Gutiérrez
+157,2025-12-07,Agua,Bebidas,12,5.0,60.0,Transferencia,Sucursal Norte,La Paz,Luis Fernández
+158,2025-09-17,Pollo,Carnes,19,28.0,532.0,Tarjeta,Sucursal Sur,Sucre,Ana Vargas
+159,2025-07-08,Agua,Bebidas,18,5.0,90.0,Efectivo,Sucursal Central,Tarija,Ana Vargas
+160,2025-12-03,Manzana,Frutas,20,3.0,60.0,QR,Sucursal Norte,Santa Cruz,Luis Fernández
+161,2025-01-04,Pan Francés,Panadería,12,1.5,18.0,Tarjeta,Sucursal Sur,Tarija,Paola Ruiz
+162,2025-02-16,Gaseosa,Bebidas,1,15.0,15.0,Tarjeta,Sucursal Este,Sucre,Miguel Flores
+163,2025-06-09,Pollo,Carnes,12,28.0,336.0,QR,Sucursal Oeste,Tarija,María López
+164,2025-11-13,Leche,Lácteos,6,12.0,72.0,Efectivo,Sucursal Norte,La Paz,Miguel Flores
+165,2025-08-15,Banano,Frutas,20,2.0,40.0,Transferencia,Sucursal Central,Santa Cruz,María López
+166,2025-05-26,Carne Res,Carnes,4,45.0,180.0,Transferencia,Sucursal Oeste,La Paz,Juan Pérez
+167,2025-01-29,Jabón,Limpieza,20,4.0,80.0,Efectivo,Sucursal Sur,La Paz,Ana Vargas
+168,2025-06-17,Galletas,Snacks,10,6.0,60.0,Efectivo,Sucursal Norte,Sucre,Paola Ruiz
+169,2025-09-30,Papas Fritas,Snacks,13,7.0,91.0,Tarjeta,Sucursal Oeste,Tarija,José Gutiérrez
+170,2025-08-12,Agua,Bebidas,2,5.0,10.0,Efectivo,Sucursal Este,Cochabamba,José Gutiérrez
+171,2025-05-29,Banano,Frutas,14,2.0,28.0,Efectivo,Sucursal Este,Cochabamba,José Gutiérrez
+172,2025-02-15,Galletas,Snacks,12,6.0,72.0,Transferencia,Sucursal Norte,Santa Cruz,Paola Ruiz
+173,2025-06-08,Manzana,Frutas,13,3.0,39.0,QR,Sucursal Sur,La Paz,Carlos Rojas
+174,2025-09-29,Jugo,Bebidas,4,10.0,40.0,Tarjeta,Sucursal Central,La Paz,Carlos Rojas
+175,2025-05-12,Detergente,Limpieza,5,25.0,125.0,Tarjeta,Sucursal Sur,Tarija,Carlos Rojas
+176,2025-08-26,Gaseosa,Bebidas,16,15.0,240.0,Transferencia,Sucursal Oeste,Tarija,José Gutiérrez
+177,2025-02-04,Pollo,Carnes,15,28.0,420.0,Transferencia,Sucursal Este,La Paz,Luis Fernández
+178,2025-02-07,Yogurt,Lácteos,17,8.0,136.0,QR,Sucursal Este,Sucre,Juan Pérez
+179,2025-02-09,Yogurt,Lácteos,10,8.0,80.0,Efectivo,Sucursal Oeste,Tarija,Paola Ruiz
+180,2025-10-20,Tomate,Verduras,15,4.0,60.0,Tarjeta,Sucursal Central,Tarija,Miguel Flores
+181,2025-02-22,Papas Fritas,Snacks,15,7.0,105.0,QR,Sucursal Norte,Tarija,Carlos Rojas
+182,2025-08-13,Leche,Lácteos,15,12.0,180.0,Tarjeta,Sucursal Central,La Paz,Luis Fernández
+183,2025-12-14,Banano,Frutas,11,2.0,22.0,Efectivo,Sucursal Central,Cochabamba,José Gutiérrez
+184,2025-05-26,Jugo,Bebidas,13,10.0,130.0,QR,Sucursal Oeste,Santa Cruz,José Gutiérrez
+185,2025-06-29,Jugo,Bebidas,5,10.0,50.0,QR,Sucursal Este,Santa Cruz,María López
+186,2025-03-07,Pan Francés,Panadería,11,1.5,16.5,Efectivo,Sucursal Este,Tarija,José Gutiérrez
+187,2025-04-03,Yogurt,Lácteos,10,8.0,80.0,Tarjeta,Sucursal Central,Sucre,Ana Vargas
+188,2025-02-09,Detergente,Limpieza,5,25.0,125.0,QR,Sucursal Norte,Tarija,Juan Pérez
+189,2025-07-12,Pollo,Carnes,20,28.0,560.0,Tarjeta,Sucursal Sur,Santa Cruz,Carlos Rojas
+190,2025-07-06,Tomate,Verduras,14,4.0,56.0,Tarjeta,Sucursal Este,Tarija,Luis Fernández
+191,2025-05-03,Tomate,Verduras,18,4.0,72.0,QR,Sucursal Este,Santa Cruz,José Gutiérrez
+192,2025-07-15,Papa,Verduras,10,3.5,35.0,Transferencia,Sucursal Sur,Santa Cruz,Carlos Rojas
+193,2025-07-10,Pan Integral,Panadería,16,9.0,144.0,Efectivo,Sucursal Oeste,Cochabamba,Luis Fernández
+194,2025-08-19,Gaseosa,Bebidas,9,15.0,135.0,Tarjeta,Sucursal Este,Cochabamba,Ana Vargas
+195,2025-08-01,Papa,Verduras,1,3.5,3.5,Efectivo,Sucursal Este,Tarija,José Gutiérrez
+196,2025-07-11,Jabón,Limpieza,3,4.0,12.0,Tarjeta,Sucursal Norte,La Paz,María López
+197,2025-01-20,Pollo,Carnes,5,28.0,140.0,QR,Sucursal Este,Santa Cruz,Miguel Flores
+198,2025-01-10,Tomate,Verduras,3,4.0,12.0,QR,Sucursal Sur,Santa Cruz,Paola Ruiz
+199,2025-06-04,Agua,Bebidas,8,5.0,40.0,Efectivo,Sucursal Norte,Santa Cruz,Paola Ruiz
+200,2025-09-13,Tomate,Verduras,4,4.0,16.0,Efectivo,Sucursal Oeste,Tarija,Ana Vargas
+201,2025-01-01,Galletas,Snacks,14,6.0,84.0,QR,Sucursal Sur,Tarija,Paola Ruiz
+202,2025-07-04,Papas Fritas,Snacks,17,7.0,119.0,Efectivo,Sucursal Oeste,Tarija,Juan Pérez
+203,2025-11-22,Banano,Frutas,2,2.0,4.0,Transferencia,Sucursal Central,La Paz,Juan Pérez
+204,2025-05-04,Pollo,Carnes,12,28.0,336.0,Efectivo,Sucursal Oeste,La Paz,Carlos Rojas
+205,2025-06-23,Yogurt,Lácteos,18,8.0,144.0,Tarjeta,Sucursal Este,Sucre,Carlos Rojas
+206,2025-01-19,Papas Fritas,Snacks,15,7.0,105.0,QR,Sucursal Sur,Cochabamba,Ana Vargas
+207,2025-09-21,Yogurt,Lácteos,10,8.0,80.0,Transferencia,Sucursal Oeste,Sucre,Luis Fernández
+208,2025-05-27,Queso,Lácteos,7,35.0,245.0,QR,Sucursal Norte,La Paz,Luis Fernández
+209,2025-07-24,Agua,Bebidas,14,5.0,70.0,Transferencia,Sucursal Este,La Paz,Carlos Rojas
+210,2025-09-23,Papa,Verduras,12,3.5,42.0,QR,Sucursal Norte,Sucre,María López
+211,2025-05-31,Manzana,Frutas,18,3.0,54.0,QR,Sucursal Norte,Cochabamba,José Gutiérrez
+212,2025-11-05,Pan Francés,Panadería,15,1.5,22.5,Transferencia,Sucursal Sur,Sucre,José Gutiérrez
+213,2025-11-11,Tomate,Verduras,12,4.0,48.0,Transferencia,Sucursal Central,Cochabamba,María López
+214,2025-12-14,Banano,Frutas,17,2.0,34.0,Tarjeta,Sucursal Norte,Santa Cruz,Miguel Flores
+215,2025-05-01,Leche,Lácteos,3,12.0,36.0,QR,Sucursal Central,Sucre,Juan Pérez
+216,2025-07-10,Galletas,Snacks,12,6.0,72.0,Transferencia,Sucursal Norte,Tarija,Carlos Rojas
+217,2025-11-29,Carne Res,Carnes,11,45.0,495.0,QR,Sucursal Sur,Cochabamba,Juan Pérez
+218,2025-07-18,Galletas,Snacks,17,6.0,102.0,Efectivo,Sucursal Central,La Paz,Miguel Flores
+219,2025-04-13,Jabón,Limpieza,16,4.0,64.0,Efectivo,Sucursal Sur,Cochabamba,Miguel Flores
+220,2025-12-16,Galletas,Snacks,3,6.0,18.0,QR,Sucursal Central,Cochabamba,Luis Fernández
+221,2025-07-05,Pan Integral,Panadería,6,9.0,54.0,Tarjeta,Sucursal Norte,Santa Cruz,Carlos Rojas
+222,2025-07-04,Jabón,Limpieza,1,4.0,4.0,QR,Sucursal Este,Tarija,Carlos Rojas
+223,2025-07-23,Gaseosa,Bebidas,10,15.0,150.0,Transferencia,Sucursal Oeste,Sucre,Paola Ruiz
+224,2025-11-25,Gaseosa,Bebidas,11,15.0,165.0,Efectivo,Sucursal Este,Sucre,José Gutiérrez
+225,2025-08-10,Papas Fritas,Snacks,5,7.0,35.0,Efectivo,Sucursal Norte,Tarija,Carlos Rojas
+226,2025-06-15,Pan Integral,Panadería,6,9.0,54.0,Tarjeta,Sucursal Central,Tarija,Luis Fernández
+227,2025-11-22,Agua,Bebidas,7,5.0,35.0,QR,Sucursal Sur,La Paz,María López
+228,2025-12-04,Papas Fritas,Snacks,6,7.0,42.0,QR,Sucursal Oeste,Cochabamba,Juan Pérez
+229,2025-05-16,Gaseosa,Bebidas,19,15.0,285.0,Tarjeta,Sucursal Oeste,Sucre,Juan Pérez
+230,2025-09-05,Papa,Verduras,10,3.5,35.0,Tarjeta,Sucursal Este,La Paz,Miguel Flores
+231,2025-03-22,Jugo,Bebidas,2,10.0,20.0,Transferencia,Sucursal Este,Sucre,Miguel Flores
+232,2025-03-15,Jabón,Limpieza,20,4.0,80.0,QR,Sucursal Central,La Paz,Paola Ruiz
+233,2025-10-15,Galletas,Snacks,17,6.0,102.0,Efectivo,Sucursal Central,Santa Cruz,Miguel Flores
+234,2025-05-07,Agua,Bebidas,15,5.0,75.0,Tarjeta,Sucursal Norte,Cochabamba,Luis Fernández
+235,2025-03-23,Banano,Frutas,8,2.0,16.0,QR,Sucursal Oeste,La Paz,Ana Vargas
+236,2025-08-28,Galletas,Snacks,17,6.0,102.0,Transferencia,Sucursal Central,Sucre,Juan Pérez
+237,2025-08-23,Agua,Bebidas,17,5.0,85.0,Tarjeta,Sucursal Sur,Tarija,José Gutiérrez
+238,2025-09-11,Leche,Lácteos,10,12.0,120.0,Transferencia,Sucursal Central,Tarija,Juan Pérez
+239,2025-05-16,Agua,Bebidas,5,5.0,25.0,QR,Sucursal Este,La Paz,Juan Pérez
+240,2025-10-15,Manzana,Frutas,19,3.0,57.0,Tarjeta,Sucursal Central,Tarija,Luis Fernández
+241,2025-08-19,Agua,Bebidas,17,5.0,85.0,QR,Sucursal Oeste,Tarija,María López
+242,2025-07-11,Papas Fritas,Snacks,13,7.0,91.0,QR,Sucursal Oeste,La Paz,Carlos Rojas
+243,2025-01-21,Jabón,Limpieza,17,4.0,68.0,Efectivo,Sucursal Norte,Santa Cruz,José Gutiérrez
+244,2025-11-07,Papa,Verduras,5,3.5,17.5,Tarjeta,Sucursal Central,Tarija,José Gutiérrez
+245,2025-06-03,Galletas,Snacks,20,6.0,120.0,QR,Sucursal Oeste,Tarija,Miguel Flores
+246,2025-07-08,Pan Francés,Panadería,1,1.5,1.5,QR,Sucursal Norte,Sucre,Luis Fernández
+247,2025-05-16,Queso,Lácteos,16,35.0,560.0,Tarjeta,Sucursal Norte,Tarija,Miguel Flores
+248,2025-12-15,Galletas,Snacks,5,6.0,30.0,Tarjeta,Sucursal Norte,Tarija,María López
+249,2025-06-10,Detergente,Limpieza,15,25.0,375.0,Transferencia,Sucursal Sur,Sucre,Ana Vargas
+250,2025-12-28,Banano,Frutas,2,2.0,4.0,Tarjeta,Sucursal Oeste,Santa Cruz,José Gutiérrez
+251,2025-03-30,Papa,Verduras,11,3.5,38.5,Transferencia,Sucursal Oeste,La Paz,José Gutiérrez
+252,2025-05-07,Pan Francés,Panadería,7,1.5,10.5,QR,Sucursal Oeste,La Paz,Ana Vargas
+253,2025-12-20,Pan Francés,Panadería,7,1.5,10.5,Transferencia,Sucursal Central,Sucre,José Gutiérrez
+254,2025-10-21,Pan Francés,Panadería,4,1.5,6.0,Transferencia,Sucursal Este,La Paz,Carlos Rojas
+255,2025-02-10,Pan Integral,Panadería,10,9.0,90.0,QR,Sucursal Este,La Paz,Miguel Flores
+256,2025-05-19,Detergente,Limpieza,18,25.0,450.0,QR,Sucursal Sur,Cochabamba,Ana Vargas
+257,2025-04-26,Detergente,Limpieza,17,25.0,425.0,Tarjeta,Sucursal Norte,Cochabamba,Paola Ruiz
+258,2025-12-15,Carne Res,Carnes,4,45.0,180.0,Tarjeta,Sucursal Norte,Tarija,Carlos Rojas
+259,2025-11-30,Banano,Frutas,16,2.0,32.0,Tarjeta,Sucursal Central,La Paz,Luis Fernández
+260,2025-04-29,Leche,Lácteos,19,12.0,228.0,Efectivo,Sucursal Sur,Sucre,Carlos Rojas
+261,2025-04-06,Yogurt,Lácteos,16,8.0,128.0,QR,Sucursal Norte,Cochabamba,Luis Fernández
+262,2025-08-21,Agua,Bebidas,10,5.0,50.0,Transferencia,Sucursal Sur,Tarija,Miguel Flores
+263,2025-06-19,Pan Integral,Panadería,4,9.0,36.0,Tarjeta,Sucursal Este,La Paz,Carlos Rojas
+264,2025-06-01,Queso,Lácteos,11,35.0,385.0,Tarjeta,Sucursal Sur,Tarija,Paola Ruiz
+265,2025-07-25,Banano,Frutas,3,2.0,6.0,Efectivo,Sucursal Sur,Santa Cruz,Miguel Flores
+266,2025-05-14,Pollo,Carnes,1,28.0,28.0,Transferencia,Sucursal Sur,Sucre,Luis Fernández
+267,2025-10-21,Carne Res,Carnes,19,45.0,855.0,Efectivo,Sucursal Central,La Paz,Ana Vargas
+268,2025-08-27,Queso,Lácteos,4,35.0,140.0,QR,Sucursal Sur,Sucre,Luis Fernández
+269,2025-07-08,Jugo,Bebidas,10,10.0,100.0,Tarjeta,Sucursal Sur,Santa Cruz,Miguel Flores
+270,2025-07-11,Galletas,Snacks,20,6.0,120.0,Transferencia,Sucursal Oeste,Sucre,Ana Vargas
+271,2025-08-17,Detergente,Limpieza,17,25.0,425.0,QR,Sucursal Norte,Tarija,María López
+272,2025-04-14,Queso,Lácteos,17,35.0,595.0,Tarjeta,Sucursal Sur,La Paz,Miguel Flores
+273,2025-10-26,Jugo,Bebidas,7,10.0,70.0,Transferencia,Sucursal Norte,Tarija,Miguel Flores
+274,2025-09-20,Yogurt,Lácteos,5,8.0,40.0,Transferencia,Sucursal Este,Tarija,Juan Pérez
+275,2025-07-22,Papa,Verduras,1,3.5,3.5,QR,Sucursal Norte,Santa Cruz,María López
+276,2025-12-25,Yogurt,Lácteos,12,8.0,96.0,Efectivo,Sucursal Oeste,Cochabamba,María López
+277,2025-07-29,Tomate,Verduras,10,4.0,40.0,Tarjeta,Sucursal Sur,Sucre,José Gutiérrez
+278,2025-07-12,Banano,Frutas,13,2.0,26.0,Efectivo,Sucursal Oeste,Santa Cruz,José Gutiérrez
+279,2025-07-21,Gaseosa,Bebidas,18,15.0,270.0,Tarjeta,Sucursal Sur,Cochabamba,Juan Pérez
+280,2025-08-06,Pan Francés,Panadería,18,1.5,27.0,Transferencia,Sucursal Sur,Santa Cruz,Miguel Flores
+281,2025-04-07,Pollo,Carnes,9,28.0,252.0,Efectivo,Sucursal Norte,Sucre,Juan Pérez
+282,2025-02-21,Detergente,Limpieza,3,25.0,75.0,Efectivo,Sucursal Este,Tarija,Juan Pérez
+283,2025-08-13,Detergente,Limpieza,13,25.0,325.0,Tarjeta,Sucursal Oeste,Santa Cruz,Juan Pérez
+284,2025-10-22,Galletas,Snacks,8,6.0,48.0,QR,Sucursal Oeste,Tarija,José Gutiérrez
+285,2025-12-05,Jabón,Limpieza,5,4.0,20.0,Tarjeta,Sucursal Este,La Paz,Luis Fernández
+286,2025-03-31,Queso,Lácteos,19,35.0,665.0,Transferencia,Sucursal Oeste,Sucre,Juan Pérez
+287,2025-06-13,Carne Res,Carnes,17,45.0,765.0,Transferencia,Sucursal Este,Santa Cruz,Luis Fernández
+288,2025-08-31,Manzana,Frutas,18,3.0,54.0,Tarjeta,Sucursal Sur,La Paz,Carlos Rojas
+289,2025-07-31,Tomate,Verduras,18,4.0,72.0,Transferencia,Sucursal Oeste,Tarija,Carlos Rojas
+290,2025-04-15,Manzana,Frutas,9,3.0,27.0,QR,Sucursal Norte,Sucre,José Gutiérrez
+291,2025-01-27,Jugo,Bebidas,7,10.0,70.0,QR,Sucursal Este,Tarija,Juan Pérez
+292,2025-12-10,Gaseosa,Bebidas,19,15.0,285.0,Tarjeta,Sucursal Este,Santa Cruz,José Gutiérrez
+293,2025-04-08,Pan Integral,Panadería,7,9.0,63.0,Efectivo,Sucursal Este,Santa Cruz,Ana Vargas
+294,2025-06-14,Manzana,Frutas,18,3.0,54.0,QR,Sucursal Este,Sucre,José Gutiérrez
+295,2025-09-20,Pan Francés,Panadería,12,1.5,18.0,Transferencia,Sucursal Este,Cochabamba,Miguel Flores
+296,2025-06-10,Pollo,Carnes,12,28.0,336.0,Transferencia,Sucursal Norte,Tarija,Ana Vargas
+297,2025-10-11,Papas Fritas,Snacks,9,7.0,63.0,Transferencia,Sucursal Central,Santa Cruz,Ana Vargas
+298,2025-10-19,Pollo,Carnes,13,28.0,364.0,Tarjeta,Sucursal Este,Tarija,José Gutiérrez
+299,2025-08-24,Pan Francés,Panadería,16,1.5,24.0,Tarjeta,Sucursal Central,Santa Cruz,Carlos Rojas
+300,2025-11-25,Tomate,Verduras,18,4.0,72.0,Efectivo,Sucursal Oeste,Cochabamba,María López
+301,2025-03-12,Leche,Lácteos,14,12.0,168.0,Tarjeta,Sucursal Norte,Santa Cruz,Juan Pérez
+302,2025-01-31,Jabón,Limpieza,12,4.0,48.0,Transferencia,Sucursal Este,Cochabamba,Juan Pérez
+303,2025-09-29,Manzana,Frutas,1,3.0,3.0,QR,Sucursal Oeste,La Paz,Juan Pérez
+304,2025-02-19,Manzana,Frutas,4,3.0,12.0,Tarjeta,Sucursal Sur,Santa Cruz,Luis Fernández
+305,2025-02-10,Carne Res,Carnes,13,45.0,585.0,QR,Sucursal Este,Sucre,Ana Vargas
+306,2025-12-01,Jabón,Limpieza,3,4.0,12.0,Efectivo,Sucursal Norte,Sucre,Paola Ruiz
+307,2025-11-23,Banano,Frutas,2,2.0,4.0,Efectivo,Sucursal Sur,Cochabamba,Miguel Flores
+308,2025-02-18,Banano,Frutas,19,2.0,38.0,Efectivo,Sucursal Sur,Santa Cruz,Miguel Flores
+309,2025-12-17,Pan Integral,Panadería,3,9.0,27.0,QR,Sucursal Oeste,Tarija,Juan Pérez
+310,2025-04-17,Galletas,Snacks,1,6.0,6.0,Tarjeta,Sucursal Este,Cochabamba,Luis Fernández
+311,2025-07-19,Papas Fritas,Snacks,19,7.0,133.0,QR,Sucursal Este,Santa Cruz,María López
+312,2025-08-12,Pollo,Carnes,4,28.0,112.0,Tarjeta,Sucursal Norte,La Paz,Paola Ruiz
+313,2025-08-19,Pollo,Carnes,9,28.0,252.0,Transferencia,Sucursal Sur,La Paz,Paola Ruiz
+314,2025-12-05,Manzana,Frutas,19,3.0,57.0,Transferencia,Sucursal Norte,Tarija,Luis Fernández
+315,2025-05-18,Detergente,Limpieza,3,25.0,75.0,Tarjeta,Sucursal Este,Santa Cruz,Paola Ruiz
+316,2025-02-16,Carne Res,Carnes,4,45.0,180.0,Efectivo,Sucursal Central,Sucre,José Gutiérrez
+317,2025-02-14,Pan Integral,Panadería,5,9.0,45.0,Tarjeta,Sucursal Este,Sucre,Paola Ruiz
+318,2025-07-01,Gaseosa,Bebidas,3,15.0,45.0,Efectivo,Sucursal Oeste,Tarija,José Gutiérrez
+319,2025-07-31,Manzana,Frutas,10,3.0,30.0,Transferencia,Sucursal Norte,Tarija,Ana Vargas
+320,2025-03-13,Galletas,Snacks,6,6.0,36.0,QR,Sucursal Central,La Paz,Miguel Flores
+321,2025-08-11,Papas Fritas,Snacks,6,7.0,42.0,QR,Sucursal Este,La Paz,Miguel Flores
+322,2025-05-07,Agua,Bebidas,9,5.0,45.0,Transferencia,Sucursal Oeste,Tarija,Ana Vargas
+323,2025-06-05,Tomate,Verduras,5,4.0,20.0,Efectivo,Sucursal Este,La Paz,Paola Ruiz
+324,2025-08-09,Carne Res,Carnes,11,45.0,495.0,Tarjeta,Sucursal Central,La Paz,Ana Vargas
+325,2025-07-23,Papa,Verduras,6,3.5,21.0,QR,Sucursal Central,Sucre,Ana Vargas
+326,2025-07-21,Carne Res,Carnes,9,45.0,405.0,QR,Sucursal Norte,Tarija,Ana Vargas
+327,2025-12-29,Papas Fritas,Snacks,15,7.0,105.0,Tarjeta,Sucursal Este,La Paz,María López
+328,2025-11-21,Banano,Frutas,5,2.0,10.0,QR,Sucursal Sur,La Paz,Carlos Rojas
+329,2025-08-18,Banano,Frutas,3,2.0,6.0,Transferencia,Sucursal Oeste,Sucre,Paola Ruiz
+330,2025-11-01,Yogurt,Lácteos,18,8.0,144.0,Efectivo,Sucursal Norte,Santa Cruz,José Gutiérrez
+331,2025-11-27,Papas Fritas,Snacks,19,7.0,133.0,Transferencia,Sucursal Central,Sucre,María López
+332,2025-04-24,Leche,Lácteos,9,12.0,108.0,Tarjeta,Sucursal Este,La Paz,Paola Ruiz
+333,2025-01-13,Tomate,Verduras,12,4.0,48.0,Transferencia,Sucursal Norte,La Paz,Paola Ruiz
+334,2025-06-28,Gaseosa,Bebidas,5,15.0,75.0,QR,Sucursal Central,Sucre,Ana Vargas
+335,2025-02-19,Papa,Verduras,16,3.5,56.0,Transferencia,Sucursal Este,La Paz,María López
+336,2025-01-12,Pan Integral,Panadería,4,9.0,36.0,QR,Sucursal Norte,Santa Cruz,Ana Vargas
+337,2025-10-14,Papas Fritas,Snacks,11,7.0,77.0,Transferencia,Sucursal Este,Santa Cruz,Paola Ruiz
+338,2025-07-22,Papas Fritas,Snacks,14,7.0,98.0,Efectivo,Sucursal Oeste,Santa Cruz,Miguel Flores
+339,2025-12-27,Banano,Frutas,1,2.0,2.0,Tarjeta,Sucursal Sur,La Paz,María López
+340,2025-07-07,Jugo,Bebidas,6,10.0,60.0,QR,Sucursal Sur,Sucre,María López
+341,2025-11-24,Pan Francés,Panadería,17,1.5,25.5,QR,Sucursal Oeste,Sucre,Paola Ruiz
+342,2025-08-23,Agua,Bebidas,12,5.0,60.0,Tarjeta,Sucursal Central,Tarija,María López
+343,2025-05-03,Galletas,Snacks,4,6.0,24.0,QR,Sucursal Norte,Santa Cruz,José Gutiérrez
+344,2025-11-02,Galletas,Snacks,14,6.0,84.0,Tarjeta,Sucursal Oeste,Sucre,Paola Ruiz
+345,2025-12-22,Galletas,Snacks,18,6.0,108.0,Tarjeta,Sucursal Oeste,Santa Cruz,Miguel Flores
+346,2025-06-11,Pan Integral,Panadería,6,9.0,54.0,Transferencia,Sucursal Oeste,Cochabamba,José Gutiérrez
+347,2025-04-10,Yogurt,Lácteos,5,8.0,40.0,Transferencia,Sucursal Oeste,Tarija,Miguel Flores
+348,2025-12-30,Banano,Frutas,14,2.0,28.0,Transferencia,Sucursal Este,Santa Cruz,María López
+349,2025-01-17,Leche,Lácteos,10,12.0,120.0,QR,Sucursal Sur,Tarija,Luis Fernández
+350,2025-09-11,Galletas,Snacks,19,6.0,114.0,Efectivo,Sucursal Oeste,Cochabamba,Luis Fernández
+351,2025-10-07,Pollo,Carnes,15,28.0,420.0,Tarjeta,Sucursal Este,Cochabamba,Ana Vargas
+352,2025-05-15,Pan Integral,Panadería,15,9.0,135.0,QR,Sucursal Norte,Sucre,María López
+353,2025-12-19,Detergente,Limpieza,19,25.0,475.0,QR,Sucursal Oeste,Sucre,Carlos Rojas
+354,2025-01-31,Papas Fritas,Snacks,7,7.0,49.0,QR,Sucursal Oeste,La Paz,Carlos Rojas
+355,2025-10-21,Carne Res,Carnes,10,45.0,450.0,QR,Sucursal Oeste,Cochabamba,Carlos Rojas
+356,2025-12-02,Manzana,Frutas,9,3.0,27.0,Tarjeta,Sucursal Sur,Santa Cruz,Carlos Rojas
+357,2025-09-08,Pollo,Carnes,13,28.0,364.0,Tarjeta,Sucursal Oeste,La Paz,Paola Ruiz
+358,2025-11-21,Banano,Frutas,3,2.0,6.0,Efectivo,Sucursal Este,Tarija,Luis Fernández
+359,2025-06-17,Carne Res,Carnes,16,45.0,720.0,Efectivo,Sucursal Norte,Sucre,José Gutiérrez
+360,2025-04-22,Jugo,Bebidas,13,10.0,130.0,Transferencia,Sucursal Sur,Sucre,Luis Fernández
+361,2025-10-08,Carne Res,Carnes,11,45.0,495.0,Tarjeta,Sucursal Oeste,Sucre,José Gutiérrez
+362,2025-11-17,Leche,Lácteos,4,12.0,48.0,Transferencia,Sucursal Norte,Cochabamba,Carlos Rojas
+363,2025-08-08,Papa,Verduras,1,3.5,3.5,Tarjeta,Sucursal Sur,La Paz,Carlos Rojas
+364,2025-05-09,Pan Integral,Panadería,12,9.0,108.0,Efectivo,Sucursal Central,Santa Cruz,Juan Pérez
+365,2025-08-08,Banano,Frutas,8,2.0,16.0,Efectivo,Sucursal Norte,Cochabamba,Ana Vargas
+366,2025-10-31,Tomate,Verduras,5,4.0,20.0,Tarjeta,Sucursal Oeste,Sucre,Juan Pérez
+367,2025-03-03,Queso,Lácteos,11,35.0,385.0,Transferencia,Sucursal Sur,Sucre,María López
+368,2025-02-22,Jabón,Limpieza,3,4.0,12.0,Efectivo,Sucursal Central,La Paz,Luis Fernández
+369,2025-11-25,Galletas,Snacks,5,6.0,30.0,Tarjeta,Sucursal Norte,Tarija,Juan Pérez
+370,2025-04-20,Galletas,Snacks,12,6.0,72.0,Tarjeta,Sucursal Este,Tarija,Miguel Flores
+371,2025-03-13,Detergente,Limpieza,4,25.0,100.0,Efectivo,Sucursal Oeste,Sucre,José Gutiérrez
+372,2025-05-07,Banano,Frutas,5,2.0,10.0,QR,Sucursal Norte,Santa Cruz,Luis Fernández
+373,2025-04-16,Queso,Lácteos,10,35.0,350.0,Tarjeta,Sucursal Este,La Paz,Juan Pérez
+374,2025-02-27,Jabón,Limpieza,13,4.0,52.0,Tarjeta,Sucursal Este,Tarija,María López
+375,2025-03-09,Yogurt,Lácteos,11,8.0,88.0,Transferencia,Sucursal Oeste,Sucre,José Gutiérrez
+376,2025-01-09,Galletas,Snacks,3,6.0,18.0,Efectivo,Sucursal Norte,La Paz,Ana Vargas
+377,2025-09-17,Leche,Lácteos,13,12.0,156.0,QR,Sucursal Oeste,Sucre,Paola Ruiz
+378,2025-10-03,Manzana,Frutas,18,3.0,54.0,Tarjeta,Sucursal Central,Cochabamba,Luis Fernández
+379,2025-03-21,Jugo,Bebidas,7,10.0,70.0,QR,Sucursal Este,Tarija,María López
+380,2025-01-30,Pan Francés,Panadería,8,1.5,12.0,Tarjeta,Sucursal Norte,Sucre,María López
+381,2025-12-08,Tomate,Verduras,10,4.0,40.0,Tarjeta,Sucursal Norte,Cochabamba,Carlos Rojas
+382,2025-06-27,Leche,Lácteos,16,12.0,192.0,QR,Sucursal Sur,La Paz,Carlos Rojas
+383,2025-06-21,Pan Integral,Panadería,1,9.0,9.0,Transferencia,Sucursal Central,Tarija,María López
+384,2025-08-22,Pan Integral,Panadería,16,9.0,144.0,QR,Sucursal Norte,Sucre,Carlos Rojas
+385,2025-02-22,Pollo,Carnes,9,28.0,252.0,Efectivo,Sucursal Sur,Tarija,Juan Pérez
+386,2025-01-24,Leche,Lácteos,8,12.0,96.0,Transferencia,Sucursal Central,Sucre,Carlos Rojas
+387,2025-12-02,Papas Fritas,Snacks,18,7.0,126.0,Transferencia,Sucursal Sur,La Paz,Ana Vargas
+388,2025-02-09,Banano,Frutas,9,2.0,18.0,QR,Sucursal Norte,Tarija,Juan Pérez
+389,2025-01-24,Papas Fritas,Snacks,17,7.0,119.0,Transferencia,Sucursal Norte,Sucre,Luis Fernández
+390,2025-10-11,Pan Francés,Panadería,3,1.5,4.5,Transferencia,Sucursal Norte,La Paz,Ana Vargas
+391,2025-05-05,Pan Francés,Panadería,20,1.5,30.0,Transferencia,Sucursal Central,Tarija,Miguel Flores
+392,2025-01-04,Detergente,Limpieza,5,25.0,125.0,Transferencia,Sucursal Norte,Santa Cruz,José Gutiérrez
+393,2025-12-03,Yogurt,Lácteos,1,8.0,8.0,Transferencia,Sucursal Central,Cochabamba,Ana Vargas
+394,2025-01-31,Jabón,Limpieza,16,4.0,64.0,Tarjeta,Sucursal Central,Cochabamba,Juan Pérez
+395,2025-08-23,Jabón,Limpieza,12,4.0,48.0,Efectivo,Sucursal Oeste,Cochabamba,Carlos Rojas
+396,2025-10-18,Manzana,Frutas,19,3.0,57.0,Efectivo,Sucursal Este,Santa Cruz,Ana Vargas
+397,2025-07-21,Pan Francés,Panadería,11,1.5,16.5,QR,Sucursal Central,Sucre,Luis Fernández
+398,2025-03-11,Detergente,Limpieza,7,25.0,175.0,Efectivo,Sucursal Sur,Cochabamba,Carlos Rojas
+399,2025-07-28,Papa,Verduras,11,3.5,38.5,Efectivo,Sucursal Oeste,La Paz,Ana Vargas
+400,2025-05-16,Papa,Verduras,15,3.5,52.5,Efectivo,Sucursal Norte,Santa Cruz,Luis Fernández
+401,2025-03-17,Leche,Lácteos,11,12.0,132.0,Efectivo,Sucursal Sur,La Paz,Paola Ruiz
+402,2025-05-14,Queso,Lácteos,10,35.0,350.0,Tarjeta,Sucursal Norte,Sucre,Miguel Flores
+403,2025-02-22,Detergente,Limpieza,15,25.0,375.0,Tarjeta,Sucursal Norte,Cochabamba,Juan Pérez
+404,2025-07-25,Detergente,Limpieza,7,25.0,175.0,QR,Sucursal Norte,Tarija,Luis Fernández
+405,2025-04-12,Gaseosa,Bebidas,3,15.0,45.0,Transferencia,Sucursal Sur,Cochabamba,José Gutiérrez
+406,2025-01-26,Gaseosa,Bebidas,15,15.0,225.0,Tarjeta,Sucursal Oeste,Sucre,Paola Ruiz
+407,2025-12-16,Tomate,Verduras,13,4.0,52.0,Transferencia,Sucursal Sur,La Paz,Ana Vargas
+408,2025-08-17,Galletas,Snacks,9,6.0,54.0,Tarjeta,Sucursal Norte,Tarija,Ana Vargas
+409,2025-10-09,Pan Francés,Panadería,14,1.5,21.0,Transferencia,Sucursal Norte,Cochabamba,Luis Fernández
+410,2025-04-13,Manzana,Frutas,14,3.0,42.0,Tarjeta,Sucursal Oeste,Cochabamba,Paola Ruiz
+411,2025-09-06,Carne Res,Carnes,18,45.0,810.0,QR,Sucursal Oeste,Tarija,José Gutiérrez
+412,2025-01-14,Banano,Frutas,6,2.0,12.0,QR,Sucursal Oeste,Santa Cruz,Juan Pérez
+413,2025-09-29,Pan Integral,Panadería,16,9.0,144.0,QR,Sucursal Oeste,Santa Cruz,Carlos Rojas
+414,2025-05-17,Gaseosa,Bebidas,8,15.0,120.0,Efectivo,Sucursal Sur,Tarija,Paola Ruiz
+415,2025-05-02,Pollo,Carnes,6,28.0,168.0,QR,Sucursal Central,Tarija,Juan Pérez
+416,2025-04-07,Pollo,Carnes,19,28.0,532.0,Transferencia,Sucursal Oeste,La Paz,Carlos Rojas
+417,2025-01-29,Tomate,Verduras,3,4.0,12.0,Tarjeta,Sucursal Oeste,Santa Cruz,Juan Pérez
+418,2025-11-11,Tomate,Verduras,11,4.0,44.0,Tarjeta,Sucursal Sur,La Paz,Carlos Rojas
+419,2025-03-17,Pollo,Carnes,1,28.0,28.0,Tarjeta,Sucursal Norte,Tarija,José Gutiérrez
+420,2025-10-28,Agua,Bebidas,13,5.0,65.0,Efectivo,Sucursal Central,La Paz,José Gutiérrez
+421,2025-11-24,Papas Fritas,Snacks,14,7.0,98.0,Transferencia,Sucursal Central,Santa Cruz,José Gutiérrez
+422,2025-06-07,Detergente,Limpieza,13,25.0,325.0,QR,Sucursal Sur,Santa Cruz,Juan Pérez
+423,2025-11-05,Manzana,Frutas,6,3.0,18.0,QR,Sucursal Oeste,Santa Cruz,María López
+424,2025-02-09,Tomate,Verduras,11,4.0,44.0,Tarjeta,Sucursal Central,La Paz,Carlos Rojas
+425,2025-08-17,Jugo,Bebidas,11,10.0,110.0,Efectivo,Sucursal Central,Santa Cruz,Ana Vargas
+426,2025-02-25,Agua,Bebidas,9,5.0,45.0,Efectivo,Sucursal Norte,Sucre,Miguel Flores
+427,2025-09-10,Manzana,Frutas,14,3.0,42.0,Transferencia,Sucursal Central,Tarija,Paola Ruiz
+428,2025-11-30,Agua,Bebidas,19,5.0,95.0,Tarjeta,Sucursal Sur,Sucre,María López
+429,2025-06-13,Yogurt,Lácteos,1,8.0,8.0,QR,Sucursal Norte,Cochabamba,José Gutiérrez
+430,2025-02-08,Galletas,Snacks,6,6.0,36.0,Efectivo,Sucursal Central,Tarija,Miguel Flores
+431,2025-11-07,Yogurt,Lácteos,6,8.0,48.0,Transferencia,Sucursal Sur,Cochabamba,María López
+432,2025-07-29,Pollo,Carnes,7,28.0,196.0,QR,Sucursal Central,La Paz,Ana Vargas
+433,2025-10-20,Gaseosa,Bebidas,13,15.0,195.0,Transferencia,Sucursal Sur,Cochabamba,José Gutiérrez
+434,2025-05-31,Yogurt,Lácteos,3,8.0,24.0,Transferencia,Sucursal Sur,Cochabamba,Juan Pérez
+435,2025-02-11,Detergente,Limpieza,10,25.0,250.0,Transferencia,Sucursal Norte,La Paz,Paola Ruiz
+436,2025-02-16,Papa,Verduras,9,3.5,31.5,Transferencia,Sucursal Sur,La Paz,Paola Ruiz
+437,2025-01-23,Pollo,Carnes,15,28.0,420.0,QR,Sucursal Este,Sucre,Luis Fernández
+438,2025-02-01,Jabón,Limpieza,19,4.0,76.0,Tarjeta,Sucursal Norte,Cochabamba,José Gutiérrez
+439,2025-02-01,Manzana,Frutas,18,3.0,54.0,Transferencia,Sucursal Oeste,Sucre,Miguel Flores
+440,2025-02-10,Jabón,Limpieza,10,4.0,40.0,Transferencia,Sucursal Norte,Tarija,Carlos Rojas
+441,2025-03-27,Agua,Bebidas,6,5.0,30.0,Tarjeta,Sucursal Sur,Santa Cruz,Juan Pérez
+442,2025-04-14,Manzana,Frutas,14,3.0,42.0,Tarjeta,Sucursal Oeste,La Paz,José Gutiérrez
+443,2025-10-12,Gaseosa,Bebidas,13,15.0,195.0,Transferencia,Sucursal Oeste,La Paz,Luis Fernández
+444,2025-10-28,Tomate,Verduras,20,4.0,80.0,Transferencia,Sucursal Norte,Sucre,Carlos Rojas
+445,2025-10-16,Papas Fritas,Snacks,4,7.0,28.0,Efectivo,Sucursal Central,Tarija,José Gutiérrez
+446,2025-12-02,Banano,Frutas,13,2.0,26.0,Transferencia,Sucursal Oeste,Tarija,Miguel Flores
+447,2025-07-26,Leche,Lácteos,9,12.0,108.0,Tarjeta,Sucursal Oeste,Tarija,Paola Ruiz
+448,2025-12-20,Yogurt,Lácteos,11,8.0,88.0,Tarjeta,Sucursal Norte,Sucre,Luis Fernández
+449,2025-06-05,Pollo,Carnes,11,28.0,308.0,QR,Sucursal Central,Sucre,María López
+450,2025-08-15,Detergente,Limpieza,10,25.0,250.0,QR,Sucursal Central,Sucre,María López
+451,2025-07-28,Jabón,Limpieza,7,4.0,28.0,Transferencia,Sucursal Oeste,La Paz,Juan Pérez
+452,2025-12-30,Papas Fritas,Snacks,10,7.0,70.0,Transferencia,Sucursal Sur,Tarija,Juan Pérez
+453,2025-01-30,Papas Fritas,Snacks,7,7.0,49.0,Tarjeta,Sucursal Norte,Sucre,Juan Pérez
+454,2025-07-08,Pollo,Carnes,9,28.0,252.0,Transferencia,Sucursal Oeste,Sucre,María López
+455,2025-09-08,Leche,Lácteos,12,12.0,144.0,Transferencia,Sucursal Sur,Sucre,José Gutiérrez
+456,2025-12-19,Pollo,Carnes,9,28.0,252.0,Efectivo,Sucursal Central,Cochabamba,Paola Ruiz
+457,2025-04-20,Leche,Lácteos,19,12.0,228.0,Tarjeta,Sucursal Sur,Santa Cruz,Luis Fernández
+458,2025-08-31,Manzana,Frutas,1,3.0,3.0,Tarjeta,Sucursal Sur,Tarija,Juan Pérez
+459,2025-06-06,Jabón,Limpieza,20,4.0,80.0,QR,Sucursal Este,Sucre,José Gutiérrez
+460,2025-08-27,Papa,Verduras,7,3.5,24.5,QR,Sucursal Oeste,Tarija,Paola Ruiz
+461,2025-12-06,Gaseosa,Bebidas,17,15.0,255.0,QR,Sucursal Oeste,Tarija,Luis Fernández
+462,2025-02-02,Pan Integral,Panadería,16,9.0,144.0,QR,Sucursal Central,La Paz,Luis Fernández
+463,2025-03-18,Pan Francés,Panadería,7,1.5,10.5,Tarjeta,Sucursal Norte,Tarija,Paola Ruiz
+464,2025-12-02,Pollo,Carnes,1,28.0,28.0,Transferencia,Sucursal Central,La Paz,Paola Ruiz
+465,2025-10-26,Banano,Frutas,2,2.0,4.0,Tarjeta,Sucursal Central,Santa Cruz,Miguel Flores
+466,2025-12-03,Carne Res,Carnes,6,45.0,270.0,Tarjeta,Sucursal Central,Cochabamba,Miguel Flores
+467,2025-04-04,Galletas,Snacks,18,6.0,108.0,QR,Sucursal Norte,Santa Cruz,José Gutiérrez
+468,2025-06-19,Jabón,Limpieza,14,4.0,56.0,QR,Sucursal Central,Tarija,Luis Fernández
+469,2025-01-28,Tomate,Verduras,16,4.0,64.0,Efectivo,Sucursal Este,Santa Cruz,María López
+470,2025-01-28,Banano,Frutas,14,2.0,28.0,Tarjeta,Sucursal Sur,Santa Cruz,José Gutiérrez
+471,2025-06-11,Banano,Frutas,5,2.0,10.0,Tarjeta,Sucursal Norte,Sucre,José Gutiérrez
+472,2025-01-03,Galletas,Snacks,2,6.0,12.0,Transferencia,Sucursal Central,Santa Cruz,Carlos Rojas
+473,2025-03-08,Galletas,Snacks,3,6.0,18.0,Transferencia,Sucursal Este,Sucre,Paola Ruiz
+474,2025-01-20,Papa,Verduras,1,3.5,3.5,Tarjeta,Sucursal Central,Cochabamba,José Gutiérrez
+475,2025-11-17,Detergente,Limpieza,1,25.0,25.0,Tarjeta,Sucursal Sur,La Paz,Luis Fernández
+476,2025-09-15,Papas Fritas,Snacks,13,7.0,91.0,QR,Sucursal Sur,Cochabamba,Juan Pérez
+477,2025-09-24,Pan Francés,Panadería,15,1.5,22.5,QR,Sucursal Este,Santa Cruz,José Gutiérrez
+478,2025-03-26,Papa,Verduras,7,3.5,24.5,Transferencia,Sucursal Norte,Santa Cruz,Ana Vargas
+479,2025-10-29,Papas Fritas,Snacks,1,7.0,7.0,Tarjeta,Sucursal Norte,La Paz,Juan Pérez
+480,2025-11-16,Banano,Frutas,18,2.0,36.0,Efectivo,Sucursal Oeste,Cochabamba,María López
+481,2025-08-02,Leche,Lácteos,4,12.0,48.0,Transferencia,Sucursal Este,Cochabamba,Luis Fernández
+482,2025-12-22,Tomate,Verduras,7,4.0,28.0,Efectivo,Sucursal Central,Sucre,María López
+483,2025-02-23,Pan Integral,Panadería,14,9.0,126.0,Efectivo,Sucursal Central,Cochabamba,María López
+484,2025-04-13,Tomate,Verduras,20,4.0,80.0,QR,Sucursal Oeste,Santa Cruz,José Gutiérrez
+485,2025-01-21,Banano,Frutas,6,2.0,12.0,Transferencia,Sucursal Sur,Sucre,José Gutiérrez
+486,2025-12-10,Detergente,Limpieza,1,25.0,25.0,Efectivo,Sucursal Norte,Tarija,Miguel Flores
+487,2025-02-08,Papas Fritas,Snacks,17,7.0,119.0,Efectivo,Sucursal Central,Santa Cruz,Miguel Flores
+488,2025-01-26,Pan Francés,Panadería,15,1.5,22.5,Efectivo,Sucursal Sur,Cochabamba,Luis Fernández
+489,2025-03-01,Carne Res,Carnes,14,45.0,630.0,Efectivo,Sucursal Norte,Cochabamba,Carlos Rojas
+490,2025-08-13,Galletas,Snacks,12,6.0,72.0,QR,Sucursal Norte,La Paz,José Gutiérrez
+491,2025-07-24,Papas Fritas,Snacks,13,7.0,91.0,Transferencia,Sucursal Central,Sucre,Miguel Flores
+492,2025-03-09,Manzana,Frutas,4,3.0,12.0,Efectivo,Sucursal Sur,Cochabamba,Paola Ruiz
+493,2025-11-09,Papa,Verduras,6,3.5,21.0,Transferencia,Sucursal Central,Tarija,Juan Pérez
+494,2025-02-27,Galletas,Snacks,16,6.0,96.0,Transferencia,Sucursal Este,Cochabamba,María López
+495,2025-12-27,Pan Francés,Panadería,1,1.5,1.5,Tarjeta,Sucursal Central,Tarija,María López
+496,2025-06-27,Manzana,Frutas,16,3.0,48.0,Transferencia,Sucursal Sur,Tarija,Juan Pérez
+497,2025-09-16,Queso,Lácteos,6,35.0,210.0,Transferencia,Sucursal Este,Santa Cruz,María López
+498,2025-06-19,Papa,Verduras,8,3.5,28.0,QR,Sucursal Norte,Tarija,Ana Vargas
+499,2025-02-10,Banano,Frutas,8,2.0,16.0,Transferencia,Sucursal Este,Tarija,Miguel Flores
+500,2025-06-11,Agua,Bebidas,15,5.0,75.0,Efectivo,Sucursal Este,Cochabamba,María López
+501,2025-10-13,Banano,Frutas,2,2.0,4.0,Efectivo,Sucursal Norte,Tarija,Luis Fernández
+502,2025-07-06,Jabón,Limpieza,11,4.0,44.0,Efectivo,Sucursal Sur,Sucre,José Gutiérrez
+503,2025-02-28,Papa,Verduras,15,3.5,52.5,Efectivo,Sucursal Sur,Cochabamba,José Gutiérrez
+504,2025-09-25,Carne Res,Carnes,18,45.0,810.0,QR,Sucursal Norte,Cochabamba,Carlos Rojas
+505,2025-02-24,Tomate,Verduras,14,4.0,56.0,QR,Sucursal Oeste,Santa Cruz,Ana Vargas
+506,2025-08-23,Agua,Bebidas,7,5.0,35.0,Tarjeta,Sucursal Central,Cochabamba,Paola Ruiz
+507,2025-03-05,Queso,Lácteos,19,35.0,665.0,Transferencia,Sucursal Este,Tarija,Carlos Rojas
+508,2025-01-25,Tomate,Verduras,17,4.0,68.0,Transferencia,Sucursal Oeste,Sucre,Carlos Rojas
+509,2025-07-18,Papas Fritas,Snacks,4,7.0,28.0,QR,Sucursal Oeste,Sucre,Paola Ruiz
+510,2025-06-25,Jabón,Limpieza,13,4.0,52.0,QR,Sucursal Este,Santa Cruz,Carlos Rojas
+511,2025-06-10,Banano,Frutas,18,2.0,36.0,Tarjeta,Sucursal Sur,Santa Cruz,Luis Fernández
+512,2025-09-15,Pollo,Carnes,6,28.0,168.0,QR,Sucursal Norte,La Paz,Miguel Flores
+513,2025-01-07,Banano,Frutas,14,2.0,28.0,Efectivo,Sucursal Norte,Sucre,Carlos Rojas
+514,2025-04-13,Queso,Lácteos,2,35.0,70.0,QR,Sucursal Sur,La Paz,Luis Fernández
+515,2025-04-15,Papas Fritas,Snacks,10,7.0,70.0,Efectivo,Sucursal Central,Sucre,María López
+516,2025-09-19,Jabón,Limpieza,8,4.0,32.0,QR,Sucursal Norte,Sucre,Paola Ruiz
+517,2025-01-28,Banano,Frutas,18,2.0,36.0,Efectivo,Sucursal Central,Santa Cruz,Miguel Flores
+518,2025-10-07,Jabón,Limpieza,19,4.0,76.0,Tarjeta,Sucursal Sur,La Paz,Miguel Flores
+519,2025-03-30,Papas Fritas,Snacks,6,7.0,42.0,Efectivo,Sucursal Este,Cochabamba,Paola Ruiz
+520,2025-03-24,Pan Francés,Panadería,5,1.5,7.5,QR,Sucursal Norte,La Paz,Miguel Flores
+521,2025-06-15,Papas Fritas,Snacks,5,7.0,35.0,Efectivo,Sucursal Oeste,La Paz,Miguel Flores
+522,2025-09-27,Pollo,Carnes,11,28.0,308.0,Tarjeta,Sucursal Sur,Tarija,María López
+523,2025-10-02,Galletas,Snacks,18,6.0,108.0,Transferencia,Sucursal Norte,La Paz,Ana Vargas
+524,2025-07-04,Jabón,Limpieza,11,4.0,44.0,QR,Sucursal Sur,Tarija,Miguel Flores
+525,2025-08-17,Leche,Lácteos,12,12.0,144.0,Tarjeta,Sucursal Oeste,Tarija,Ana Vargas
+526,2025-07-15,Queso,Lácteos,11,35.0,385.0,Efectivo,Sucursal Este,La Paz,Luis Fernández
+527,2025-09-21,Queso,Lácteos,12,35.0,420.0,Transferencia,Sucursal Este,Cochabamba,Luis Fernández
+528,2025-02-12,Jabón,Limpieza,17,4.0,68.0,Efectivo,Sucursal Sur,Tarija,Juan Pérez
+529,2025-12-17,Gaseosa,Bebidas,7,15.0,105.0,Transferencia,Sucursal Norte,Santa Cruz,Paola Ruiz
+530,2025-01-13,Jugo,Bebidas,5,10.0,50.0,Transferencia,Sucursal Central,Cochabamba,María López
+531,2025-05-09,Gaseosa,Bebidas,6,15.0,90.0,Efectivo,Sucursal Oeste,Santa Cruz,Luis Fernández
+532,2025-11-19,Banano,Frutas,15,2.0,30.0,Transferencia,Sucursal Este,La Paz,Juan Pérez
+533,2025-01-04,Manzana,Frutas,18,3.0,54.0,Efectivo,Sucursal Oeste,Cochabamba,María López
+534,2025-12-18,Pollo,Carnes,10,28.0,280.0,QR,Sucursal Oeste,Cochabamba,Luis Fernández
+535,2025-12-05,Papa,Verduras,13,3.5,45.5,Efectivo,Sucursal Este,Santa Cruz,Ana Vargas
+536,2025-06-01,Galletas,Snacks,18,6.0,108.0,Tarjeta,Sucursal Central,La Paz,Juan Pérez
+537,2025-01-03,Papas Fritas,Snacks,2,7.0,14.0,Transferencia,Sucursal Oeste,Tarija,María López
+538,2025-04-19,Pan Integral,Panadería,12,9.0,108.0,Transferencia,Sucursal Oeste,Santa Cruz,Carlos Rojas
+539,2025-05-10,Papas Fritas,Snacks,20,7.0,140.0,Tarjeta,Sucursal Norte,Santa Cruz,Juan Pérez
+540,2025-12-10,Tomate,Verduras,10,4.0,40.0,Efectivo,Sucursal Central,Cochabamba,Ana Vargas
+541,2025-03-07,Papa,Verduras,12,3.5,42.0,Tarjeta,Sucursal Norte,La Paz,María López
+542,2025-08-19,Jabón,Limpieza,16,4.0,64.0,QR,Sucursal Oeste,La Paz,Carlos Rojas
+543,2025-03-28,Carne Res,Carnes,14,45.0,630.0,Efectivo,Sucursal Central,Santa Cruz,Ana Vargas
+544,2025-03-10,Banano,Frutas,12,2.0,24.0,QR,Sucursal Este,Sucre,Miguel Flores
+545,2025-10-10,Carne Res,Carnes,16,45.0,720.0,Efectivo,Sucursal Sur,Tarija,María López
+546,2025-04-11,Pan Integral,Panadería,18,9.0,162.0,QR,Sucursal Norte,Cochabamba,Juan Pérez
+547,2025-07-27,Queso,Lácteos,19,35.0,665.0,Tarjeta,Sucursal Norte,Tarija,Luis Fernández
+548,2025-07-20,Tomate,Verduras,12,4.0,48.0,Tarjeta,Sucursal Oeste,La Paz,Carlos Rojas
+549,2025-07-06,Tomate,Verduras,13,4.0,52.0,Efectivo,Sucursal Sur,Tarija,Carlos Rojas
+550,2025-04-02,Galletas,Snacks,6,6.0,36.0,Tarjeta,Sucursal Este,La Paz,Juan Pérez
+551,2025-02-02,Jabón,Limpieza,8,4.0,32.0,QR,Sucursal Central,Santa Cruz,Juan Pérez
+552,2025-08-29,Jabón,Limpieza,13,4.0,52.0,Transferencia,Sucursal Norte,Cochabamba,José Gutiérrez
+553,2025-11-21,Jugo,Bebidas,17,10.0,170.0,QR,Sucursal Central,Tarija,Carlos Rojas
+554,2025-10-28,Banano,Frutas,12,2.0,24.0,Efectivo,Sucursal Oeste,La Paz,Paola Ruiz
+555,2025-06-26,Jabón,Limpieza,12,4.0,48.0,Transferencia,Sucursal Este,Tarija,Juan Pérez
+556,2025-04-28,Galletas,Snacks,6,6.0,36.0,Efectivo,Sucursal Oeste,La Paz,Ana Vargas
+557,2025-07-05,Papas Fritas,Snacks,6,7.0,42.0,Efectivo,Sucursal Sur,Sucre,José Gutiérrez
+558,2025-09-03,Agua,Bebidas,16,5.0,80.0,Tarjeta,Sucursal Oeste,Santa Cruz,Paola Ruiz
+559,2025-03-07,Leche,Lácteos,2,12.0,24.0,Tarjeta,Sucursal Sur,Tarija,Juan Pérez
+560,2025-05-13,Papas Fritas,Snacks,6,7.0,42.0,Tarjeta,Sucursal Oeste,Sucre,Juan Pérez
+561,2025-08-18,Pan Integral,Panadería,7,9.0,63.0,Transferencia,Sucursal Este,Santa Cruz,Ana Vargas
+562,2025-04-04,Manzana,Frutas,19,3.0,57.0,QR,Sucursal Sur,La Paz,Miguel Flores
+563,2025-07-17,Gaseosa,Bebidas,13,15.0,195.0,Tarjeta,Sucursal Norte,Cochabamba,Ana Vargas
+564,2025-02-19,Manzana,Frutas,20,3.0,60.0,Tarjeta,Sucursal Este,Tarija,Juan Pérez
+565,2025-12-04,Gaseosa,Bebidas,16,15.0,240.0,Tarjeta,Sucursal Oeste,Tarija,Juan Pérez
+566,2025-01-23,Banano,Frutas,12,2.0,24.0,Transferencia,Sucursal Sur,Sucre,Paola Ruiz
+567,2025-03-10,Pollo,Carnes,14,28.0,392.0,QR,Sucursal Este,Santa Cruz,María López
+568,2025-04-07,Pan Francés,Panadería,9,1.5,13.5,Efectivo,Sucursal Norte,Tarija,María López
+569,2025-12-19,Yogurt,Lácteos,7,8.0,56.0,QR,Sucursal Este,La Paz,María López
+570,2025-05-10,Galletas,Snacks,19,6.0,114.0,QR,Sucursal Oeste,Sucre,José Gutiérrez
+571,2025-07-31,Pan Francés,Panadería,7,1.5,10.5,Transferencia,Sucursal Sur,La Paz,Miguel Flores
+572,2025-06-26,Pan Francés,Panadería,19,1.5,28.5,Transferencia,Sucursal Sur,Cochabamba,Ana Vargas
+573,2025-04-20,Tomate,Verduras,4,4.0,16.0,Transferencia,Sucursal Central,Tarija,Juan Pérez
+574,2025-02-16,Galletas,Snacks,1,6.0,6.0,Tarjeta,Sucursal Este,Tarija,Paola Ruiz
+575,2025-04-24,Gaseosa,Bebidas,9,15.0,135.0,QR,Sucursal Norte,Tarija,Juan Pérez
+576,2025-12-02,Banano,Frutas,20,2.0,40.0,QR,Sucursal Oeste,Cochabamba,Carlos Rojas
+577,2025-04-14,Papa,Verduras,1,3.5,3.5,QR,Sucursal Sur,Cochabamba,Ana Vargas
+578,2025-05-03,Papas Fritas,Snacks,12,7.0,84.0,Efectivo,Sucursal Sur,Cochabamba,Luis Fernández
+579,2025-07-27,Banano,Frutas,13,2.0,26.0,Tarjeta,Sucursal Oeste,Cochabamba,María López
+580,2025-10-14,Jugo,Bebidas,10,10.0,100.0,QR,Sucursal Central,La Paz,Ana Vargas
+581,2025-10-22,Jabón,Limpieza,13,4.0,52.0,Efectivo,Sucursal Central,Santa Cruz,Paola Ruiz
+582,2025-09-15,Jugo,Bebidas,3,10.0,30.0,QR,Sucursal Central,Cochabamba,Luis Fernández
+583,2025-10-16,Pan Francés,Panadería,13,1.5,19.5,Transferencia,Sucursal Sur,La Paz,Miguel Flores
+584,2025-03-01,Tomate,Verduras,16,4.0,64.0,QR,Sucursal Norte,Sucre,Ana Vargas
+585,2025-06-30,Jabón,Limpieza,14,4.0,56.0,Efectivo,Sucursal Central,Santa Cruz,Luis Fernández
+586,2025-02-08,Agua,Bebidas,11,5.0,55.0,Tarjeta,Sucursal Este,La Paz,José Gutiérrez
+587,2025-12-16,Jabón,Limpieza,6,4.0,24.0,Tarjeta,Sucursal Este,Santa Cruz,Ana Vargas
+588,2025-04-28,Jabón,Limpieza,7,4.0,28.0,Tarjeta,Sucursal Sur,Tarija,José Gutiérrez
+589,2025-02-10,Papas Fritas,Snacks,4,7.0,28.0,Transferencia,Sucursal Oeste,Cochabamba,Juan Pérez
+590,2025-06-11,Papa,Verduras,20,3.5,70.0,Transferencia,Sucursal Oeste,La Paz,Miguel Flores
+591,2025-04-24,Galletas,Snacks,13,6.0,78.0,Tarjeta,Sucursal Norte,Tarija,Paola Ruiz
+592,2025-06-27,Tomate,Verduras,17,4.0,68.0,Transferencia,Sucursal Sur,Sucre,María López
+593,2025-01-07,Papa,Verduras,1,3.5,3.5,Tarjeta,Sucursal Este,Tarija,María López
+594,2025-05-13,Carne Res,Carnes,20,45.0,900.0,Tarjeta,Sucursal Oeste,La Paz,Ana Vargas
+595,2025-06-25,Pan Francés,Panadería,20,1.5,30.0,QR,Sucursal Sur,Sucre,Paola Ruiz
+596,2025-07-06,Jabón,Limpieza,12,4.0,48.0,Transferencia,Sucursal Central,Sucre,Carlos Rojas
+597,2025-05-19,Papas Fritas,Snacks,4,7.0,28.0,Tarjeta,Sucursal Oeste,Sucre,Paola Ruiz
+598,2025-08-31,Detergente,Limpieza,5,25.0,125.0,Efectivo,Sucursal Sur,Sucre,Miguel Flores
+599,2025-06-03,Galletas,Snacks,16,6.0,96.0,QR,Sucursal Oeste,Tarija,Juan Pérez
+600,2025-01-31,Manzana,Frutas,6,3.0,18.0,Tarjeta,Sucursal Central,Sucre,María López
+601,2025-07-04,Papa,Verduras,9,3.5,31.5,QR,Sucursal Oeste,Tarija,Luis Fernández
+602,2025-03-04,Pollo,Carnes,14,28.0,392.0,QR,Sucursal Oeste,Santa Cruz,Carlos Rojas
+603,2025-12-11,Pan Francés,Panadería,11,1.5,16.5,Transferencia,Sucursal Este,Cochabamba,Paola Ruiz
+604,2025-03-27,Pan Francés,Panadería,5,1.5,7.5,QR,Sucursal Este,Tarija,Paola Ruiz
+605,2025-06-25,Gaseosa,Bebidas,6,15.0,90.0,Tarjeta,Sucursal Central,La Paz,Luis Fernández
+606,2025-08-16,Pan Francés,Panadería,9,1.5,13.5,QR,Sucursal Oeste,Tarija,Miguel Flores
+607,2025-01-12,Manzana,Frutas,6,3.0,18.0,Tarjeta,Sucursal Sur,La Paz,María López
+608,2025-02-22,Detergente,Limpieza,13,25.0,325.0,Efectivo,Sucursal Norte,Sucre,Juan Pérez
+609,2025-02-12,Yogurt,Lácteos,17,8.0,136.0,Efectivo,Sucursal Central,Tarija,Carlos Rojas
+610,2025-06-08,Jugo,Bebidas,13,10.0,130.0,Tarjeta,Sucursal Sur,La Paz,Miguel Flores
+611,2025-03-29,Papas Fritas,Snacks,17,7.0,119.0,Efectivo,Sucursal Norte,La Paz,José Gutiérrez
+612,2025-05-20,Papa,Verduras,18,3.5,63.0,Transferencia,Sucursal Sur,Tarija,Carlos Rojas
+613,2025-11-24,Papa,Verduras,17,3.5,59.5,QR,Sucursal Central,Sucre,Ana Vargas
+614,2025-07-07,Agua,Bebidas,10,5.0,50.0,Transferencia,Sucursal Central,Santa Cruz,Luis Fernández
+615,2025-03-11,Leche,Lácteos,17,12.0,204.0,QR,Sucursal Central,Sucre,Juan Pérez
+616,2025-01-05,Papa,Verduras,10,3.5,35.0,Transferencia,Sucursal Central,Tarija,Ana Vargas
+617,2025-04-07,Queso,Lácteos,12,35.0,420.0,Transferencia,Sucursal Oeste,Sucre,Paola Ruiz
+618,2025-07-13,Detergente,Limpieza,13,25.0,325.0,Tarjeta,Sucursal Central,Cochabamba,Paola Ruiz
+619,2025-11-29,Jabón,Limpieza,10,4.0,40.0,QR,Sucursal Este,Santa Cruz,María López
+620,2025-02-26,Papas Fritas,Snacks,10,7.0,70.0,Transferencia,Sucursal Oeste,Sucre,Luis Fernández
+621,2025-01-10,Tomate,Verduras,11,4.0,44.0,Tarjeta,Sucursal Norte,Tarija,Juan Pérez
+622,2025-05-18,Papas Fritas,Snacks,10,7.0,70.0,Tarjeta,Sucursal Este,Cochabamba,Ana Vargas
+623,2025-09-10,Gaseosa,Bebidas,1,15.0,15.0,Tarjeta,Sucursal Central,Sucre,Luis Fernández
+624,2025-12-23,Papa,Verduras,15,3.5,52.5,Efectivo,Sucursal Central,Cochabamba,Carlos Rojas
+625,2025-02-06,Yogurt,Lácteos,13,8.0,104.0,Transferencia,Sucursal Sur,Santa Cruz,Luis Fernández
+626,2025-05-08,Manzana,Frutas,4,3.0,12.0,Transferencia,Sucursal Este,Santa Cruz,Juan Pérez
+627,2025-09-24,Jabón,Limpieza,4,4.0,16.0,Tarjeta,Sucursal Este,Sucre,Luis Fernández
+628,2025-10-09,Pollo,Carnes,2,28.0,56.0,Efectivo,Sucursal Central,Sucre,Luis Fernández
+629,2025-12-08,Jabón,Limpieza,2,4.0,8.0,Tarjeta,Sucursal Norte,Santa Cruz,Paola Ruiz
+630,2025-05-22,Pollo,Carnes,6,28.0,168.0,Efectivo,Sucursal Este,Santa Cruz,Juan Pérez
+631,2025-12-19,Queso,Lácteos,16,35.0,560.0,Tarjeta,Sucursal Central,Cochabamba,Ana Vargas
+632,2025-12-18,Galletas,Snacks,3,6.0,18.0,QR,Sucursal Norte,Cochabamba,José Gutiérrez
+633,2025-09-07,Papas Fritas,Snacks,5,7.0,35.0,Tarjeta,Sucursal Central,Tarija,José Gutiérrez
+634,2025-12-19,Tomate,Verduras,1,4.0,4.0,Transferencia,Sucursal Central,Santa Cruz,Luis Fernández
+635,2025-10-14,Yogurt,Lácteos,15,8.0,120.0,QR,Sucursal Oeste,Sucre,Ana Vargas
+636,2025-08-28,Galletas,Snacks,11,6.0,66.0,QR,Sucursal Oeste,Tarija,Carlos Rojas
+637,2025-08-19,Jugo,Bebidas,5,10.0,50.0,QR,Sucursal Central,Tarija,José Gutiérrez
+638,2025-07-14,Tomate,Verduras,17,4.0,68.0,Tarjeta,Sucursal Norte,Tarija,José Gutiérrez
+639,2025-12-04,Jabón,Limpieza,3,4.0,12.0,Transferencia,Sucursal Sur,Tarija,Miguel Flores
+640,2025-07-29,Galletas,Snacks,11,6.0,66.0,QR,Sucursal Norte,Cochabamba,María López
+641,2025-01-17,Leche,Lácteos,6,12.0,72.0,Tarjeta,Sucursal Norte,Sucre,Ana Vargas
+642,2025-11-25,Gaseosa,Bebidas,19,15.0,285.0,Transferencia,Sucursal Este,Tarija,Luis Fernández
+643,2025-11-07,Yogurt,Lácteos,8,8.0,64.0,Efectivo,Sucursal Norte,Santa Cruz,Miguel Flores
+644,2025-07-04,Agua,Bebidas,2,5.0,10.0,Transferencia,Sucursal Central,Cochabamba,Luis Fernández
+645,2025-06-05,Queso,Lácteos,3,35.0,105.0,Efectivo,Sucursal Sur,Tarija,María López
+646,2025-09-30,Jugo,Bebidas,8,10.0,80.0,Transferencia,Sucursal Sur,Santa Cruz,Ana Vargas
+647,2025-11-23,Galletas,Snacks,4,6.0,24.0,QR,Sucursal Este,Sucre,María López
+648,2025-07-25,Papas Fritas,Snacks,18,7.0,126.0,QR,Sucursal Sur,Tarija,Miguel Flores
+649,2025-06-16,Carne Res,Carnes,18,45.0,810.0,QR,Sucursal Este,Sucre,José Gutiérrez
+650,2025-10-09,Detergente,Limpieza,13,25.0,325.0,QR,Sucursal Central,Sucre,Miguel Flores
+651,2025-05-26,Manzana,Frutas,2,3.0,6.0,Efectivo,Sucursal Oeste,Santa Cruz,Luis Fernández
+652,2025-04-20,Yogurt,Lácteos,8,8.0,64.0,QR,Sucursal Norte,La Paz,Carlos Rojas
+653,2025-07-02,Gaseosa,Bebidas,15,15.0,225.0,Tarjeta,Sucursal Sur,La Paz,José Gutiérrez
+654,2025-06-03,Detergente,Limpieza,9,25.0,225.0,Efectivo,Sucursal Oeste,Sucre,Ana Vargas
+655,2025-09-05,Jugo,Bebidas,11,10.0,110.0,Tarjeta,Sucursal Este,Tarija,María López
+656,2025-07-15,Pan Integral,Panadería,19,9.0,171.0,Efectivo,Sucursal Norte,La Paz,José Gutiérrez
+657,2025-04-27,Banano,Frutas,4,2.0,8.0,Efectivo,Sucursal Este,Cochabamba,Luis Fernández
+658,2025-10-17,Yogurt,Lácteos,18,8.0,144.0,Tarjeta,Sucursal Central,Tarija,Ana Vargas
+659,2025-08-17,Papas Fritas,Snacks,13,7.0,91.0,Efectivo,Sucursal Sur,Sucre,Luis Fernández
+660,2025-06-22,Manzana,Frutas,5,3.0,15.0,Efectivo,Sucursal Este,Tarija,Juan Pérez
+661,2025-07-24,Banano,Frutas,3,2.0,6.0,Transferencia,Sucursal Sur,Santa Cruz,Miguel Flores
+662,2025-11-30,Jabón,Limpieza,13,4.0,52.0,Tarjeta,Sucursal Oeste,Tarija,Ana Vargas
+663,2025-08-09,Detergente,Limpieza,9,25.0,225.0,QR,Sucursal Oeste,Cochabamba,María López
+664,2025-06-28,Banano,Frutas,12,2.0,24.0,Tarjeta,Sucursal Central,La Paz,Juan Pérez
+665,2025-11-12,Pan Integral,Panadería,12,9.0,108.0,Transferencia,Sucursal Oeste,Santa Cruz,Miguel Flores
+666,2025-12-17,Leche,Lácteos,7,12.0,84.0,QR,Sucursal Sur,Cochabamba,María López
+667,2025-03-17,Leche,Lácteos,20,12.0,240.0,QR,Sucursal Norte,La Paz,María López
+668,2025-01-12,Pan Francés,Panadería,16,1.5,24.0,QR,Sucursal Sur,Tarija,Ana Vargas
+669,2025-09-05,Jabón,Limpieza,18,4.0,72.0,Tarjeta,Sucursal Norte,Sucre,Juan Pérez
+670,2025-05-26,Pan Integral,Panadería,2,9.0,18.0,Tarjeta,Sucursal Oeste,La Paz,Juan Pérez
+671,2025-07-18,Tomate,Verduras,3,4.0,12.0,QR,Sucursal Central,Cochabamba,Juan Pérez
+672,2025-07-14,Pan Francés,Panadería,8,1.5,12.0,Efectivo,Sucursal Central,Sucre,María López
+673,2025-08-23,Papas Fritas,Snacks,17,7.0,119.0,Efectivo,Sucursal Norte,Santa Cruz,Luis Fernández
+674,2025-03-22,Carne Res,Carnes,13,45.0,585.0,Efectivo,Sucursal Central,La Paz,José Gutiérrez
+675,2025-05-22,Pan Integral,Panadería,17,9.0,153.0,Efectivo,Sucursal Central,Sucre,Juan Pérez
+676,2025-06-24,Pan Integral,Panadería,5,9.0,45.0,Transferencia,Sucursal Sur,Cochabamba,Paola Ruiz
+677,2025-10-21,Jabón,Limpieza,8,4.0,32.0,Tarjeta,Sucursal Este,La Paz,José Gutiérrez
+678,2025-12-01,Tomate,Verduras,7,4.0,28.0,Tarjeta,Sucursal Oeste,Tarija,Ana Vargas
+679,2025-03-11,Galletas,Snacks,17,6.0,102.0,Transferencia,Sucursal Sur,Tarija,Carlos Rojas
+680,2025-09-30,Pollo,Carnes,18,28.0,504.0,Efectivo,Sucursal Sur,La Paz,Carlos Rojas
+681,2025-07-30,Yogurt,Lácteos,14,8.0,112.0,QR,Sucursal Este,La Paz,Carlos Rojas
+682,2025-04-05,Detergente,Limpieza,5,25.0,125.0,Efectivo,Sucursal Oeste,Tarija,Luis Fernández
+683,2025-12-18,Detergente,Limpieza,8,25.0,200.0,Efectivo,Sucursal Central,Cochabamba,Miguel Flores
+684,2025-04-05,Galletas,Snacks,12,6.0,72.0,Transferencia,Sucursal Este,Sucre,Carlos Rojas
+685,2025-01-17,Papas Fritas,Snacks,8,7.0,56.0,Transferencia,Sucursal Norte,La Paz,Paola Ruiz
+686,2025-02-03,Detergente,Limpieza,7,25.0,175.0,Tarjeta,Sucursal Este,Tarija,Miguel Flores
+687,2025-08-07,Carne Res,Carnes,8,45.0,360.0,Transferencia,Sucursal Norte,Tarija,Paola Ruiz
+688,2025-10-20,Carne Res,Carnes,20,45.0,900.0,Efectivo,Sucursal Oeste,Cochabamba,Miguel Flores
+689,2025-09-23,Tomate,Verduras,8,4.0,32.0,Transferencia,Sucursal Norte,Tarija,Paola Ruiz
+690,2025-08-14,Leche,Lácteos,10,12.0,120.0,Transferencia,Sucursal Central,La Paz,Miguel Flores
+691,2025-11-10,Galletas,Snacks,10,6.0,60.0,Efectivo,Sucursal Oeste,Santa Cruz,Miguel Flores
+692,2025-02-27,Tomate,Verduras,17,4.0,68.0,Tarjeta,Sucursal Oeste,Tarija,Carlos Rojas
+693,2025-08-19,Banano,Frutas,11,2.0,22.0,Efectivo,Sucursal Sur,Sucre,Ana Vargas
+694,2025-06-15,Tomate,Verduras,9,4.0,36.0,Tarjeta,Sucursal Norte,Cochabamba,María López
+695,2025-09-26,Papa,Verduras,3,3.5,10.5,Transferencia,Sucursal Oeste,Tarija,Carlos Rojas
+696,2025-03-29,Banano,Frutas,2,2.0,4.0,QR,Sucursal Oeste,Santa Cruz,Carlos Rojas
+697,2025-08-03,Papas Fritas,Snacks,2,7.0,14.0,QR,Sucursal Central,Sucre,Luis Fernández
+698,2025-04-14,Papas Fritas,Snacks,5,7.0,35.0,Efectivo,Sucursal Oeste,La Paz,Juan Pérez
+699,2025-10-06,Papa,Verduras,16,3.5,56.0,Efectivo,Sucursal Oeste,Sucre,Ana Vargas
+700,2025-07-29,Jabón,Limpieza,15,4.0,60.0,Transferencia,Sucursal Norte,Tarija,Juan Pérez
+701,2025-11-18,Jabón,Limpieza,20,4.0,80.0,Tarjeta,Sucursal Norte,Santa Cruz,Carlos Rojas
+702,2025-01-19,Queso,Lácteos,12,35.0,420.0,Tarjeta,Sucursal Norte,Tarija,Luis Fernández
+703,2025-02-25,Pollo,Carnes,2,28.0,56.0,Transferencia,Sucursal Sur,Santa Cruz,Luis Fernández
+704,2025-07-04,Galletas,Snacks,19,6.0,114.0,Efectivo,Sucursal Norte,La Paz,José Gutiérrez
+705,2025-08-07,Carne Res,Carnes,3,45.0,135.0,Efectivo,Sucursal Central,Sucre,Carlos Rojas
+706,2025-06-18,Jugo,Bebidas,9,10.0,90.0,Transferencia,Sucursal Oeste,Santa Cruz,Ana Vargas
+707,2025-11-19,Leche,Lácteos,19,12.0,228.0,Efectivo,Sucursal Este,Tarija,Luis Fernández
+708,2025-09-27,Banano,Frutas,9,2.0,18.0,QR,Sucursal Sur,Tarija,Miguel Flores
+709,2025-11-09,Papa,Verduras,6,3.5,21.0,Tarjeta,Sucursal Central,Santa Cruz,Juan Pérez
+710,2025-11-17,Gaseosa,Bebidas,15,15.0,225.0,Efectivo,Sucursal Sur,Tarija,Paola Ruiz
+711,2025-06-29,Manzana,Frutas,11,3.0,33.0,Tarjeta,Sucursal Norte,Santa Cruz,Luis Fernández
+712,2025-06-03,Pan Integral,Panadería,10,9.0,90.0,QR,Sucursal Norte,Cochabamba,José Gutiérrez
+713,2025-11-12,Carne Res,Carnes,19,45.0,855.0,Efectivo,Sucursal Sur,Santa Cruz,José Gutiérrez
+714,2025-01-19,Carne Res,Carnes,16,45.0,720.0,Tarjeta,Sucursal Este,Santa Cruz,Miguel Flores
+715,2025-01-29,Carne Res,Carnes,14,45.0,630.0,QR,Sucursal Oeste,La Paz,Juan Pérez
+716,2025-02-03,Jabón,Limpieza,12,4.0,48.0,Tarjeta,Sucursal Central,Cochabamba,José Gutiérrez
+717,2025-11-07,Manzana,Frutas,19,3.0,57.0,Transferencia,Sucursal Sur,Tarija,María López
+718,2025-05-20,Pan Francés,Panadería,2,1.5,3.0,Transferencia,Sucursal Norte,Sucre,Ana Vargas
+719,2025-04-21,Carne Res,Carnes,10,45.0,450.0,QR,Sucursal Sur,Cochabamba,José Gutiérrez
+720,2025-08-16,Leche,Lácteos,3,12.0,36.0,Efectivo,Sucursal Este,Tarija,Carlos Rojas
+721,2025-09-26,Jabón,Limpieza,16,4.0,64.0,QR,Sucursal Central,Santa Cruz,María López
+722,2025-08-24,Papas Fritas,Snacks,2,7.0,14.0,Transferencia,Sucursal Oeste,Cochabamba,Juan Pérez
+723,2025-02-14,Pan Integral,Panadería,20,9.0,180.0,QR,Sucursal Este,Cochabamba,María López
+724,2025-06-09,Pan Integral,Panadería,19,9.0,171.0,Tarjeta,Sucursal Central,Santa Cruz,Ana Vargas
+725,2025-06-13,Pan Francés,Panadería,18,1.5,27.0,Transferencia,Sucursal Norte,La Paz,Carlos Rojas
+726,2025-01-08,Galletas,Snacks,4,6.0,24.0,Efectivo,Sucursal Sur,Tarija,José Gutiérrez
+727,2025-12-27,Carne Res,Carnes,5,45.0,225.0,QR,Sucursal Oeste,Santa Cruz,Carlos Rojas
+728,2025-06-23,Agua,Bebidas,20,5.0,100.0,Transferencia,Sucursal Norte,Santa Cruz,Juan Pérez
+729,2025-07-16,Tomate,Verduras,4,4.0,16.0,Efectivo,Sucursal Norte,Sucre,Paola Ruiz
+730,2025-07-02,Galletas,Snacks,20,6.0,120.0,QR,Sucursal Central,Santa Cruz,María López
+731,2025-12-24,Tomate,Verduras,3,4.0,12.0,Transferencia,Sucursal Norte,Sucre,Luis Fernández
+732,2025-04-25,Papa,Verduras,8,3.5,28.0,Tarjeta,Sucursal Oeste,La Paz,José Gutiérrez
+733,2025-06-16,Manzana,Frutas,11,3.0,33.0,Transferencia,Sucursal Este,Cochabamba,María López
+734,2025-09-03,Tomate,Verduras,12,4.0,48.0,Transferencia,Sucursal Sur,La Paz,José Gutiérrez
+735,2025-02-24,Papas Fritas,Snacks,13,7.0,91.0,QR,Sucursal Oeste,Cochabamba,Luis Fernández
+736,2025-07-31,Papa,Verduras,19,3.5,66.5,Tarjeta,Sucursal Oeste,Santa Cruz,Carlos Rojas
+737,2025-06-24,Papa,Verduras,3,3.5,10.5,Tarjeta,Sucursal Oeste,Sucre,Paola Ruiz
+738,2025-12-06,Pollo,Carnes,6,28.0,168.0,Efectivo,Sucursal Oeste,Sucre,María López
+739,2025-02-19,Papa,Verduras,18,3.5,63.0,Transferencia,Sucursal Sur,La Paz,Paola Ruiz
+740,2025-12-17,Jugo,Bebidas,4,10.0,40.0,Transferencia,Sucursal Central,Sucre,Juan Pérez
+741,2025-10-25,Gaseosa,Bebidas,5,15.0,75.0,Efectivo,Sucursal Sur,Santa Cruz,Miguel Flores
+742,2025-10-23,Pan Francés,Panadería,20,1.5,30.0,Transferencia,Sucursal Sur,Santa Cruz,José Gutiérrez
+743,2025-06-26,Pan Francés,Panadería,14,1.5,21.0,Efectivo,Sucursal Oeste,Cochabamba,Paola Ruiz
+744,2025-07-09,Galletas,Snacks,2,6.0,12.0,Efectivo,Sucursal Norte,Tarija,José Gutiérrez
+745,2025-05-01,Agua,Bebidas,1,5.0,5.0,Transferencia,Sucursal Oeste,Sucre,José Gutiérrez
+746,2025-08-11,Banano,Frutas,13,2.0,26.0,Tarjeta,Sucursal Sur,Sucre,Carlos Rojas
+747,2025-08-02,Jabón,Limpieza,12,4.0,48.0,Tarjeta,Sucursal Central,Santa Cruz,Carlos Rojas
+748,2025-03-15,Leche,Lácteos,1,12.0,12.0,Transferencia,Sucursal Este,Santa Cruz,María López
+749,2025-12-23,Galletas,Snacks,15,6.0,90.0,Transferencia,Sucursal Oeste,Santa Cruz,Miguel Flores
+750,2025-07-01,Banano,Frutas,13,2.0,26.0,Tarjeta,Sucursal Sur,Sucre,Juan Pérez
+751,2025-05-18,Tomate,Verduras,17,4.0,68.0,Transferencia,Sucursal Oeste,Tarija,José Gutiérrez
+752,2025-09-05,Leche,Lácteos,19,12.0,228.0,QR,Sucursal Norte,Tarija,Miguel Flores
+753,2025-05-24,Gaseosa,Bebidas,17,15.0,255.0,Transferencia,Sucursal Oeste,Cochabamba,María López
+754,2025-12-17,Jabón,Limpieza,3,4.0,12.0,QR,Sucursal Oeste,Cochabamba,José Gutiérrez
+755,2025-09-20,Yogurt,Lácteos,15,8.0,120.0,Transferencia,Sucursal Oeste,La Paz,Paola Ruiz
+756,2025-03-27,Carne Res,Carnes,10,45.0,450.0,Efectivo,Sucursal Oeste,La Paz,Luis Fernández
+757,2025-10-24,Queso,Lácteos,16,35.0,560.0,Tarjeta,Sucursal Oeste,Cochabamba,Luis Fernández
+758,2025-02-12,Yogurt,Lácteos,16,8.0,128.0,Tarjeta,Sucursal Oeste,Cochabamba,Luis Fernández
+759,2025-05-24,Pan Integral,Panadería,20,9.0,180.0,QR,Sucursal Central,Cochabamba,María López
+760,2025-07-09,Papas Fritas,Snacks,15,7.0,105.0,Tarjeta,Sucursal Central,Santa Cruz,Miguel Flores
+761,2025-02-13,Papas Fritas,Snacks,11,7.0,77.0,Tarjeta,Sucursal Oeste,Santa Cruz,Miguel Flores
+762,2025-12-05,Banano,Frutas,8,2.0,16.0,Transferencia,Sucursal Sur,Santa Cruz,José Gutiérrez
+763,2025-03-01,Queso,Lácteos,9,35.0,315.0,Efectivo,Sucursal Sur,Sucre,Paola Ruiz
+764,2025-09-30,Papa,Verduras,16,3.5,56.0,Tarjeta,Sucursal Este,Sucre,Miguel Flores
+765,2025-08-11,Pan Integral,Panadería,17,9.0,153.0,Efectivo,Sucursal Central,Sucre,Paola Ruiz
+766,2025-09-30,Pollo,Carnes,4,28.0,112.0,QR,Sucursal Este,Tarija,Luis Fernández
+767,2025-02-20,Carne Res,Carnes,9,45.0,405.0,QR,Sucursal Oeste,Sucre,Miguel Flores
+768,2025-06-22,Detergente,Limpieza,17,25.0,425.0,Tarjeta,Sucursal Central,Tarija,Juan Pérez
+769,2025-07-30,Leche,Lácteos,1,12.0,12.0,Efectivo,Sucursal Oeste,Cochabamba,Miguel Flores
+770,2025-05-09,Pollo,Carnes,10,28.0,280.0,Tarjeta,Sucursal Norte,Cochabamba,María López
+771,2025-11-03,Queso,Lácteos,7,35.0,245.0,Efectivo,Sucursal Norte,Cochabamba,Carlos Rojas
+772,2025-12-23,Manzana,Frutas,4,3.0,12.0,Tarjeta,Sucursal Central,La Paz,Miguel Flores
+773,2025-05-22,Jugo,Bebidas,15,10.0,150.0,Transferencia,Sucursal Central,La Paz,Carlos Rojas
+774,2025-07-15,Agua,Bebidas,2,5.0,10.0,Transferencia,Sucursal Central,Cochabamba,Luis Fernández
+775,2025-02-05,Pan Integral,Panadería,15,9.0,135.0,Transferencia,Sucursal Sur,Tarija,Paola Ruiz
+776,2025-03-15,Galletas,Snacks,4,6.0,24.0,Transferencia,Sucursal Sur,Tarija,María López
+777,2025-01-18,Papa,Verduras,4,3.5,14.0,Efectivo,Sucursal Norte,Tarija,Luis Fernández
+778,2025-03-18,Tomate,Verduras,16,4.0,64.0,Efectivo,Sucursal Norte,Sucre,Luis Fernández
+779,2025-10-22,Galletas,Snacks,13,6.0,78.0,Efectivo,Sucursal Oeste,Sucre,Miguel Flores
+780,2025-10-04,Banano,Frutas,3,2.0,6.0,Tarjeta,Sucursal Norte,Sucre,Miguel Flores
+781,2025-07-03,Jugo,Bebidas,18,10.0,180.0,QR,Sucursal Central,Sucre,Juan Pérez
+782,2025-06-24,Agua,Bebidas,18,5.0,90.0,Efectivo,Sucursal Este,La Paz,Ana Vargas
+783,2025-12-05,Papas Fritas,Snacks,13,7.0,91.0,Tarjeta,Sucursal Central,Sucre,María López
+784,2025-11-20,Carne Res,Carnes,3,45.0,135.0,Transferencia,Sucursal Sur,Santa Cruz,Juan Pérez
+785,2025-05-03,Detergente,Limpieza,19,25.0,475.0,Transferencia,Sucursal Este,Cochabamba,Luis Fernández
+786,2025-01-19,Papa,Verduras,1,3.5,3.5,QR,Sucursal Norte,La Paz,Juan Pérez
+787,2025-12-01,Manzana,Frutas,7,3.0,21.0,Transferencia,Sucursal Oeste,Santa Cruz,Ana Vargas
+788,2025-09-08,Gaseosa,Bebidas,5,15.0,75.0,Efectivo,Sucursal Este,Tarija,Juan Pérez
+789,2025-03-30,Detergente,Limpieza,1,25.0,25.0,Efectivo,Sucursal Central,Cochabamba,Miguel Flores
+790,2025-02-28,Papas Fritas,Snacks,4,7.0,28.0,Transferencia,Sucursal Oeste,Tarija,Ana Vargas
+791,2025-06-22,Gaseosa,Bebidas,14,15.0,210.0,Transferencia,Sucursal Central,Cochabamba,Carlos Rojas
+792,2025-10-31,Pollo,Carnes,2,28.0,56.0,Tarjeta,Sucursal Central,Cochabamba,María López
+793,2025-03-28,Pan Integral,Panadería,14,9.0,126.0,QR,Sucursal Oeste,Santa Cruz,Miguel Flores
+794,2025-02-21,Detergente,Limpieza,5,25.0,125.0,Transferencia,Sucursal Sur,Cochabamba,Miguel Flores
+795,2025-04-02,Gaseosa,Bebidas,1,15.0,15.0,Efectivo,Sucursal Oeste,La Paz,Paola Ruiz
+796,2025-03-15,Tomate,Verduras,7,4.0,28.0,QR,Sucursal Oeste,Sucre,Paola Ruiz
+797,2025-12-21,Detergente,Limpieza,20,25.0,500.0,Efectivo,Sucursal Oeste,Santa Cruz,Miguel Flores
+798,2025-06-28,Jugo,Bebidas,10,10.0,100.0,Transferencia,Sucursal Norte,Tarija,Ana Vargas
+799,2025-02-18,Detergente,Limpieza,17,25.0,425.0,QR,Sucursal Oeste,Tarija,Ana Vargas
+800,2025-01-28,Tomate,Verduras,9,4.0,36.0,Tarjeta,Sucursal Norte,Santa Cruz,Miguel Flores
+801,2025-12-10,Tomate,Verduras,6,4.0,24.0,Efectivo,Sucursal Norte,La Paz,Luis Fernández
+802,2025-06-21,Jabón,Limpieza,9,4.0,36.0,Transferencia,Sucursal Norte,Cochabamba,Juan Pérez
+803,2025-09-06,Papas Fritas,Snacks,1,7.0,7.0,Efectivo,Sucursal Norte,Santa Cruz,Miguel Flores
+804,2025-12-13,Carne Res,Carnes,7,45.0,315.0,QR,Sucursal Sur,Cochabamba,José Gutiérrez
+805,2025-07-31,Detergente,Limpieza,8,25.0,200.0,Tarjeta,Sucursal Este,Santa Cruz,María López
+806,2025-08-12,Papa,Verduras,2,3.5,7.0,Tarjeta,Sucursal Sur,Tarija,Miguel Flores
+807,2025-03-11,Galletas,Snacks,12,6.0,72.0,Transferencia,Sucursal Sur,La Paz,Luis Fernández
+808,2025-01-17,Jabón,Limpieza,5,4.0,20.0,Efectivo,Sucursal Central,Santa Cruz,María López
+809,2025-03-29,Papa,Verduras,14,3.5,49.0,QR,Sucursal Sur,La Paz,Carlos Rojas
+810,2025-07-30,Papas Fritas,Snacks,3,7.0,21.0,Transferencia,Sucursal Sur,Tarija,Miguel Flores
+811,2025-08-08,Papa,Verduras,1,3.5,3.5,Tarjeta,Sucursal Sur,La Paz,Paola Ruiz
+812,2025-01-03,Detergente,Limpieza,19,25.0,475.0,Transferencia,Sucursal Norte,Cochabamba,Miguel Flores
+813,2025-07-21,Yogurt,Lácteos,17,8.0,136.0,Transferencia,Sucursal Norte,Sucre,Miguel Flores
+814,2025-01-07,Detergente,Limpieza,18,25.0,450.0,Transferencia,Sucursal Sur,Santa Cruz,José Gutiérrez
+815,2025-01-09,Pan Integral,Panadería,3,9.0,27.0,Transferencia,Sucursal Central,Santa Cruz,Miguel Flores
+816,2025-03-12,Yogurt,Lácteos,15,8.0,120.0,Transferencia,Sucursal Sur,La Paz,Miguel Flores
+817,2025-07-17,Queso,Lácteos,3,35.0,105.0,QR,Sucursal Oeste,Cochabamba,Luis Fernández
+818,2025-10-05,Banano,Frutas,20,2.0,40.0,Tarjeta,Sucursal Norte,Tarija,José Gutiérrez
+819,2025-01-27,Queso,Lácteos,12,35.0,420.0,Efectivo,Sucursal Este,La Paz,Miguel Flores
+820,2025-03-31,Yogurt,Lácteos,12,8.0,96.0,Efectivo,Sucursal Oeste,Santa Cruz,Carlos Rojas
+821,2025-02-28,Pollo,Carnes,18,28.0,504.0,Transferencia,Sucursal Oeste,Santa Cruz,Ana Vargas
+822,2025-09-15,Carne Res,Carnes,9,45.0,405.0,Transferencia,Sucursal Central,Cochabamba,María López
+823,2025-09-06,Carne Res,Carnes,15,45.0,675.0,Efectivo,Sucursal Este,Tarija,Luis Fernández
+824,2025-04-07,Papa,Verduras,3,3.5,10.5,Transferencia,Sucursal Norte,Cochabamba,Paola Ruiz
+825,2025-02-25,Galletas,Snacks,3,6.0,18.0,Tarjeta,Sucursal Central,Cochabamba,Carlos Rojas
+826,2025-09-24,Tomate,Verduras,7,4.0,28.0,Efectivo,Sucursal Central,Sucre,Carlos Rojas
+827,2025-08-16,Papa,Verduras,14,3.5,49.0,Efectivo,Sucursal Central,Santa Cruz,María López
+828,2025-11-27,Leche,Lácteos,17,12.0,204.0,QR,Sucursal Este,Tarija,José Gutiérrez
+829,2025-12-07,Carne Res,Carnes,19,45.0,855.0,Transferencia,Sucursal Este,La Paz,Carlos Rojas
+830,2025-04-27,Pan Integral,Panadería,9,9.0,81.0,Transferencia,Sucursal Central,La Paz,Juan Pérez
+831,2025-08-22,Galletas,Snacks,10,6.0,60.0,Tarjeta,Sucursal Oeste,Santa Cruz,Luis Fernández
+832,2025-03-24,Papas Fritas,Snacks,5,7.0,35.0,Tarjeta,Sucursal Norte,Cochabamba,José Gutiérrez
+833,2025-07-09,Galletas,Snacks,9,6.0,54.0,Tarjeta,Sucursal Sur,Tarija,Juan Pérez
+834,2025-07-10,Carne Res,Carnes,5,45.0,225.0,Transferencia,Sucursal Oeste,Santa Cruz,Luis Fernández
+835,2025-09-13,Gaseosa,Bebidas,13,15.0,195.0,Tarjeta,Sucursal Este,La Paz,Carlos Rojas
+836,2025-09-17,Queso,Lácteos,18,35.0,630.0,QR,Sucursal Central,Sucre,Luis Fernández
+837,2025-12-19,Galletas,Snacks,11,6.0,66.0,Efectivo,Sucursal Este,Cochabamba,Carlos Rojas
+838,2025-07-25,Agua,Bebidas,1,5.0,5.0,Tarjeta,Sucursal Este,La Paz,María López
+839,2025-11-25,Pollo,Carnes,20,28.0,560.0,Tarjeta,Sucursal Oeste,Tarija,Ana Vargas
+840,2025-02-12,Pan Integral,Panadería,1,9.0,9.0,Transferencia,Sucursal Norte,Tarija,Paola Ruiz
+841,2025-11-05,Jabón,Limpieza,11,4.0,44.0,Efectivo,Sucursal Central,Sucre,Carlos Rojas
+842,2025-07-10,Banano,Frutas,13,2.0,26.0,Efectivo,Sucursal Central,La Paz,José Gutiérrez
+843,2025-02-14,Pan Francés,Panadería,18,1.5,27.0,Tarjeta,Sucursal Este,Sucre,Miguel Flores
+844,2025-08-01,Pan Integral,Panadería,14,9.0,126.0,Tarjeta,Sucursal Oeste,Tarija,María López
+845,2025-09-01,Papas Fritas,Snacks,10,7.0,70.0,QR,Sucursal Norte,Tarija,Paola Ruiz
+846,2025-11-24,Gaseosa,Bebidas,14,15.0,210.0,QR,Sucursal Este,Santa Cruz,Miguel Flores
+847,2025-07-15,Papas Fritas,Snacks,6,7.0,42.0,QR,Sucursal Oeste,Sucre,Juan Pérez
+848,2025-10-14,Pan Francés,Panadería,16,1.5,24.0,Transferencia,Sucursal Sur,Cochabamba,Juan Pérez
+849,2025-11-24,Galletas,Snacks,10,6.0,60.0,Transferencia,Sucursal Norte,La Paz,Paola Ruiz
+850,2025-01-15,Galletas,Snacks,8,6.0,48.0,Efectivo,Sucursal Central,Sucre,María López
+851,2025-08-12,Carne Res,Carnes,19,45.0,855.0,QR,Sucursal Este,Cochabamba,José Gutiérrez
+852,2025-10-25,Yogurt,Lácteos,6,8.0,48.0,Efectivo,Sucursal Sur,La Paz,Miguel Flores
+853,2025-01-28,Galletas,Snacks,6,6.0,36.0,QR,Sucursal Central,Sucre,José Gutiérrez
+854,2025-09-29,Yogurt,Lácteos,10,8.0,80.0,Efectivo,Sucursal Oeste,Santa Cruz,Carlos Rojas
+855,2025-10-06,Jugo,Bebidas,6,10.0,60.0,QR,Sucursal Central,La Paz,Luis Fernández
+856,2025-10-24,Pollo,Carnes,18,28.0,504.0,QR,Sucursal Sur,Cochabamba,Carlos Rojas
+857,2025-07-30,Pan Francés,Panadería,16,1.5,24.0,QR,Sucursal Sur,Cochabamba,Ana Vargas
+858,2025-10-14,Papas Fritas,Snacks,7,7.0,49.0,Efectivo,Sucursal Este,Sucre,María López
+859,2025-09-03,Gaseosa,Bebidas,1,15.0,15.0,QR,Sucursal Central,La Paz,Carlos Rojas
+860,2025-12-30,Papa,Verduras,6,3.5,21.0,QR,Sucursal Norte,Cochabamba,Ana Vargas
+861,2025-06-07,Papas Fritas,Snacks,8,7.0,56.0,Tarjeta,Sucursal Sur,Santa Cruz,María López
+862,2025-01-10,Manzana,Frutas,3,3.0,9.0,Transferencia,Sucursal Este,Cochabamba,Ana Vargas
+863,2025-10-31,Gaseosa,Bebidas,17,15.0,255.0,Efectivo,Sucursal Este,Cochabamba,Luis Fernández
+864,2025-12-08,Leche,Lácteos,10,12.0,120.0,Efectivo,Sucursal Norte,Cochabamba,Ana Vargas
+865,2025-01-15,Detergente,Limpieza,12,25.0,300.0,Efectivo,Sucursal Sur,La Paz,José Gutiérrez
+866,2025-11-10,Pollo,Carnes,17,28.0,476.0,Tarjeta,Sucursal Oeste,Tarija,María López
+867,2025-09-28,Jugo,Bebidas,1,10.0,10.0,Tarjeta,Sucursal Sur,La Paz,Carlos Rojas
+868,2025-04-20,Queso,Lácteos,4,35.0,140.0,Transferencia,Sucursal Central,Tarija,Carlos Rojas
+869,2025-07-01,Tomate,Verduras,6,4.0,24.0,Transferencia,Sucursal Este,Santa Cruz,Ana Vargas
+870,2025-03-05,Manzana,Frutas,11,3.0,33.0,Transferencia,Sucursal Norte,Tarija,Carlos Rojas
+871,2025-10-13,Papa,Verduras,10,3.5,35.0,Efectivo,Sucursal Norte,La Paz,Miguel Flores
+872,2025-08-22,Agua,Bebidas,10,5.0,50.0,QR,Sucursal Este,Santa Cruz,Paola Ruiz
+873,2025-02-05,Pan Francés,Panadería,7,1.5,10.5,Transferencia,Sucursal Central,Santa Cruz,Juan Pérez
+874,2025-08-13,Tomate,Verduras,13,4.0,52.0,Efectivo,Sucursal Norte,Santa Cruz,Paola Ruiz
+875,2025-02-03,Manzana,Frutas,6,3.0,18.0,QR,Sucursal Sur,La Paz,Ana Vargas
+876,2025-08-06,Manzana,Frutas,8,3.0,24.0,Transferencia,Sucursal Central,Tarija,Luis Fernández
+877,2025-12-08,Banano,Frutas,16,2.0,32.0,Transferencia,Sucursal Este,Tarija,Luis Fernández
+878,2025-03-04,Galletas,Snacks,4,6.0,24.0,QR,Sucursal Este,Sucre,Ana Vargas
+879,2025-01-28,Papas Fritas,Snacks,4,7.0,28.0,Efectivo,Sucursal Este,Cochabamba,Carlos Rojas
+880,2025-06-05,Banano,Frutas,5,2.0,10.0,Efectivo,Sucursal Norte,Tarija,Miguel Flores
+881,2025-12-05,Tomate,Verduras,10,4.0,40.0,Transferencia,Sucursal Este,Tarija,Luis Fernández
+882,2025-08-09,Pollo,Carnes,2,28.0,56.0,Efectivo,Sucursal Este,Sucre,José Gutiérrez
+883,2025-01-19,Banano,Frutas,15,2.0,30.0,Efectivo,Sucursal Sur,Tarija,Luis Fernández
+884,2025-03-10,Galletas,Snacks,14,6.0,84.0,QR,Sucursal Este,Sucre,María López
+885,2025-10-15,Papa,Verduras,16,3.5,56.0,Tarjeta,Sucursal Oeste,Cochabamba,Paola Ruiz
+886,2025-07-13,Pan Francés,Panadería,19,1.5,28.5,QR,Sucursal Central,La Paz,Juan Pérez
+887,2025-03-07,Queso,Lácteos,2,35.0,70.0,QR,Sucursal Central,Tarija,Juan Pérez
+888,2025-08-08,Carne Res,Carnes,4,45.0,180.0,QR,Sucursal Central,Sucre,José Gutiérrez
+889,2025-05-07,Queso,Lácteos,8,35.0,280.0,Tarjeta,Sucursal Central,Tarija,María López
+890,2025-06-22,Agua,Bebidas,4,5.0,20.0,Tarjeta,Sucursal Norte,Tarija,José Gutiérrez
+891,2025-10-18,Yogurt,Lácteos,14,8.0,112.0,Transferencia,Sucursal Central,Cochabamba,Miguel Flores
+892,2025-10-20,Yogurt,Lácteos,13,8.0,104.0,Transferencia,Sucursal Central,Tarija,María López
+893,2025-06-22,Tomate,Verduras,7,4.0,28.0,Transferencia,Sucursal Oeste,La Paz,Carlos Rojas
+894,2025-04-14,Pan Francés,Panadería,14,1.5,21.0,Transferencia,Sucursal Norte,Tarija,Ana Vargas
+895,2025-06-02,Pan Francés,Panadería,2,1.5,3.0,Transferencia,Sucursal Sur,Tarija,María López
+896,2025-05-20,Jugo,Bebidas,11,10.0,110.0,Efectivo,Sucursal Oeste,Tarija,Miguel Flores
+897,2025-02-09,Manzana,Frutas,12,3.0,36.0,QR,Sucursal Oeste,La Paz,Paola Ruiz
+898,2025-07-25,Pollo,Carnes,14,28.0,392.0,QR,Sucursal Oeste,Tarija,Miguel Flores
+899,2025-04-06,Papas Fritas,Snacks,17,7.0,119.0,Transferencia,Sucursal Sur,Sucre,Luis Fernández
+900,2025-04-13,Manzana,Frutas,17,3.0,51.0,QR,Sucursal Este,Santa Cruz,Ana Vargas
+901,2025-07-30,Galletas,Snacks,14,6.0,84.0,QR,Sucursal Norte,Santa Cruz,Paola Ruiz
+902,2025-05-12,Pan Francés,Panadería,6,1.5,9.0,Tarjeta,Sucursal Este,Santa Cruz,María López
+903,2025-05-06,Papas Fritas,Snacks,1,7.0,7.0,QR,Sucursal Este,Sucre,Paola Ruiz
+904,2025-03-23,Manzana,Frutas,7,3.0,21.0,QR,Sucursal Sur,Cochabamba,Luis Fernández
+905,2025-09-06,Pan Integral,Panadería,2,9.0,18.0,Efectivo,Sucursal Norte,Cochabamba,José Gutiérrez
+906,2025-07-06,Pan Integral,Panadería,14,9.0,126.0,Efectivo,Sucursal Este,Santa Cruz,Ana Vargas
+907,2025-03-03,Jugo,Bebidas,17,10.0,170.0,QR,Sucursal Este,Cochabamba,Ana Vargas
+908,2025-10-27,Agua,Bebidas,11,5.0,55.0,Transferencia,Sucursal Sur,Sucre,Ana Vargas
+909,2025-04-20,Papas Fritas,Snacks,6,7.0,42.0,QR,Sucursal Este,Sucre,Luis Fernández
+910,2025-07-11,Yogurt,Lácteos,18,8.0,144.0,Efectivo,Sucursal Central,Tarija,Paola Ruiz
+911,2025-03-16,Tomate,Verduras,9,4.0,36.0,QR,Sucursal Este,La Paz,Luis Fernández
+912,2025-01-18,Queso,Lácteos,20,35.0,700.0,Efectivo,Sucursal Sur,La Paz,Paola Ruiz
+913,2025-10-01,Pan Francés,Panadería,4,1.5,6.0,Tarjeta,Sucursal Este,Sucre,Juan Pérez
+914,2025-02-16,Banano,Frutas,10,2.0,20.0,Tarjeta,Sucursal Central,Santa Cruz,Carlos Rojas
+915,2025-01-18,Papa,Verduras,14,3.5,49.0,QR,Sucursal Norte,Sucre,Miguel Flores
+916,2025-02-21,Banano,Frutas,14,2.0,28.0,Tarjeta,Sucursal Central,Tarija,María López
+917,2025-10-08,Carne Res,Carnes,20,45.0,900.0,QR,Sucursal Este,Cochabamba,Juan Pérez
+918,2025-01-02,Galletas,Snacks,5,6.0,30.0,Transferencia,Sucursal Sur,La Paz,José Gutiérrez
+919,2025-05-08,Gaseosa,Bebidas,6,15.0,90.0,Tarjeta,Sucursal Oeste,Sucre,José Gutiérrez
+920,2025-05-14,Papa,Verduras,5,3.5,17.5,Tarjeta,Sucursal Oeste,La Paz,Luis Fernández
+921,2025-07-08,Detergente,Limpieza,14,25.0,350.0,Tarjeta,Sucursal Este,Sucre,Ana Vargas
+922,2025-11-28,Leche,Lácteos,18,12.0,216.0,Tarjeta,Sucursal Norte,Sucre,Ana Vargas
+923,2025-07-25,Pan Integral,Panadería,2,9.0,18.0,Transferencia,Sucursal Oeste,La Paz,Carlos Rojas
+924,2025-10-18,Agua,Bebidas,6,5.0,30.0,Efectivo,Sucursal Norte,Tarija,Paola Ruiz
+925,2025-04-25,Papa,Verduras,4,3.5,14.0,Tarjeta,Sucursal Sur,La Paz,Luis Fernández
+926,2025-08-09,Papa,Verduras,5,3.5,17.5,Tarjeta,Sucursal Oeste,Santa Cruz,Luis Fernández
+927,2025-07-29,Jabón,Limpieza,6,4.0,24.0,Tarjeta,Sucursal Norte,La Paz,Luis Fernández
+928,2025-07-09,Jabón,Limpieza,8,4.0,32.0,Transferencia,Sucursal Norte,Cochabamba,Miguel Flores
+929,2025-12-18,Galletas,Snacks,13,6.0,78.0,Tarjeta,Sucursal Este,Sucre,Luis Fernández
+930,2025-01-31,Gaseosa,Bebidas,18,15.0,270.0,Efectivo,Sucursal Central,Santa Cruz,Miguel Flores
+931,2025-05-10,Pollo,Carnes,1,28.0,28.0,Transferencia,Sucursal Central,Sucre,José Gutiérrez
+932,2025-04-02,Papas Fritas,Snacks,19,7.0,133.0,QR,Sucursal Sur,Tarija,Miguel Flores
+933,2025-02-15,Carne Res,Carnes,5,45.0,225.0,QR,Sucursal Oeste,Sucre,Carlos Rojas
+934,2025-01-23,Pan Integral,Panadería,11,9.0,99.0,Tarjeta,Sucursal Este,La Paz,José Gutiérrez
+935,2025-11-10,Banano,Frutas,9,2.0,18.0,QR,Sucursal Oeste,La Paz,Paola Ruiz
+936,2025-03-19,Galletas,Snacks,16,6.0,96.0,Transferencia,Sucursal Norte,Santa Cruz,Carlos Rojas
+937,2025-01-19,Leche,Lácteos,6,12.0,72.0,Transferencia,Sucursal Central,Santa Cruz,Miguel Flores
+938,2025-01-21,Manzana,Frutas,16,3.0,48.0,Transferencia,Sucursal Central,Tarija,Miguel Flores
+939,2025-03-17,Papa,Verduras,4,3.5,14.0,Efectivo,Sucursal Central,Cochabamba,Ana Vargas
+940,2025-09-18,Pan Integral,Panadería,6,9.0,54.0,QR,Sucursal Oeste,Tarija,Ana Vargas
+941,2025-04-03,Queso,Lácteos,19,35.0,665.0,Transferencia,Sucursal Norte,Santa Cruz,Miguel Flores
+942,2025-05-26,Agua,Bebidas,1,5.0,5.0,Efectivo,Sucursal Este,La Paz,María López
+943,2025-02-11,Pollo,Carnes,1,28.0,28.0,Transferencia,Sucursal Este,Sucre,Luis Fernández
+944,2025-12-02,Yogurt,Lácteos,2,8.0,16.0,Transferencia,Sucursal Central,Tarija,Carlos Rojas
+945,2025-06-15,Detergente,Limpieza,10,25.0,250.0,Efectivo,Sucursal Norte,Tarija,Paola Ruiz
+946,2025-04-02,Agua,Bebidas,9,5.0,45.0,Tarjeta,Sucursal Este,Cochabamba,Juan Pérez
+947,2025-07-26,Detergente,Limpieza,13,25.0,325.0,QR,Sucursal Sur,Cochabamba,Luis Fernández
+948,2025-12-17,Papa,Verduras,10,3.5,35.0,Tarjeta,Sucursal Central,Cochabamba,José Gutiérrez
+949,2025-07-18,Jabón,Limpieza,15,4.0,60.0,Transferencia,Sucursal Central,Tarija,Paola Ruiz
+950,2025-11-11,Agua,Bebidas,12,5.0,60.0,Tarjeta,Sucursal Este,Sucre,María López
+951,2025-08-26,Queso,Lácteos,11,35.0,385.0,Tarjeta,Sucursal Sur,Sucre,María López
+952,2025-02-10,Pan Francés,Panadería,14,1.5,21.0,Transferencia,Sucursal Central,Santa Cruz,Carlos Rojas
+953,2025-08-07,Pan Integral,Panadería,17,9.0,153.0,QR,Sucursal Oeste,Cochabamba,María López
+954,2025-09-19,Queso,Lácteos,4,35.0,140.0,Transferencia,Sucursal Este,Cochabamba,Miguel Flores
+955,2025-10-27,Pan Francés,Panadería,9,1.5,13.5,Efectivo,Sucursal Oeste,Cochabamba,María López
+956,2025-07-21,Tomate,Verduras,6,4.0,24.0,Efectivo,Sucursal Norte,Sucre,Luis Fernández
+957,2025-11-16,Carne Res,Carnes,15,45.0,675.0,QR,Sucursal Central,Santa Cruz,Ana Vargas
+958,2025-05-13,Papas Fritas,Snacks,20,7.0,140.0,Efectivo,Sucursal Este,Tarija,Juan Pérez
+959,2025-01-07,Yogurt,Lácteos,4,8.0,32.0,Tarjeta,Sucursal Este,Sucre,Paola Ruiz
+960,2025-11-12,Papa,Verduras,20,3.5,70.0,QR,Sucursal Este,La Paz,María López
+961,2025-04-08,Papas Fritas,Snacks,1,7.0,7.0,Efectivo,Sucursal Norte,Santa Cruz,Juan Pérez
+962,2025-11-29,Jabón,Limpieza,5,4.0,20.0,Tarjeta,Sucursal Este,Tarija,Ana Vargas
+963,2025-03-17,Agua,Bebidas,15,5.0,75.0,Transferencia,Sucursal Este,Cochabamba,María López
+964,2025-09-06,Papas Fritas,Snacks,15,7.0,105.0,Transferencia,Sucursal Norte,Sucre,Ana Vargas
+965,2025-07-20,Jabón,Limpieza,19,4.0,76.0,Efectivo,Sucursal Central,Cochabamba,María López
+966,2025-10-24,Banano,Frutas,16,2.0,32.0,QR,Sucursal Norte,Sucre,Paola Ruiz
+967,2025-02-01,Papa,Verduras,8,3.5,28.0,Efectivo,Sucursal Este,Tarija,José Gutiérrez
+968,2025-08-31,Agua,Bebidas,14,5.0,70.0,Efectivo,Sucursal Este,Tarija,José Gutiérrez
+969,2025-03-24,Papa,Verduras,1,3.5,3.5,QR,Sucursal Sur,Sucre,José Gutiérrez
+970,2025-04-23,Tomate,Verduras,17,4.0,68.0,QR,Sucursal Oeste,Sucre,Carlos Rojas
+971,2025-12-11,Pan Francés,Panadería,14,1.5,21.0,QR,Sucursal Este,Santa Cruz,Ana Vargas
+972,2025-03-08,Pan Integral,Panadería,16,9.0,144.0,Tarjeta,Sucursal Sur,Santa Cruz,Miguel Flores
+973,2025-06-05,Agua,Bebidas,16,5.0,80.0,Tarjeta,Sucursal Sur,Tarija,Juan Pérez
+974,2025-07-02,Yogurt,Lácteos,9,8.0,72.0,Tarjeta,Sucursal Sur,Tarija,Juan Pérez
+975,2025-02-28,Agua,Bebidas,14,5.0,70.0,Tarjeta,Sucursal Norte,Tarija,Ana Vargas
+976,2025-07-01,Papa,Verduras,11,3.5,38.5,Efectivo,Sucursal Oeste,La Paz,Carlos Rojas
+977,2025-08-13,Jugo,Bebidas,2,10.0,20.0,Transferencia,Sucursal Norte,Cochabamba,María López
+978,2025-03-27,Queso,Lácteos,4,35.0,140.0,Efectivo,Sucursal Sur,La Paz,Carlos Rojas
+979,2025-09-13,Pan Francés,Panadería,17,1.5,25.5,Efectivo,Sucursal Sur,La Paz,José Gutiérrez
+980,2025-08-13,Papas Fritas,Snacks,7,7.0,49.0,Transferencia,Sucursal Norte,Santa Cruz,Miguel Flores
+981,2025-03-29,Carne Res,Carnes,17,45.0,765.0,Efectivo,Sucursal Central,La Paz,Paola Ruiz
+982,2025-09-29,Pollo,Carnes,5,28.0,140.0,Transferencia,Sucursal Sur,Santa Cruz,Paola Ruiz
+983,2025-09-22,Banano,Frutas,15,2.0,30.0,QR,Sucursal Norte,Sucre,Carlos Rojas
+984,2025-02-05,Queso,Lácteos,17,35.0,595.0,Efectivo,Sucursal Central,La Paz,Paola Ruiz
+985,2025-07-21,Galletas,Snacks,2,6.0,12.0,Efectivo,Sucursal Sur,Tarija,Juan Pérez
+986,2025-12-15,Pan Francés,Panadería,13,1.5,19.5,QR,Sucursal Central,La Paz,Juan Pérez
+987,2025-08-17,Pan Integral,Panadería,13,9.0,117.0,Tarjeta,Sucursal Oeste,Tarija,Miguel Flores
+988,2025-06-04,Carne Res,Carnes,7,45.0,315.0,Efectivo,Sucursal Norte,Tarija,José Gutiérrez
+989,2025-10-04,Manzana,Frutas,17,3.0,51.0,QR,Sucursal Sur,Cochabamba,Luis Fernández
+990,2025-01-15,Pollo,Carnes,1,28.0,28.0,QR,Sucursal Sur,La Paz,Paola Ruiz
+991,2025-07-10,Jugo,Bebidas,2,10.0,20.0,QR,Sucursal Oeste,La Paz,María López
+992,2025-08-18,Queso,Lácteos,4,35.0,140.0,QR,Sucursal Oeste,Cochabamba,Miguel Flores
+993,2025-10-17,Pollo,Carnes,19,28.0,532.0,Tarjeta,Sucursal Central,La Paz,Luis Fernández
+994,2025-05-07,Galletas,Snacks,17,6.0,102.0,Efectivo,Sucursal Central,Tarija,Ana Vargas
+995,2025-03-17,Carne Res,Carnes,4,45.0,180.0,Transferencia,Sucursal Este,Cochabamba,María López
+996,2025-09-01,Yogurt,Lácteos,5,8.0,40.0,Tarjeta,Sucursal Este,Cochabamba,José Gutiérrez
+997,2025-10-27,Banano,Frutas,9,2.0,18.0,Transferencia,Sucursal Este,Sucre,Miguel Flores
+998,2025-09-16,Manzana,Frutas,5,3.0,15.0,Tarjeta,Sucursal Este,Sucre,Carlos Rojas
+999,2025-08-22,Jugo,Bebidas,7,10.0,70.0,Transferencia,Sucursal Norte,Santa Cruz,José Gutiérrez
+1000,2025-02-26,Jugo,Bebidas,14,10.0,140.0,Efectivo,Sucursal Central,Tarija,Luis Fernández
+1001,2025-03-02,Queso,Lácteos,5,35.0,175.0,QR,Sucursal Central,La Paz,Luis Fernández
+1002,2025-03-15,Pan Francés,Panadería,1,1.5,1.5,Tarjeta,Sucursal Oeste,Sucre,Juan Pérez
+1003,2025-04-04,Pan Francés,Panadería,7,1.5,10.5,Transferencia,Sucursal Norte,Cochabamba,José Gutiérrez
+1004,2025-09-04,Gaseosa,Bebidas,14,15.0,210.0,QR,Sucursal Oeste,Sucre,José Gutiérrez
+1005,2025-03-09,Banano,Frutas,20,2.0,40.0,Tarjeta,Sucursal Oeste,Sucre,Miguel Flores
+1006,2025-02-15,Tomate,Verduras,11,4.0,44.0,Transferencia,Sucursal Este,Santa Cruz,Paola Ruiz
+1007,2025-05-23,Pollo,Carnes,15,28.0,420.0,Efectivo,Sucursal Sur,Cochabamba,Luis Fernández
+1008,2025-02-13,Jugo,Bebidas,18,10.0,180.0,Tarjeta,Sucursal Oeste,Tarija,Juan Pérez
+1009,2025-01-10,Jabón,Limpieza,17,4.0,68.0,Efectivo,Sucursal Oeste,Santa Cruz,Juan Pérez
+1010,2025-12-28,Pan Integral,Panadería,8,9.0,72.0,Transferencia,Sucursal Norte,Tarija,José Gutiérrez
+1011,2025-01-12,Manzana,Frutas,16,3.0,48.0,QR,Sucursal Este,Santa Cruz,Paola Ruiz
+1012,2025-07-15,Queso,Lácteos,11,35.0,385.0,QR,Sucursal Norte,Cochabamba,María López
+1013,2025-04-04,Galletas,Snacks,5,6.0,30.0,QR,Sucursal Norte,Santa Cruz,Luis Fernández
+1014,2025-11-11,Manzana,Frutas,2,3.0,6.0,QR,Sucursal Sur,Cochabamba,Juan Pérez
+1015,2025-06-13,Pan Francés,Panadería,4,1.5,6.0,Tarjeta,Sucursal Este,La Paz,Luis Fernández
+1016,2025-04-14,Manzana,Frutas,2,3.0,6.0,Tarjeta,Sucursal Oeste,Tarija,Ana Vargas
+1017,2025-05-18,Papa,Verduras,4,3.5,14.0,Efectivo,Sucursal Central,Sucre,Paola Ruiz
+1018,2025-07-28,Agua,Bebidas,1,5.0,5.0,Tarjeta,Sucursal Norte,La Paz,María López
+1019,2025-10-18,Detergente,Limpieza,10,25.0,250.0,Transferencia,Sucursal Este,Cochabamba,Ana Vargas
+1020,2025-03-28,Galletas,Snacks,18,6.0,108.0,Tarjeta,Sucursal Oeste,Sucre,Miguel Flores
+1021,2025-11-14,Leche,Lácteos,15,12.0,180.0,QR,Sucursal Sur,Cochabamba,Juan Pérez
+1022,2025-05-09,Papa,Verduras,20,3.5,70.0,Transferencia,Sucursal Central,Santa Cruz,Luis Fernández
+1023,2025-10-16,Leche,Lácteos,18,12.0,216.0,Efectivo,Sucursal Central,Cochabamba,Paola Ruiz
+1024,2025-05-24,Gaseosa,Bebidas,18,15.0,270.0,Transferencia,Sucursal Sur,Tarija,José Gutiérrez
+1025,2025-05-20,Carne Res,Carnes,15,45.0,675.0,Tarjeta,Sucursal Central,La Paz,Ana Vargas
+1026,2025-12-21,Papa,Verduras,1,3.5,3.5,Tarjeta,Sucursal Norte,Tarija,Miguel Flores
+1027,2025-07-31,Leche,Lácteos,6,12.0,72.0,Transferencia,Sucursal Este,Tarija,María López
+1028,2025-12-10,Jugo,Bebidas,1,10.0,10.0,Transferencia,Sucursal Norte,La Paz,Paola Ruiz
+1029,2025-12-23,Carne Res,Carnes,6,45.0,270.0,Efectivo,Sucursal Norte,Sucre,José Gutiérrez
+1030,2025-04-24,Jabón,Limpieza,1,4.0,4.0,Efectivo,Sucursal Central,La Paz,Ana Vargas
+1031,2025-04-24,Jugo,Bebidas,10,10.0,100.0,Tarjeta,Sucursal Este,La Paz,Juan Pérez
+1032,2025-04-18,Pan Francés,Panadería,20,1.5,30.0,Efectivo,Sucursal Sur,Sucre,María López
+1033,2025-10-10,Pan Francés,Panadería,6,1.5,9.0,Tarjeta,Sucursal Oeste,Tarija,Carlos Rojas
+1034,2025-02-03,Jugo,Bebidas,5,10.0,50.0,Tarjeta,Sucursal Central,Tarija,Ana Vargas
+1035,2025-12-21,Pan Integral,Panadería,1,9.0,9.0,QR,Sucursal Oeste,Sucre,Juan Pérez
+1036,2025-08-10,Manzana,Frutas,11,3.0,33.0,Transferencia,Sucursal Central,Cochabamba,Miguel Flores
+1037,2025-01-23,Papa,Verduras,17,3.5,59.5,Tarjeta,Sucursal Norte,La Paz,Paola Ruiz
+1038,2025-07-20,Papa,Verduras,1,3.5,3.5,Tarjeta,Sucursal Central,Cochabamba,Juan Pérez
+1039,2025-05-08,Jabón,Limpieza,3,4.0,12.0,Tarjeta,Sucursal Sur,La Paz,Luis Fernández
+1040,2025-01-15,Jugo,Bebidas,4,10.0,40.0,Transferencia,Sucursal Este,Cochabamba,José Gutiérrez
+1041,2025-08-31,Pan Integral,Panadería,4,9.0,36.0,Tarjeta,Sucursal Central,Cochabamba,José Gutiérrez
+1042,2025-11-14,Detergente,Limpieza,20,25.0,500.0,Transferencia,Sucursal Norte,Sucre,María López
+1043,2025-07-13,Gaseosa,Bebidas,2,15.0,30.0,QR,Sucursal Norte,Santa Cruz,Juan Pérez
+1044,2025-11-09,Tomate,Verduras,10,4.0,40.0,Transferencia,Sucursal Norte,Cochabamba,Juan Pérez
+1045,2025-07-25,Yogurt,Lácteos,13,8.0,104.0,Efectivo,Sucursal Oeste,Sucre,Ana Vargas
+1046,2025-08-26,Yogurt,Lácteos,13,8.0,104.0,Transferencia,Sucursal Oeste,Tarija,María López
+1047,2025-09-22,Pollo,Carnes,15,28.0,420.0,QR,Sucursal Oeste,Santa Cruz,María López
+1048,2025-02-04,Gaseosa,Bebidas,20,15.0,300.0,Tarjeta,Sucursal Oeste,Santa Cruz,Luis Fernández
+1049,2025-11-14,Carne Res,Carnes,16,45.0,720.0,Transferencia,Sucursal Sur,Santa Cruz,Carlos Rojas
+1050,2025-06-09,Leche,Lácteos,5,12.0,60.0,Transferencia,Sucursal Oeste,La Paz,Luis Fernández
+1051,2025-06-08,Papas Fritas,Snacks,16,7.0,112.0,QR,Sucursal Central,La Paz,Juan Pérez
+1052,2025-09-17,Papas Fritas,Snacks,8,7.0,56.0,Efectivo,Sucursal Este,La Paz,Ana Vargas
+1053,2025-06-24,Detergente,Limpieza,3,25.0,75.0,Tarjeta,Sucursal Este,Sucre,José Gutiérrez
+1054,2025-06-18,Carne Res,Carnes,14,45.0,630.0,Tarjeta,Sucursal Norte,Sucre,Juan Pérez
+1055,2025-11-24,Tomate,Verduras,1,4.0,4.0,Tarjeta,Sucursal Sur,Sucre,Ana Vargas
+1056,2025-07-12,Jabón,Limpieza,11,4.0,44.0,Tarjeta,Sucursal Este,Santa Cruz,Juan Pérez
+1057,2025-07-03,Pollo,Carnes,3,28.0,84.0,Efectivo,Sucursal Oeste,Cochabamba,Carlos Rojas
+1058,2025-11-20,Pan Francés,Panadería,7,1.5,10.5,QR,Sucursal Norte,Cochabamba,Ana Vargas
+1059,2025-04-23,Jabón,Limpieza,6,4.0,24.0,QR,Sucursal Sur,La Paz,Ana Vargas
+1060,2025-04-01,Papas Fritas,Snacks,1,7.0,7.0,QR,Sucursal Norte,Cochabamba,Carlos Rojas
+1061,2025-04-18,Manzana,Frutas,11,3.0,33.0,QR,Sucursal Este,Santa Cruz,José Gutiérrez
+1062,2025-11-16,Pollo,Carnes,17,28.0,476.0,Transferencia,Sucursal Norte,Cochabamba,Carlos Rojas
+1063,2025-09-30,Papas Fritas,Snacks,7,7.0,49.0,Transferencia,Sucursal Central,La Paz,Paola Ruiz
+1064,2025-10-28,Detergente,Limpieza,20,25.0,500.0,Tarjeta,Sucursal Oeste,La Paz,Carlos Rojas
+1065,2025-11-19,Pollo,Carnes,2,28.0,56.0,QR,Sucursal Sur,Tarija,Miguel Flores
+1066,2025-12-06,Detergente,Limpieza,16,25.0,400.0,Efectivo,Sucursal Sur,Tarija,Paola Ruiz
+1067,2025-08-26,Carne Res,Carnes,17,45.0,765.0,Tarjeta,Sucursal Central,La Paz,Miguel Flores
+1068,2025-10-25,Papa,Verduras,9,3.5,31.5,Transferencia,Sucursal Oeste,Cochabamba,Ana Vargas
+1069,2025-05-01,Detergente,Limpieza,15,25.0,375.0,Transferencia,Sucursal Sur,La Paz,Paola Ruiz
+1070,2025-05-11,Manzana,Frutas,12,3.0,36.0,Efectivo,Sucursal Sur,Cochabamba,Luis Fernández
+1071,2025-10-26,Papa,Verduras,8,3.5,28.0,Efectivo,Sucursal Este,Tarija,José Gutiérrez
+1072,2025-08-10,Banano,Frutas,15,2.0,30.0,Transferencia,Sucursal Central,Sucre,José Gutiérrez
+1073,2025-04-02,Pan Francés,Panadería,1,1.5,1.5,Transferencia,Sucursal Sur,La Paz,María López
+1074,2025-09-14,Pollo,Carnes,10,28.0,280.0,Efectivo,Sucursal Central,Santa Cruz,María López
+1075,2025-01-20,Gaseosa,Bebidas,12,15.0,180.0,Tarjeta,Sucursal Central,Santa Cruz,José Gutiérrez
+1076,2025-04-08,Pan Francés,Panadería,9,1.5,13.5,Tarjeta,Sucursal Oeste,La Paz,Juan Pérez
+1077,2025-07-26,Pan Francés,Panadería,12,1.5,18.0,Transferencia,Sucursal Oeste,Cochabamba,Miguel Flores
+1078,2025-04-27,Galletas,Snacks,8,6.0,48.0,Tarjeta,Sucursal Este,Santa Cruz,Miguel Flores
+1079,2025-06-10,Papa,Verduras,3,3.5,10.5,Tarjeta,Sucursal Este,Sucre,Ana Vargas
+1080,2025-01-16,Papa,Verduras,18,3.5,63.0,QR,Sucursal Sur,Tarija,Carlos Rojas
+1081,2025-12-04,Pan Integral,Panadería,16,9.0,144.0,QR,Sucursal Central,Santa Cruz,Paola Ruiz
+1082,2025-06-03,Banano,Frutas,18,2.0,36.0,QR,Sucursal Oeste,Cochabamba,Juan Pérez
+1083,2025-10-18,Papas Fritas,Snacks,11,7.0,77.0,Transferencia,Sucursal Este,Santa Cruz,Paola Ruiz
+1084,2025-04-07,Jugo,Bebidas,13,10.0,130.0,Transferencia,Sucursal Norte,La Paz,Miguel Flores
+1085,2025-02-23,Pan Integral,Panadería,6,9.0,54.0,Tarjeta,Sucursal Norte,Tarija,Miguel Flores
+1086,2025-02-05,Leche,Lácteos,7,12.0,84.0,Transferencia,Sucursal Central,Santa Cruz,Ana Vargas
+1087,2025-01-30,Pan Integral,Panadería,15,9.0,135.0,QR,Sucursal Oeste,Cochabamba,Carlos Rojas
+1088,2025-03-22,Carne Res,Carnes,13,45.0,585.0,Efectivo,Sucursal Sur,Tarija,Paola Ruiz
+1089,2025-04-16,Tomate,Verduras,13,4.0,52.0,Tarjeta,Sucursal Sur,La Paz,Paola Ruiz
+1090,2025-10-22,Tomate,Verduras,20,4.0,80.0,QR,Sucursal Oeste,Santa Cruz,Miguel Flores
+1091,2025-03-15,Pan Integral,Panadería,1,9.0,9.0,Transferencia,Sucursal Norte,Sucre,Ana Vargas
+1092,2025-08-25,Carne Res,Carnes,15,45.0,675.0,Efectivo,Sucursal Norte,La Paz,Miguel Flores
+1093,2025-11-10,Carne Res,Carnes,13,45.0,585.0,Tarjeta,Sucursal Este,Santa Cruz,Carlos Rojas
+1094,2025-12-04,Banano,Frutas,13,2.0,26.0,Tarjeta,Sucursal Oeste,Cochabamba,Paola Ruiz
+1095,2025-05-21,Leche,Lácteos,6,12.0,72.0,QR,Sucursal Norte,Santa Cruz,Miguel Flores
+1096,2025-02-09,Manzana,Frutas,12,3.0,36.0,Efectivo,Sucursal Oeste,La Paz,Paola Ruiz
+1097,2025-04-17,Tomate,Verduras,9,4.0,36.0,Efectivo,Sucursal Este,Cochabamba,María López
+1098,2025-07-24,Papa,Verduras,11,3.5,38.5,Tarjeta,Sucursal Este,Cochabamba,Juan Pérez
+1099,2025-06-17,Pan Integral,Panadería,5,9.0,45.0,Transferencia,Sucursal Este,Sucre,María López
+1100,2025-08-13,Jugo,Bebidas,8,10.0,80.0,Tarjeta,Sucursal Este,La Paz,Carlos Rojas
+1101,2025-02-21,Papas Fritas,Snacks,20,7.0,140.0,Tarjeta,Sucursal Central,Cochabamba,Paola Ruiz
+1102,2025-12-13,Papas Fritas,Snacks,1,7.0,7.0,QR,Sucursal Sur,Sucre,José Gutiérrez
+1103,2025-12-12,Papas Fritas,Snacks,2,7.0,14.0,Tarjeta,Sucursal Este,Cochabamba,María López
+1104,2025-01-27,Banano,Frutas,15,2.0,30.0,Efectivo,Sucursal Norte,Sucre,Ana Vargas
+1105,2025-04-13,Jabón,Limpieza,8,4.0,32.0,Efectivo,Sucursal Norte,Sucre,Juan Pérez
+1106,2025-12-15,Yogurt,Lácteos,7,8.0,56.0,Efectivo,Sucursal Sur,Cochabamba,Carlos Rojas
+1107,2025-09-20,Papas Fritas,Snacks,14,7.0,98.0,Efectivo,Sucursal Central,La Paz,Ana Vargas
+1108,2025-03-03,Jabón,Limpieza,14,4.0,56.0,Tarjeta,Sucursal Sur,Cochabamba,José Gutiérrez
+1109,2025-07-25,Pollo,Carnes,1,28.0,28.0,QR,Sucursal Norte,Sucre,Ana Vargas
+1110,2025-12-03,Tomate,Verduras,3,4.0,12.0,QR,Sucursal Oeste,La Paz,Juan Pérez
+1111,2025-06-04,Gaseosa,Bebidas,14,15.0,210.0,Transferencia,Sucursal Norte,Tarija,Carlos Rojas
+1112,2025-06-16,Pan Integral,Panadería,20,9.0,180.0,Transferencia,Sucursal Sur,La Paz,Carlos Rojas
+1113,2025-06-21,Carne Res,Carnes,3,45.0,135.0,Efectivo,Sucursal Oeste,Tarija,Miguel Flores
+1114,2025-10-28,Manzana,Frutas,17,3.0,51.0,Efectivo,Sucursal Sur,Cochabamba,María López
+1115,2025-05-05,Pan Integral,Panadería,14,9.0,126.0,Efectivo,Sucursal Norte,Santa Cruz,José Gutiérrez
+1116,2025-03-19,Papa,Verduras,7,3.5,24.5,Transferencia,Sucursal Sur,Cochabamba,Ana Vargas
+1117,2025-05-23,Papa,Verduras,5,3.5,17.5,QR,Sucursal Norte,Tarija,Paola Ruiz
+1118,2025-06-19,Pan Integral,Panadería,8,9.0,72.0,QR,Sucursal Sur,Santa Cruz,Juan Pérez
+1119,2025-07-15,Detergente,Limpieza,20,25.0,500.0,QR,Sucursal Sur,Sucre,Juan Pérez
+1120,2025-04-09,Agua,Bebidas,3,5.0,15.0,Efectivo,Sucursal Sur,Santa Cruz,Carlos Rojas
+1121,2025-10-09,Gaseosa,Bebidas,19,15.0,285.0,Tarjeta,Sucursal Sur,Tarija,María López
+1122,2025-03-26,Banano,Frutas,10,2.0,20.0,Tarjeta,Sucursal Sur,Sucre,Carlos Rojas
+1123,2025-10-23,Jabón,Limpieza,10,4.0,40.0,Transferencia,Sucursal Sur,La Paz,Miguel Flores
+1124,2025-07-13,Agua,Bebidas,13,5.0,65.0,Tarjeta,Sucursal Este,Sucre,Paola Ruiz
+1125,2025-01-11,Manzana,Frutas,16,3.0,48.0,Transferencia,Sucursal Este,Cochabamba,Luis Fernández
+1126,2025-07-14,Papas Fritas,Snacks,9,7.0,63.0,Transferencia,Sucursal Central,Sucre,Luis Fernández
+1127,2025-06-20,Banano,Frutas,3,2.0,6.0,Tarjeta,Sucursal Este,Santa Cruz,Carlos Rojas
+1128,2025-09-14,Detergente,Limpieza,1,25.0,25.0,QR,Sucursal Este,Sucre,Paola Ruiz
+1129,2025-09-08,Banano,Frutas,13,2.0,26.0,QR,Sucursal Oeste,Cochabamba,Paola Ruiz
+1130,2025-10-17,Leche,Lácteos,13,12.0,156.0,Tarjeta,Sucursal Sur,Sucre,Luis Fernández
+1131,2025-12-23,Carne Res,Carnes,12,45.0,540.0,Efectivo,Sucursal Este,Sucre,Ana Vargas
+1132,2025-07-05,Jabón,Limpieza,2,4.0,8.0,Efectivo,Sucursal Sur,La Paz,Miguel Flores
+1133,2025-11-05,Galletas,Snacks,8,6.0,48.0,Tarjeta,Sucursal Norte,Cochabamba,María López
+1134,2025-02-11,Banano,Frutas,19,2.0,38.0,Tarjeta,Sucursal Este,Santa Cruz,Paola Ruiz
+1135,2025-09-30,Pan Francés,Panadería,17,1.5,25.5,Transferencia,Sucursal Oeste,La Paz,Paola Ruiz
+1136,2025-06-26,Gaseosa,Bebidas,19,15.0,285.0,Tarjeta,Sucursal Central,Santa Cruz,Paola Ruiz
+1137,2025-09-09,Pan Integral,Panadería,6,9.0,54.0,Efectivo,Sucursal Norte,Cochabamba,Paola Ruiz
+1138,2025-03-29,Banano,Frutas,14,2.0,28.0,Tarjeta,Sucursal Central,Santa Cruz,Carlos Rojas
+1139,2025-09-15,Jabón,Limpieza,6,4.0,24.0,Efectivo,Sucursal Este,Tarija,Ana Vargas
+1140,2025-04-04,Papas Fritas,Snacks,2,7.0,14.0,Tarjeta,Sucursal Central,Sucre,Miguel Flores
+1141,2025-02-10,Jugo,Bebidas,6,10.0,60.0,QR,Sucursal Norte,Sucre,María López
+1142,2025-01-16,Pan Integral,Panadería,11,9.0,99.0,Tarjeta,Sucursal Este,Sucre,María López
+1143,2025-01-04,Leche,Lácteos,9,12.0,108.0,Efectivo,Sucursal Norte,Santa Cruz,Juan Pérez
+1144,2025-08-31,Banano,Frutas,16,2.0,32.0,QR,Sucursal Oeste,Sucre,José Gutiérrez
+1145,2025-05-03,Carne Res,Carnes,11,45.0,495.0,QR,Sucursal Este,Sucre,Juan Pérez
+1146,2025-01-02,Carne Res,Carnes,4,45.0,180.0,Transferencia,Sucursal Este,Santa Cruz,Juan Pérez
+1147,2025-12-25,Jugo,Bebidas,9,10.0,90.0,Tarjeta,Sucursal Central,Sucre,Miguel Flores
+1148,2025-11-23,Manzana,Frutas,1,3.0,3.0,QR,Sucursal Norte,La Paz,Juan Pérez
+1149,2025-11-07,Carne Res,Carnes,8,45.0,360.0,Transferencia,Sucursal Este,Tarija,María López
+1150,2025-12-04,Carne Res,Carnes,16,45.0,720.0,Efectivo,Sucursal Este,La Paz,Ana Vargas
+1151,2025-09-12,Papas Fritas,Snacks,5,7.0,35.0,Efectivo,Sucursal Central,Tarija,Miguel Flores
+1152,2025-09-04,Galletas,Snacks,4,6.0,24.0,Tarjeta,Sucursal Sur,Santa Cruz,Carlos Rojas
+1153,2025-01-15,Gaseosa,Bebidas,14,15.0,210.0,Tarjeta,Sucursal Central,Sucre,Luis Fernández
+1154,2025-12-10,Jabón,Limpieza,16,4.0,64.0,Efectivo,Sucursal Sur,Tarija,Miguel Flores
+1155,2025-04-25,Jugo,Bebidas,11,10.0,110.0,Efectivo,Sucursal Central,Sucre,Paola Ruiz
+1156,2025-05-13,Manzana,Frutas,8,3.0,24.0,Efectivo,Sucursal Central,Cochabamba,María López
+1157,2025-04-07,Agua,Bebidas,19,5.0,95.0,Efectivo,Sucursal Oeste,La Paz,Carlos Rojas
+1158,2025-01-01,Carne Res,Carnes,19,45.0,855.0,QR,Sucursal Norte,Tarija,Ana Vargas
+1159,2025-07-06,Banano,Frutas,11,2.0,22.0,Tarjeta,Sucursal Oeste,Tarija,Ana Vargas
+1160,2025-10-03,Agua,Bebidas,1,5.0,5.0,Transferencia,Sucursal Central,Santa Cruz,Luis Fernández
+1161,2025-03-17,Jabón,Limpieza,15,4.0,60.0,QR,Sucursal Sur,Cochabamba,José Gutiérrez
+1162,2025-12-28,Pan Integral,Panadería,9,9.0,81.0,Transferencia,Sucursal Sur,Sucre,Luis Fernández
+1163,2025-03-20,Manzana,Frutas,11,3.0,33.0,Tarjeta,Sucursal Sur,Cochabamba,Carlos Rojas
+1164,2025-12-04,Papa,Verduras,10,3.5,35.0,Tarjeta,Sucursal Norte,Tarija,Paola Ruiz
+1165,2025-06-28,Carne Res,Carnes,16,45.0,720.0,Transferencia,Sucursal Este,Cochabamba,Luis Fernández
+1166,2025-07-21,Pan Integral,Panadería,18,9.0,162.0,Efectivo,Sucursal Sur,La Paz,Juan Pérez
+1167,2025-10-23,Pan Francés,Panadería,6,1.5,9.0,Tarjeta,Sucursal Este,Sucre,Luis Fernández
+1168,2025-04-11,Papas Fritas,Snacks,7,7.0,49.0,Efectivo,Sucursal Central,Tarija,María López
+1169,2025-12-14,Galletas,Snacks,14,6.0,84.0,Tarjeta,Sucursal Norte,Cochabamba,José Gutiérrez
+1170,2025-03-02,Tomate,Verduras,2,4.0,8.0,QR,Sucursal Oeste,Sucre,Carlos Rojas
+1171,2025-03-02,Manzana,Frutas,2,3.0,6.0,Tarjeta,Sucursal Este,Sucre,Luis Fernández
+1172,2025-08-26,Galletas,Snacks,3,6.0,18.0,Transferencia,Sucursal Central,Sucre,José Gutiérrez
+1173,2025-02-12,Leche,Lácteos,4,12.0,48.0,Efectivo,Sucursal Este,Tarija,Ana Vargas
+1174,2025-10-21,Queso,Lácteos,19,35.0,665.0,Transferencia,Sucursal Central,Cochabamba,Carlos Rojas
+1175,2025-06-02,Banano,Frutas,14,2.0,28.0,Tarjeta,Sucursal Norte,La Paz,María López
+1176,2025-07-21,Galletas,Snacks,1,6.0,6.0,Transferencia,Sucursal Norte,Tarija,María López
+1177,2025-11-03,Detergente,Limpieza,6,25.0,150.0,Tarjeta,Sucursal Norte,Tarija,Miguel Flores
+1178,2025-03-07,Pollo,Carnes,2,28.0,56.0,Tarjeta,Sucursal Sur,Cochabamba,Luis Fernández
+1179,2025-09-17,Leche,Lácteos,4,12.0,48.0,QR,Sucursal Central,Tarija,Carlos Rojas
+1180,2025-06-03,Manzana,Frutas,8,3.0,24.0,Efectivo,Sucursal Oeste,La Paz,Miguel Flores
+1181,2025-09-25,Galletas,Snacks,11,6.0,66.0,QR,Sucursal Oeste,Tarija,Ana Vargas
+1182,2025-05-02,Jugo,Bebidas,2,10.0,20.0,Efectivo,Sucursal Sur,Santa Cruz,Luis Fernández
+1183,2025-10-10,Detergente,Limpieza,20,25.0,500.0,Tarjeta,Sucursal Oeste,La Paz,Luis Fernández
+1184,2025-10-09,Galletas,Snacks,3,6.0,18.0,QR,Sucursal Central,Sucre,Carlos Rojas
+1185,2025-05-11,Banano,Frutas,3,2.0,6.0,Transferencia,Sucursal Sur,Tarija,Ana Vargas
+1186,2025-11-21,Jugo,Bebidas,9,10.0,90.0,Tarjeta,Sucursal Central,Tarija,Carlos Rojas
+1187,2025-08-11,Manzana,Frutas,11,3.0,33.0,Transferencia,Sucursal Norte,Tarija,Ana Vargas
+1188,2025-09-30,Agua,Bebidas,4,5.0,20.0,Efectivo,Sucursal Oeste,Sucre,María López
+1189,2025-06-20,Pollo,Carnes,12,28.0,336.0,QR,Sucursal Sur,Santa Cruz,Luis Fernández
+1190,2025-04-24,Leche,Lácteos,13,12.0,156.0,Transferencia,Sucursal Norte,Cochabamba,Carlos Rojas
+1191,2025-09-28,Pan Francés,Panadería,4,1.5,6.0,QR,Sucursal Oeste,La Paz,Luis Fernández
+1192,2025-06-12,Gaseosa,Bebidas,6,15.0,90.0,Transferencia,Sucursal Sur,La Paz,Paola Ruiz
+1193,2025-01-05,Tomate,Verduras,9,4.0,36.0,Tarjeta,Sucursal Sur,Santa Cruz,Paola Ruiz
+1194,2025-12-29,Pan Integral,Panadería,12,9.0,108.0,Tarjeta,Sucursal Oeste,Sucre,Miguel Flores
+1195,2025-08-28,Galletas,Snacks,12,6.0,72.0,QR,Sucursal Central,Sucre,Ana Vargas
+1196,2025-07-28,Pan Integral,Panadería,10,9.0,90.0,QR,Sucursal Norte,Cochabamba,María López
+1197,2025-10-22,Detergente,Limpieza,6,25.0,150.0,Efectivo,Sucursal Norte,La Paz,Miguel Flores
+1198,2025-03-11,Yogurt,Lácteos,17,8.0,136.0,Transferencia,Sucursal Este,Tarija,María López
+1199,2025-04-08,Manzana,Frutas,20,3.0,60.0,Efectivo,Sucursal Este,Tarija,José Gutiérrez
+1200,2025-08-18,Detergente,Limpieza,20,25.0,500.0,Tarjeta,Sucursal Oeste,Santa Cruz,Carlos Rojas
+1201,2025-09-21,Agua,Bebidas,5,5.0,25.0,QR,Sucursal Norte,Sucre,Miguel Flores
+1202,2025-02-27,Manzana,Frutas,12,3.0,36.0,QR,Sucursal Sur,Tarija,María López
+1203,2025-05-31,Pan Francés,Panadería,16,1.5,24.0,QR,Sucursal Sur,Cochabamba,Paola Ruiz
+1204,2025-01-19,Jabón,Limpieza,17,4.0,68.0,Transferencia,Sucursal Oeste,Sucre,Juan Pérez
+1205,2025-08-24,Pollo,Carnes,20,28.0,560.0,QR,Sucursal Central,La Paz,María López
+1206,2025-07-25,Yogurt,Lácteos,6,8.0,48.0,QR,Sucursal Norte,Cochabamba,Paola Ruiz
+1207,2025-09-28,Tomate,Verduras,3,4.0,12.0,Tarjeta,Sucursal Este,Cochabamba,Miguel Flores
+1208,2025-04-26,Leche,Lácteos,9,12.0,108.0,Transferencia,Sucursal Este,La Paz,Luis Fernández
+1209,2025-10-02,Carne Res,Carnes,6,45.0,270.0,QR,Sucursal Norte,Sucre,Miguel Flores
+1210,2025-08-11,Papas Fritas,Snacks,12,7.0,84.0,Efectivo,Sucursal Central,Santa Cruz,María López
+1211,2025-03-10,Jabón,Limpieza,2,4.0,8.0,Transferencia,Sucursal Este,La Paz,Juan Pérez
+1212,2025-12-07,Papas Fritas,Snacks,16,7.0,112.0,QR,Sucursal Norte,Sucre,Miguel Flores
+1213,2025-07-24,Tomate,Verduras,11,4.0,44.0,Transferencia,Sucursal Sur,Cochabamba,María López
+1214,2025-06-26,Leche,Lácteos,5,12.0,60.0,Efectivo,Sucursal Sur,Cochabamba,José Gutiérrez
+1215,2025-09-03,Manzana,Frutas,14,3.0,42.0,QR,Sucursal Central,Sucre,María López
+1216,2025-03-20,Manzana,Frutas,20,3.0,60.0,Tarjeta,Sucursal Sur,La Paz,María López
+1217,2025-04-12,Pan Integral,Panadería,14,9.0,126.0,Transferencia,Sucursal Norte,Tarija,Carlos Rojas
+1218,2025-03-03,Detergente,Limpieza,8,25.0,200.0,Tarjeta,Sucursal Este,Cochabamba,Luis Fernández
+1219,2025-01-10,Detergente,Limpieza,14,25.0,350.0,Tarjeta,Sucursal Norte,Cochabamba,Paola Ruiz
+1220,2025-04-24,Banano,Frutas,8,2.0,16.0,QR,Sucursal Este,Sucre,Juan Pérez
+1221,2025-02-26,Manzana,Frutas,10,3.0,30.0,QR,Sucursal Central,La Paz,José Gutiérrez
+1222,2025-01-25,Manzana,Frutas,11,3.0,33.0,Tarjeta,Sucursal Norte,Cochabamba,Juan Pérez
+1223,2025-08-30,Pollo,Carnes,10,28.0,280.0,QR,Sucursal Oeste,Cochabamba,Paola Ruiz
+1224,2025-07-06,Galletas,Snacks,16,6.0,96.0,QR,Sucursal Central,Cochabamba,María López
+1225,2025-03-08,Queso,Lácteos,18,35.0,630.0,QR,Sucursal Central,La Paz,José Gutiérrez
+1226,2025-10-27,Jabón,Limpieza,7,4.0,28.0,Transferencia,Sucursal Norte,Cochabamba,Carlos Rojas
+1227,2025-12-02,Gaseosa,Bebidas,19,15.0,285.0,Tarjeta,Sucursal Sur,Sucre,María López
+1228,2025-06-25,Jugo,Bebidas,20,10.0,200.0,QR,Sucursal Este,Santa Cruz,Carlos Rojas
+1229,2025-08-03,Leche,Lácteos,7,12.0,84.0,QR,Sucursal Oeste,La Paz,José Gutiérrez
+1230,2025-02-04,Tomate,Verduras,14,4.0,56.0,Transferencia,Sucursal Este,Tarija,Juan Pérez
+1231,2025-05-29,Galletas,Snacks,5,6.0,30.0,Efectivo,Sucursal Oeste,Cochabamba,Ana Vargas
+1232,2025-09-20,Banano,Frutas,18,2.0,36.0,Efectivo,Sucursal Sur,Sucre,Paola Ruiz
+1233,2025-05-20,Banano,Frutas,20,2.0,40.0,Tarjeta,Sucursal Sur,Cochabamba,Carlos Rojas
+1234,2025-08-22,Detergente,Limpieza,17,25.0,425.0,QR,Sucursal Central,Santa Cruz,Luis Fernández
+1235,2025-04-25,Pan Integral,Panadería,6,9.0,54.0,Efectivo,Sucursal Oeste,Santa Cruz,Luis Fernández
+1236,2025-05-23,Queso,Lácteos,5,35.0,175.0,Tarjeta,Sucursal Central,Cochabamba,Ana Vargas
+1237,2025-11-29,Detergente,Limpieza,1,25.0,25.0,QR,Sucursal Oeste,La Paz,José Gutiérrez
+1238,2025-05-16,Jugo,Bebidas,18,10.0,180.0,Tarjeta,Sucursal Este,Tarija,Luis Fernández
+1239,2025-07-02,Pollo,Carnes,1,28.0,28.0,Tarjeta,Sucursal Central,Santa Cruz,Luis Fernández
+1240,2025-02-24,Queso,Lácteos,19,35.0,665.0,Transferencia,Sucursal Central,Tarija,Ana Vargas
+1241,2025-05-18,Tomate,Verduras,11,4.0,44.0,Tarjeta,Sucursal Oeste,Sucre,Carlos Rojas
+1242,2025-07-08,Tomate,Verduras,14,4.0,56.0,Tarjeta,Sucursal Este,Cochabamba,Miguel Flores
+1243,2025-04-01,Galletas,Snacks,6,6.0,36.0,Tarjeta,Sucursal Oeste,Sucre,Carlos Rojas
+1244,2025-03-25,Pan Integral,Panadería,10,9.0,90.0,Tarjeta,Sucursal Este,Tarija,Ana Vargas
+1245,2025-08-07,Gaseosa,Bebidas,3,15.0,45.0,Tarjeta,Sucursal Este,Sucre,María López
+1246,2025-02-21,Papas Fritas,Snacks,20,7.0,140.0,Transferencia,Sucursal Este,Cochabamba,María López
+1247,2025-03-09,Queso,Lácteos,2,35.0,70.0,Tarjeta,Sucursal Norte,La Paz,Carlos Rojas
+1248,2025-10-05,Leche,Lácteos,4,12.0,48.0,QR,Sucursal Norte,Santa Cruz,Carlos Rojas
+1249,2025-06-07,Papa,Verduras,6,3.5,21.0,QR,Sucursal Este,Santa Cruz,Ana Vargas
+1250,2025-11-18,Queso,Lácteos,9,35.0,315.0,Efectivo,Sucursal Norte,Cochabamba,María López
+1251,2025-08-01,Pan Integral,Panadería,17,9.0,153.0,Tarjeta,Sucursal Norte,Santa Cruz,Juan Pérez
+1252,2025-03-17,Jabón,Limpieza,13,4.0,52.0,QR,Sucursal Central,Santa Cruz,Paola Ruiz
+1253,2025-02-26,Agua,Bebidas,6,5.0,30.0,Tarjeta,Sucursal Norte,La Paz,José Gutiérrez
+1254,2025-03-02,Jugo,Bebidas,11,10.0,110.0,QR,Sucursal Norte,Cochabamba,Carlos Rojas
+1255,2025-06-21,Galletas,Snacks,17,6.0,102.0,Tarjeta,Sucursal Este,Santa Cruz,Luis Fernández
+1256,2025-05-19,Pan Francés,Panadería,4,1.5,6.0,Transferencia,Sucursal Central,La Paz,María López
+1257,2025-06-13,Leche,Lácteos,5,12.0,60.0,Tarjeta,Sucursal Este,Sucre,Miguel Flores
+1258,2025-08-07,Gaseosa,Bebidas,19,15.0,285.0,QR,Sucursal Sur,Cochabamba,José Gutiérrez
+1259,2025-06-30,Papas Fritas,Snacks,13,7.0,91.0,QR,Sucursal Este,Sucre,Miguel Flores
+1260,2025-12-01,Banano,Frutas,5,2.0,10.0,Tarjeta,Sucursal Este,Sucre,Miguel Flores
+1261,2025-02-12,Tomate,Verduras,13,4.0,52.0,Transferencia,Sucursal Oeste,Tarija,Ana Vargas
+1262,2025-01-02,Gaseosa,Bebidas,12,15.0,180.0,Tarjeta,Sucursal Norte,La Paz,Miguel Flores
+1263,2025-06-28,Papas Fritas,Snacks,2,7.0,14.0,QR,Sucursal Sur,La Paz,Miguel Flores
+1264,2025-04-18,Galletas,Snacks,8,6.0,48.0,Tarjeta,Sucursal Norte,Santa Cruz,María López
+1265,2025-12-23,Galletas,Snacks,1,6.0,6.0,Transferencia,Sucursal Central,Cochabamba,María López
+1266,2025-03-22,Agua,Bebidas,20,5.0,100.0,Efectivo,Sucursal Sur,La Paz,Carlos Rojas
+1267,2025-01-07,Gaseosa,Bebidas,3,15.0,45.0,Transferencia,Sucursal Sur,Santa Cruz,Miguel Flores
+1268,2025-07-30,Galletas,Snacks,16,6.0,96.0,QR,Sucursal Este,Cochabamba,Luis Fernández
+1269,2025-11-25,Gaseosa,Bebidas,2,15.0,30.0,Efectivo,Sucursal Oeste,Santa Cruz,Carlos Rojas
+1270,2025-12-15,Yogurt,Lácteos,14,8.0,112.0,Transferencia,Sucursal Oeste,La Paz,Luis Fernández
+1271,2025-05-20,Jabón,Limpieza,6,4.0,24.0,Efectivo,Sucursal Oeste,Sucre,Carlos Rojas
+1272,2025-01-29,Jabón,Limpieza,20,4.0,80.0,Tarjeta,Sucursal Este,Santa Cruz,María López
+1273,2025-12-01,Papa,Verduras,11,3.5,38.5,Transferencia,Sucursal Este,Santa Cruz,Juan Pérez
+1274,2025-05-19,Carne Res,Carnes,7,45.0,315.0,Efectivo,Sucursal Norte,Cochabamba,José Gutiérrez
+1275,2025-05-25,Pollo,Carnes,8,28.0,224.0,Tarjeta,Sucursal Oeste,Cochabamba,María López
+1276,2025-04-07,Detergente,Limpieza,10,25.0,250.0,Tarjeta,Sucursal Norte,Santa Cruz,Luis Fernández
+1277,2025-01-23,Jugo,Bebidas,19,10.0,190.0,Transferencia,Sucursal Norte,Cochabamba,José Gutiérrez
+1278,2025-07-02,Agua,Bebidas,1,5.0,5.0,QR,Sucursal Este,Tarija,Ana Vargas
+1279,2025-03-08,Carne Res,Carnes,12,45.0,540.0,Efectivo,Sucursal Central,Sucre,María López
+1280,2025-07-15,Papas Fritas,Snacks,19,7.0,133.0,Transferencia,Sucursal Oeste,Cochabamba,Luis Fernández
+1281,2025-02-10,Papas Fritas,Snacks,15,7.0,105.0,Efectivo,Sucursal Sur,Santa Cruz,Carlos Rojas
+1282,2025-03-09,Galletas,Snacks,15,6.0,90.0,QR,Sucursal Central,La Paz,Paola Ruiz
+1283,2025-05-03,Queso,Lácteos,13,35.0,455.0,Tarjeta,Sucursal Oeste,Tarija,María López
+1284,2025-01-08,Galletas,Snacks,4,6.0,24.0,Tarjeta,Sucursal Central,Tarija,María López
+1285,2025-06-10,Tomate,Verduras,15,4.0,60.0,Tarjeta,Sucursal Central,Santa Cruz,María López
+1286,2025-02-15,Pan Francés,Panadería,12,1.5,18.0,Efectivo,Sucursal Sur,Sucre,Luis Fernández
+1287,2025-11-29,Papa,Verduras,15,3.5,52.5,Tarjeta,Sucursal Norte,Tarija,Miguel Flores
+1288,2025-07-25,Yogurt,Lácteos,10,8.0,80.0,Transferencia,Sucursal Oeste,Santa Cruz,Miguel Flores
+1289,2025-02-12,Carne Res,Carnes,12,45.0,540.0,Transferencia,Sucursal Oeste,Sucre,Luis Fernández
+1290,2025-05-06,Queso,Lácteos,2,35.0,70.0,Efectivo,Sucursal Sur,Cochabamba,Luis Fernández
+1291,2025-07-24,Manzana,Frutas,19,3.0,57.0,Efectivo,Sucursal Sur,Sucre,Miguel Flores
+1292,2025-08-28,Agua,Bebidas,15,5.0,75.0,Transferencia,Sucursal Norte,Cochabamba,Carlos Rojas
+1293,2025-04-13,Agua,Bebidas,14,5.0,70.0,Transferencia,Sucursal Central,Cochabamba,José Gutiérrez
+1294,2025-12-26,Carne Res,Carnes,7,45.0,315.0,Transferencia,Sucursal Norte,La Paz,Miguel Flores
+1295,2025-08-29,Queso,Lácteos,5,35.0,175.0,Tarjeta,Sucursal Sur,La Paz,Juan Pérez
+1296,2025-08-09,Manzana,Frutas,12,3.0,36.0,Transferencia,Sucursal Sur,Cochabamba,Ana Vargas
+1297,2025-05-19,Queso,Lácteos,14,35.0,490.0,QR,Sucursal Sur,Cochabamba,Carlos Rojas
+1298,2025-02-11,Agua,Bebidas,13,5.0,65.0,QR,Sucursal Este,Sucre,Ana Vargas
+1299,2025-02-17,Pan Integral,Panadería,2,9.0,18.0,Transferencia,Sucursal Central,La Paz,Carlos Rojas
+1300,2025-09-04,Jabón,Limpieza,14,4.0,56.0,Transferencia,Sucursal Oeste,Santa Cruz,Paola Ruiz
+1301,2025-10-15,Carne Res,Carnes,1,45.0,45.0,Tarjeta,Sucursal Norte,Tarija,Carlos Rojas
+1302,2025-03-19,Carne Res,Carnes,1,45.0,45.0,Transferencia,Sucursal Sur,Sucre,José Gutiérrez
+1303,2025-05-15,Jugo,Bebidas,14,10.0,140.0,Efectivo,Sucursal Este,Santa Cruz,Miguel Flores
+1304,2025-04-07,Gaseosa,Bebidas,7,15.0,105.0,Transferencia,Sucursal Oeste,Santa Cruz,Paola Ruiz
+1305,2025-04-08,Jabón,Limpieza,7,4.0,28.0,Efectivo,Sucursal Central,La Paz,Juan Pérez
+1306,2025-03-05,Pan Francés,Panadería,17,1.5,25.5,Transferencia,Sucursal Este,Sucre,Paola Ruiz
+1307,2025-08-07,Carne Res,Carnes,18,45.0,810.0,QR,Sucursal Norte,Santa Cruz,Miguel Flores
+1308,2025-10-11,Banano,Frutas,6,2.0,12.0,Tarjeta,Sucursal Oeste,Sucre,Paola Ruiz
+1309,2025-12-26,Pan Francés,Panadería,10,1.5,15.0,Efectivo,Sucursal Norte,Cochabamba,María López
+1310,2025-02-23,Queso,Lácteos,14,35.0,490.0,Transferencia,Sucursal Oeste,Tarija,María López
+1311,2025-08-04,Tomate,Verduras,10,4.0,40.0,Tarjeta,Sucursal Sur,Sucre,Paola Ruiz
+1312,2025-03-05,Gaseosa,Bebidas,16,15.0,240.0,QR,Sucursal Este,Sucre,Paola Ruiz
+1313,2025-09-17,Yogurt,Lácteos,8,8.0,64.0,QR,Sucursal Central,La Paz,Luis Fernández
+1314,2025-08-01,Manzana,Frutas,1,3.0,3.0,Efectivo,Sucursal Norte,Cochabamba,Carlos Rojas
+1315,2025-03-29,Carne Res,Carnes,11,45.0,495.0,Transferencia,Sucursal Sur,Tarija,Paola Ruiz
+1316,2025-10-23,Jabón,Limpieza,2,4.0,8.0,Transferencia,Sucursal Sur,Sucre,Carlos Rojas
+1317,2025-03-23,Banano,Frutas,17,2.0,34.0,Transferencia,Sucursal Sur,Cochabamba,Carlos Rojas
+1318,2025-07-20,Jugo,Bebidas,19,10.0,190.0,QR,Sucursal Oeste,Santa Cruz,José Gutiérrez
+1319,2025-01-14,Detergente,Limpieza,3,25.0,75.0,Transferencia,Sucursal Norte,Tarija,Carlos Rojas
+1320,2025-02-10,Queso,Lácteos,18,35.0,630.0,Transferencia,Sucursal Norte,Santa Cruz,Miguel Flores
+1321,2025-12-01,Pollo,Carnes,8,28.0,224.0,Tarjeta,Sucursal Central,Santa Cruz,Ana Vargas
+1322,2025-05-21,Banano,Frutas,2,2.0,4.0,Efectivo,Sucursal Sur,Cochabamba,María López
+1323,2025-03-04,Agua,Bebidas,20,5.0,100.0,Efectivo,Sucursal Sur,La Paz,Luis Fernández
+1324,2025-09-11,Papas Fritas,Snacks,3,7.0,21.0,QR,Sucursal Sur,Sucre,María López
+1325,2025-02-07,Tomate,Verduras,14,4.0,56.0,Transferencia,Sucursal Norte,Santa Cruz,Paola Ruiz
+1326,2025-03-24,Banano,Frutas,15,2.0,30.0,Tarjeta,Sucursal Central,Cochabamba,Carlos Rojas
+1327,2025-06-27,Leche,Lácteos,11,12.0,132.0,Transferencia,Sucursal Oeste,Tarija,Juan Pérez
+1328,2025-04-09,Galletas,Snacks,4,6.0,24.0,Efectivo,Sucursal Oeste,Cochabamba,Carlos Rojas
+1329,2025-04-22,Jabón,Limpieza,4,4.0,16.0,Efectivo,Sucursal Central,Santa Cruz,Ana Vargas
+1330,2025-05-18,Jugo,Bebidas,5,10.0,50.0,QR,Sucursal Este,Santa Cruz,María López
+1331,2025-09-11,Carne Res,Carnes,15,45.0,675.0,Transferencia,Sucursal Oeste,Sucre,Ana Vargas
+1332,2025-12-18,Pan Integral,Panadería,7,9.0,63.0,QR,Sucursal Este,Cochabamba,Luis Fernández
+1333,2025-08-10,Papas Fritas,Snacks,16,7.0,112.0,Transferencia,Sucursal Este,Tarija,Luis Fernández
+1334,2025-07-16,Pollo,Carnes,20,28.0,560.0,Transferencia,Sucursal Sur,Tarija,José Gutiérrez
+1335,2025-03-27,Pollo,Carnes,15,28.0,420.0,Efectivo,Sucursal Oeste,La Paz,Paola Ruiz
+1336,2025-01-16,Pan Francés,Panadería,13,1.5,19.5,Efectivo,Sucursal Sur,La Paz,Paola Ruiz
+1337,2025-02-07,Galletas,Snacks,8,6.0,48.0,Tarjeta,Sucursal Central,La Paz,Carlos Rojas
+1338,2025-06-13,Pollo,Carnes,1,28.0,28.0,Efectivo,Sucursal Central,Santa Cruz,Miguel Flores
+1339,2025-02-03,Pollo,Carnes,18,28.0,504.0,Transferencia,Sucursal Central,Tarija,Ana Vargas
+1340,2025-05-23,Detergente,Limpieza,18,25.0,450.0,Efectivo,Sucursal Oeste,Sucre,Paola Ruiz
+1341,2025-04-11,Carne Res,Carnes,7,45.0,315.0,Efectivo,Sucursal Este,Sucre,Juan Pérez
+1342,2025-03-05,Pan Francés,Panadería,4,1.5,6.0,Transferencia,Sucursal Sur,Tarija,José Gutiérrez
+1343,2025-01-11,Manzana,Frutas,19,3.0,57.0,QR,Sucursal Norte,Tarija,Juan Pérez
+1344,2025-07-26,Papa,Verduras,5,3.5,17.5,Efectivo,Sucursal Oeste,Tarija,Juan Pérez
+1345,2025-08-29,Pollo,Carnes,3,28.0,84.0,Efectivo,Sucursal Este,La Paz,Luis Fernández
+1346,2025-02-10,Carne Res,Carnes,13,45.0,585.0,QR,Sucursal Este,Tarija,Juan Pérez
+1347,2025-09-10,Banano,Frutas,15,2.0,30.0,Efectivo,Sucursal Central,Tarija,María López
+1348,2025-01-06,Leche,Lácteos,2,12.0,24.0,Tarjeta,Sucursal Norte,La Paz,Paola Ruiz
+1349,2025-04-08,Detergente,Limpieza,3,25.0,75.0,QR,Sucursal Oeste,Cochabamba,Juan Pérez
+1350,2025-01-25,Pan Integral,Panadería,4,9.0,36.0,QR,Sucursal Norte,La Paz,José Gutiérrez
+1351,2025-03-12,Banano,Frutas,6,2.0,12.0,Transferencia,Sucursal Norte,Santa Cruz,José Gutiérrez
+1352,2025-12-09,Galletas,Snacks,15,6.0,90.0,Efectivo,Sucursal Oeste,Tarija,Ana Vargas
+1353,2025-06-14,Papa,Verduras,9,3.5,31.5,Transferencia,Sucursal Sur,Cochabamba,Luis Fernández
+1354,2025-10-13,Pan Integral,Panadería,12,9.0,108.0,Tarjeta,Sucursal Sur,Cochabamba,María López
+1355,2025-01-07,Tomate,Verduras,7,4.0,28.0,Tarjeta,Sucursal Este,Sucre,Ana Vargas
+1356,2025-04-17,Tomate,Verduras,11,4.0,44.0,QR,Sucursal Central,Sucre,Carlos Rojas
+1357,2025-07-06,Gaseosa,Bebidas,8,15.0,120.0,Transferencia,Sucursal Este,Tarija,Ana Vargas
+1358,2025-05-23,Manzana,Frutas,3,3.0,9.0,Transferencia,Sucursal Sur,La Paz,María López
+1359,2025-02-26,Galletas,Snacks,4,6.0,24.0,Tarjeta,Sucursal Norte,Sucre,Carlos Rojas
+1360,2025-12-05,Pan Integral,Panadería,16,9.0,144.0,Transferencia,Sucursal Central,La Paz,María López
+1361,2025-04-19,Agua,Bebidas,14,5.0,70.0,Tarjeta,Sucursal Este,Tarija,Paola Ruiz
+1362,2025-05-20,Pollo,Carnes,15,28.0,420.0,QR,Sucursal Norte,Cochabamba,Paola Ruiz
+1363,2025-04-07,Manzana,Frutas,10,3.0,30.0,Transferencia,Sucursal Sur,Tarija,Luis Fernández
+1364,2025-12-15,Papa,Verduras,4,3.5,14.0,Efectivo,Sucursal Sur,Cochabamba,Ana Vargas
+1365,2025-10-22,Gaseosa,Bebidas,2,15.0,30.0,QR,Sucursal Sur,Cochabamba,María López
+1366,2025-12-25,Pan Integral,Panadería,20,9.0,180.0,Transferencia,Sucursal Este,Sucre,María López
+1367,2025-04-16,Jabón,Limpieza,16,4.0,64.0,Tarjeta,Sucursal Sur,La Paz,Luis Fernández
+1368,2025-04-05,Pan Integral,Panadería,4,9.0,36.0,Transferencia,Sucursal Central,Santa Cruz,Carlos Rojas
+1369,2025-04-06,Pollo,Carnes,6,28.0,168.0,QR,Sucursal Este,Santa Cruz,Juan Pérez
+1370,2025-01-11,Papa,Verduras,11,3.5,38.5,Tarjeta,Sucursal Central,Cochabamba,Carlos Rojas
+1371,2025-08-31,Queso,Lácteos,12,35.0,420.0,Efectivo,Sucursal Este,Santa Cruz,Miguel Flores
+1372,2025-10-18,Gaseosa,Bebidas,1,15.0,15.0,QR,Sucursal Sur,Tarija,Carlos Rojas
+1373,2025-06-05,Papas Fritas,Snacks,4,7.0,28.0,QR,Sucursal Este,Sucre,José Gutiérrez
+1374,2025-07-06,Pan Francés,Panadería,9,1.5,13.5,Transferencia,Sucursal Norte,La Paz,Luis Fernández
+1375,2025-05-19,Carne Res,Carnes,4,45.0,180.0,Efectivo,Sucursal Sur,Sucre,Ana Vargas
+1376,2025-01-16,Galletas,Snacks,16,6.0,96.0,Tarjeta,Sucursal Oeste,Sucre,José Gutiérrez
+1377,2025-07-13,Detergente,Limpieza,7,25.0,175.0,Efectivo,Sucursal Central,Tarija,Miguel Flores
+1378,2025-06-19,Galletas,Snacks,12,6.0,72.0,Transferencia,Sucursal Oeste,Sucre,Luis Fernández
+1379,2025-10-24,Pan Integral,Panadería,2,9.0,18.0,QR,Sucursal Oeste,Cochabamba,Paola Ruiz
+1380,2025-02-26,Papa,Verduras,10,3.5,35.0,Efectivo,Sucursal Este,Santa Cruz,Miguel Flores
+1381,2025-10-13,Galletas,Snacks,20,6.0,120.0,Tarjeta,Sucursal Central,Sucre,Luis Fernández
+1382,2025-08-21,Agua,Bebidas,1,5.0,5.0,Efectivo,Sucursal Sur,La Paz,María López
+1383,2025-01-03,Yogurt,Lácteos,10,8.0,80.0,Transferencia,Sucursal Central,Cochabamba,Juan Pérez
+1384,2025-05-26,Pan Integral,Panadería,12,9.0,108.0,Tarjeta,Sucursal Norte,La Paz,Carlos Rojas
+1385,2025-02-11,Jabón,Limpieza,19,4.0,76.0,QR,Sucursal Sur,Cochabamba,Miguel Flores
+1386,2025-08-05,Pollo,Carnes,13,28.0,364.0,Transferencia,Sucursal Norte,La Paz,Luis Fernández
+1387,2025-08-12,Pan Integral,Panadería,19,9.0,171.0,QR,Sucursal Oeste,Santa Cruz,Ana Vargas
+1388,2025-10-11,Pan Integral,Panadería,14,9.0,126.0,Tarjeta,Sucursal Central,La Paz,María López
+1389,2025-04-04,Pan Francés,Panadería,18,1.5,27.0,Transferencia,Sucursal Este,Cochabamba,Carlos Rojas
+1390,2025-12-17,Papa,Verduras,17,3.5,59.5,QR,Sucursal Este,La Paz,Paola Ruiz
+1391,2025-08-25,Papa,Verduras,14,3.5,49.0,Efectivo,Sucursal Oeste,Cochabamba,Paola Ruiz
+1392,2025-06-04,Gaseosa,Bebidas,20,15.0,300.0,Tarjeta,Sucursal Oeste,Tarija,José Gutiérrez
+1393,2025-07-21,Galletas,Snacks,2,6.0,12.0,Tarjeta,Sucursal Este,Cochabamba,Miguel Flores
+1394,2025-01-29,Tomate,Verduras,3,4.0,12.0,QR,Sucursal Norte,La Paz,María López
+1395,2025-02-01,Pan Francés,Panadería,11,1.5,16.5,Efectivo,Sucursal Oeste,Tarija,Juan Pérez
+1396,2025-09-11,Detergente,Limpieza,18,25.0,450.0,Tarjeta,Sucursal Sur,Santa Cruz,Luis Fernández
+1397,2025-11-16,Pan Integral,Panadería,16,9.0,144.0,Tarjeta,Sucursal Norte,Cochabamba,Juan Pérez
+1398,2025-02-19,Papas Fritas,Snacks,17,7.0,119.0,Tarjeta,Sucursal Sur,Cochabamba,Miguel Flores
+1399,2025-07-20,Queso,Lácteos,15,35.0,525.0,Efectivo,Sucursal Norte,La Paz,Paola Ruiz
+1400,2025-10-07,Tomate,Verduras,8,4.0,32.0,QR,Sucursal Oeste,Sucre,María López
+1401,2025-04-05,Manzana,Frutas,1,3.0,3.0,Tarjeta,Sucursal Sur,Santa Cruz,Ana Vargas
+1402,2025-05-29,Papa,Verduras,10,3.5,35.0,Efectivo,Sucursal Oeste,Sucre,José Gutiérrez
+1403,2025-12-24,Pan Francés,Panadería,13,1.5,19.5,Efectivo,Sucursal Este,Sucre,Paola Ruiz
+1404,2025-08-23,Papas Fritas,Snacks,10,7.0,70.0,Efectivo,Sucursal Oeste,Sucre,Juan Pérez
+1405,2025-08-16,Pan Integral,Panadería,20,9.0,180.0,Efectivo,Sucursal Central,Santa Cruz,Miguel Flores
+1406,2025-03-23,Papa,Verduras,1,3.5,3.5,QR,Sucursal Oeste,Tarija,Ana Vargas
+1407,2025-02-02,Carne Res,Carnes,17,45.0,765.0,Tarjeta,Sucursal Sur,La Paz,José Gutiérrez
+1408,2025-12-04,Tomate,Verduras,9,4.0,36.0,QR,Sucursal Este,Cochabamba,Miguel Flores
+1409,2025-12-04,Banano,Frutas,20,2.0,40.0,Tarjeta,Sucursal Oeste,Tarija,Luis Fernández
+1410,2025-10-25,Galletas,Snacks,19,6.0,114.0,QR,Sucursal Oeste,Tarija,Paola Ruiz
+1411,2025-03-23,Gaseosa,Bebidas,1,15.0,15.0,Tarjeta,Sucursal Norte,Cochabamba,Miguel Flores
+1412,2025-05-02,Papa,Verduras,8,3.5,28.0,Efectivo,Sucursal Sur,Sucre,Paola Ruiz
+1413,2025-05-09,Gaseosa,Bebidas,20,15.0,300.0,Efectivo,Sucursal Norte,Cochabamba,Miguel Flores
+1414,2025-06-14,Pollo,Carnes,6,28.0,168.0,Efectivo,Sucursal Este,Sucre,Carlos Rojas
+1415,2025-09-09,Detergente,Limpieza,9,25.0,225.0,Transferencia,Sucursal Central,Santa Cruz,Ana Vargas
+1416,2025-04-09,Galletas,Snacks,17,6.0,102.0,Efectivo,Sucursal Oeste,Cochabamba,María López
+1417,2025-01-03,Detergente,Limpieza,5,25.0,125.0,QR,Sucursal Este,Tarija,María López
+1418,2025-09-12,Pollo,Carnes,17,28.0,476.0,Tarjeta,Sucursal Sur,Tarija,Miguel Flores
+1419,2025-10-14,Carne Res,Carnes,20,45.0,900.0,Tarjeta,Sucursal Norte,Sucre,Paola Ruiz
+1420,2025-02-10,Manzana,Frutas,19,3.0,57.0,Tarjeta,Sucursal Oeste,La Paz,María López
+1421,2025-01-27,Agua,Bebidas,8,5.0,40.0,QR,Sucursal Norte,Santa Cruz,Luis Fernández
+1422,2025-02-04,Pan Francés,Panadería,12,1.5,18.0,Tarjeta,Sucursal Central,Cochabamba,Ana Vargas
+1423,2025-01-30,Pan Francés,Panadería,20,1.5,30.0,Efectivo,Sucursal Oeste,Sucre,Luis Fernández
+1424,2025-08-04,Leche,Lácteos,11,12.0,132.0,QR,Sucursal Sur,La Paz,Juan Pérez
+1425,2025-06-18,Papas Fritas,Snacks,18,7.0,126.0,Efectivo,Sucursal Sur,Sucre,María López
+1426,2025-08-02,Yogurt,Lácteos,3,8.0,24.0,Efectivo,Sucursal Oeste,Sucre,Carlos Rojas
+1427,2025-01-19,Pan Integral,Panadería,4,9.0,36.0,Transferencia,Sucursal Oeste,Santa Cruz,José Gutiérrez
+1428,2025-04-27,Banano,Frutas,10,2.0,20.0,Efectivo,Sucursal Norte,Cochabamba,Ana Vargas
+1429,2025-09-04,Manzana,Frutas,18,3.0,54.0,Efectivo,Sucursal Este,Sucre,Carlos Rojas
+1430,2025-03-12,Banano,Frutas,18,2.0,36.0,Efectivo,Sucursal Este,Cochabamba,José Gutiérrez
+1431,2025-08-12,Pollo,Carnes,11,28.0,308.0,Efectivo,Sucursal Sur,Santa Cruz,María López
+1432,2025-10-02,Leche,Lácteos,14,12.0,168.0,Efectivo,Sucursal Norte,Santa Cruz,Juan Pérez
+1433,2025-08-13,Gaseosa,Bebidas,5,15.0,75.0,Tarjeta,Sucursal Central,Cochabamba,José Gutiérrez
+1434,2025-03-08,Pollo,Carnes,10,28.0,280.0,Transferencia,Sucursal Este,Cochabamba,María López
+1435,2025-04-16,Agua,Bebidas,18,5.0,90.0,Transferencia,Sucursal Central,Santa Cruz,Miguel Flores
+1436,2025-05-30,Pan Francés,Panadería,18,1.5,27.0,Tarjeta,Sucursal Oeste,La Paz,José Gutiérrez
+1437,2025-07-30,Gaseosa,Bebidas,12,15.0,180.0,Transferencia,Sucursal Central,Cochabamba,Ana Vargas
+1438,2025-10-11,Papas Fritas,Snacks,10,7.0,70.0,Tarjeta,Sucursal Norte,La Paz,Carlos Rojas
+1439,2025-11-29,Leche,Lácteos,15,12.0,180.0,Transferencia,Sucursal Norte,Cochabamba,Miguel Flores
+1440,2025-10-29,Yogurt,Lácteos,9,8.0,72.0,Transferencia,Sucursal Central,Cochabamba,Juan Pérez
+1441,2025-01-10,Pan Francés,Panadería,16,1.5,24.0,Transferencia,Sucursal Este,Sucre,Juan Pérez
+1442,2025-04-05,Detergente,Limpieza,13,25.0,325.0,Transferencia,Sucursal Oeste,Cochabamba,Luis Fernández
+1443,2025-01-14,Queso,Lácteos,12,35.0,420.0,QR,Sucursal Central,Tarija,Ana Vargas
+1444,2025-08-11,Yogurt,Lácteos,20,8.0,160.0,Transferencia,Sucursal Norte,Cochabamba,Paola Ruiz
+1445,2025-10-21,Pan Francés,Panadería,14,1.5,21.0,QR,Sucursal Sur,Sucre,Miguel Flores
+1446,2025-05-24,Detergente,Limpieza,1,25.0,25.0,QR,Sucursal Norte,Santa Cruz,Luis Fernández
+1447,2025-11-12,Carne Res,Carnes,2,45.0,90.0,QR,Sucursal Central,La Paz,Luis Fernández
+1448,2025-10-19,Leche,Lácteos,10,12.0,120.0,QR,Sucursal Central,Santa Cruz,Miguel Flores
+1449,2025-01-05,Tomate,Verduras,15,4.0,60.0,Transferencia,Sucursal Norte,La Paz,Miguel Flores
+1450,2025-10-24,Jabón,Limpieza,2,4.0,8.0,Efectivo,Sucursal Central,Tarija,José Gutiérrez
+1451,2025-05-13,Agua,Bebidas,6,5.0,30.0,QR,Sucursal Central,Sucre,Carlos Rojas
+1452,2025-11-13,Detergente,Limpieza,5,25.0,125.0,Efectivo,Sucursal Sur,Cochabamba,Juan Pérez
+1453,2025-06-12,Galletas,Snacks,19,6.0,114.0,Efectivo,Sucursal Oeste,Santa Cruz,Juan Pérez
+1454,2025-12-14,Pan Francés,Panadería,1,1.5,1.5,QR,Sucursal Oeste,Cochabamba,Ana Vargas
+1455,2025-09-17,Pollo,Carnes,3,28.0,84.0,Transferencia,Sucursal Norte,Tarija,María López
+1456,2025-10-20,Detergente,Limpieza,11,25.0,275.0,QR,Sucursal Este,Cochabamba,Paola Ruiz
+1457,2025-06-17,Pan Integral,Panadería,1,9.0,9.0,QR,Sucursal Central,Sucre,José Gutiérrez
+1458,2025-01-16,Papa,Verduras,20,3.5,70.0,Tarjeta,Sucursal Central,Cochabamba,Luis Fernández
+1459,2025-11-08,Papas Fritas,Snacks,4,7.0,28.0,Tarjeta,Sucursal Central,Tarija,José Gutiérrez
+1460,2025-01-17,Jabón,Limpieza,19,4.0,76.0,Tarjeta,Sucursal Este,Cochabamba,María López
+1461,2025-03-04,Jabón,Limpieza,18,4.0,72.0,Efectivo,Sucursal Oeste,Sucre,Miguel Flores
+1462,2025-10-22,Carne Res,Carnes,7,45.0,315.0,QR,Sucursal Sur,La Paz,Ana Vargas
+1463,2025-06-11,Pollo,Carnes,15,28.0,420.0,Efectivo,Sucursal Sur,Sucre,Paola Ruiz
+1464,2025-10-14,Pollo,Carnes,12,28.0,336.0,Efectivo,Sucursal Central,Sucre,Ana Vargas
+1465,2025-10-19,Papa,Verduras,8,3.5,28.0,Tarjeta,Sucursal Oeste,Santa Cruz,Paola Ruiz
+1466,2025-06-24,Galletas,Snacks,10,6.0,60.0,QR,Sucursal Norte,Cochabamba,Paola Ruiz
+1467,2025-09-11,Manzana,Frutas,19,3.0,57.0,Tarjeta,Sucursal Sur,Sucre,Juan Pérez
+1468,2025-05-15,Papas Fritas,Snacks,14,7.0,98.0,Transferencia,Sucursal Norte,Santa Cruz,Juan Pérez
+1469,2025-02-07,Manzana,Frutas,6,3.0,18.0,Tarjeta,Sucursal Oeste,Tarija,Paola Ruiz
+1470,2025-07-25,Banano,Frutas,5,2.0,10.0,Tarjeta,Sucursal Central,Cochabamba,José Gutiérrez
+1471,2025-02-07,Pollo,Carnes,2,28.0,56.0,QR,Sucursal Este,Sucre,Miguel Flores
+1472,2025-12-25,Banano,Frutas,16,2.0,32.0,Tarjeta,Sucursal Sur,Tarija,María López
+1473,2025-10-31,Papas Fritas,Snacks,19,7.0,133.0,QR,Sucursal Este,Sucre,José Gutiérrez
+1474,2025-10-29,Tomate,Verduras,17,4.0,68.0,QR,Sucursal Norte,Santa Cruz,Luis Fernández
+1475,2025-10-16,Papa,Verduras,2,3.5,7.0,Transferencia,Sucursal Central,La Paz,Paola Ruiz
+1476,2025-01-22,Pollo,Carnes,5,28.0,140.0,Tarjeta,Sucursal Este,Tarija,Luis Fernández
+1477,2025-05-26,Pollo,Carnes,12,28.0,336.0,Tarjeta,Sucursal Norte,La Paz,Luis Fernández
+1478,2025-03-28,Papa,Verduras,8,3.5,28.0,QR,Sucursal Central,Tarija,María López
+1479,2025-02-19,Jabón,Limpieza,5,4.0,20.0,Tarjeta,Sucursal Oeste,Tarija,Carlos Rojas
+1480,2025-10-04,Queso,Lácteos,2,35.0,70.0,Tarjeta,Sucursal Norte,Sucre,Juan Pérez
+1481,2025-10-20,Pollo,Carnes,10,28.0,280.0,Transferencia,Sucursal Este,Tarija,Carlos Rojas
+1482,2025-12-28,Papa,Verduras,4,3.5,14.0,Efectivo,Sucursal Este,Sucre,Miguel Flores
+1483,2025-05-23,Pan Integral,Panadería,5,9.0,45.0,Efectivo,Sucursal Central,Cochabamba,Ana Vargas
+1484,2025-09-17,Agua,Bebidas,6,5.0,30.0,QR,Sucursal Central,Sucre,María López
+1485,2025-02-21,Pollo,Carnes,14,28.0,392.0,QR,Sucursal Sur,Tarija,Juan Pérez
+1486,2025-10-28,Leche,Lácteos,5,12.0,60.0,Transferencia,Sucursal Sur,Santa Cruz,Luis Fernández
+1487,2025-04-06,Tomate,Verduras,16,4.0,64.0,Transferencia,Sucursal Central,Santa Cruz,Ana Vargas
+1488,2025-01-02,Jugo,Bebidas,7,10.0,70.0,Transferencia,Sucursal Norte,Sucre,Ana Vargas
+1489,2025-12-19,Papas Fritas,Snacks,14,7.0,98.0,QR,Sucursal Oeste,Sucre,Ana Vargas
+1490,2025-12-03,Carne Res,Carnes,17,45.0,765.0,Tarjeta,Sucursal Central,Santa Cruz,Luis Fernández
+1491,2025-11-03,Papa,Verduras,13,3.5,45.5,QR,Sucursal Oeste,Sucre,Luis Fernández
+1492,2025-05-28,Gaseosa,Bebidas,4,15.0,60.0,Transferencia,Sucursal Este,La Paz,Ana Vargas
+1493,2025-08-26,Manzana,Frutas,6,3.0,18.0,QR,Sucursal Norte,La Paz,Paola Ruiz
+1494,2025-11-04,Galletas,Snacks,16,6.0,96.0,Transferencia,Sucursal Sur,Cochabamba,Luis Fernández
+1495,2025-02-01,Pan Integral,Panadería,14,9.0,126.0,QR,Sucursal Central,La Paz,Paola Ruiz
+1496,2025-07-24,Banano,Frutas,14,2.0,28.0,QR,Sucursal Norte,La Paz,Miguel Flores
+1497,2025-06-07,Jabón,Limpieza,2,4.0,8.0,Transferencia,Sucursal Este,Santa Cruz,Carlos Rojas
+1498,2025-11-09,Detergente,Limpieza,20,25.0,500.0,QR,Sucursal Sur,Tarija,Juan Pérez
+1499,2025-12-27,Yogurt,Lácteos,3,8.0,24.0,QR,Sucursal Central,Tarija,María López
+1500,2025-07-05,Queso,Lácteos,7,35.0,245.0,Tarjeta,Sucursal Sur,Tarija,Paola Ruiz
